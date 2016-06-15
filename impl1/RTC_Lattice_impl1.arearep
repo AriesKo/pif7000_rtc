@@ -1,0 +1,73 @@
+----------------------------------------------------------------------
+Report for cell RTC.TECH
+Register bits:  61 of 7209 (0.846%)
+I/O cells:      6
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        27          100.0
+                            FD1P3AX         7          100.0
+                            FD1S3AX         3          100.0
+                            FD1S3IX        39          100.0
+                            FD1S3JX        12          100.0
+                                GSR         1          100.0
+                                 IB         1          100.0
+                               LUT4        24          100.0
+                                 OB         5          100.0
+                               OSCH         1          100.0
+                        VERIFIC_GND         1          100.0
+                        VERIFIC_PWR         2          100.0
+SUB MODULES
+                DownCounter(18)_c15         1
+                            PIF_RTC         1
+                        pif_flasher         1
+                     pif_flasher_U0         1
+                              TOTAL       127
+----------------------------------------------------------------------
+Report for cell PIF_RTC.v1
+Instance Path : comp_PIF_RTC
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           48.1
+                            FD1S3AX         2           66.7
+                            FD1S3IX        24           61.5
+                               LUT4        11           45.8
+                              TOTAL        50
+----------------------------------------------------------------------
+Report for cell pif_flasher_U0.v1
+Instance Path : F
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        14           51.9
+                            FD1P3AX         7          100.0
+                            FD1S3AX         1           33.3
+                            FD1S3IX        15           38.5
+                            FD1S3JX        12          100.0
+                               LUT4        13           54.2
+                               OSCH         1          100.0
+                        VERIFIC_GND         1          100.0
+                        VERIFIC_PWR         1           50.0
+SUB MODULES
+                DownCounter(18)_c15         1
+                        pif_flasher         1
+                              TOTAL        67
+----------------------------------------------------------------------
+Report for cell DownCounter(18)_c15.v1
+Instance Path : 
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10           37.0
+                            FD1S3IX         9           23.1
+                            FD1S3JX        10           83.3
+                               LUT4         1            4.2
+                        VERIFIC_GND         1          100.0
+                        VERIFIC_PWR         1           50.0
+SUB MODULES
+                        pif_flasher         1
+                              TOTAL        33
+----------------------------------------------------------------------
+Report for cell pif_flasher.v1
+Instance Path : F
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            4.2
+                              TOTAL         1

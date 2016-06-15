@@ -1,6 +1,9 @@
 @N: CD630 :"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Synthesizing work.rtc.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
 Post processing for work.ob.syn_black_box
+@N: CD630 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":32:7:32:13|Synthesizing work.pif_rtc.rtl.
+@W: CD638 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":50:7:50:17|Signal one_sec_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.pif_rtc.rtl
 @N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
@@ -12,3 +15,5 @@ Post processing for work.gsr.syn_black_box
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
 Post processing for work.ib.syn_black_box
 Post processing for work.rtc.rtl
+@N: CL159 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":35:2:35:4|Input RST is unused.
+@N: CL159 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":36:2:36:6|Input CLOCK is unused.

@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2016 6 15 12 42 9)
+      (timeStamp 2016 6 15 13 16 59)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "K-2015.09L-2, mapper maplat, Build 1368R"))
      )
@@ -162,8 +162,7 @@
            (port CE (direction INPUT))
            (port (array (rename initialval "InitialVal(17:0)") 18) (direction INPUT))
            (port zero (direction OUTPUT))
-           (port R4_c_clk (direction INPUT))
-           (port GSRnX (direction INPUT))
+           (port R4_c (direction INPUT))
          )
          (contents
           (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
@@ -271,13 +270,6 @@
           )
           (net Clk (joined
            (portRef Clk)
-          ))
-          (net LoadN (joined
-           (portRef LoadN)
-           (portRef A (instanceRef LoadN_RNIEHJB))
-          ))
-          (net R4_c_clk (joined
-           (portRef R4_c_clk)
            (portRef CK (instanceRef Ctr_18))
            (portRef CK (instanceRef Ctr_17))
            (portRef CK (instanceRef Ctr_16))
@@ -297,6 +289,10 @@
            (portRef CK (instanceRef Ctr_2))
            (portRef CK (instanceRef Ctr_1))
            (portRef CK (instanceRef Ctr_0))
+          ))
+          (net LoadN (joined
+           (portRef LoadN)
+           (portRef A (instanceRef LoadN_RNIEHJB))
           ))
           (net (rename un6_ctr_18 "un6_ctr[18]") (joined
            (portRef S1 (instanceRef un6_ctr_cry_17_0))
@@ -614,8 +610,8 @@
            (portRef C0 (instanceRef un6_ctr_cry_17_0))
            (portRef B0 (instanceRef un6_ctr_cry_17_0))
           ))
-          (net GSRnX (joined
-           (portRef GSRnX)
+          (net R4_c (joined
+           (portRef R4_c)
           ))
           (net zero_i (joined
            (portRef Z (instanceRef un6_ctr_cry_17_0_RNO))
@@ -657,8 +653,8 @@
     (cell pif_flasher (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port R4_c (direction OUTPUT))
-           (port GSRnX (direction INPUT))
+           (port xclk (direction OUTPUT))
+           (port R4_c (direction INPUT))
            (port N_4 (direction OUTPUT))
            (port N_6 (direction OUTPUT))
          )
@@ -781,8 +777,7 @@
            (portRef Q (instanceRef Accum_5))
            (portRef D (instanceRef LedOn))
           ))
-          (net (rename xclk_inferred_clock "R4_c") (joined
-           (portRef R4_c_clk (instanceRef TBLOCK_TK))
+          (net (rename xclk_inferred_clock "xclk") (joined
            (portRef Clk (instanceRef TBLOCK_TK))
            (portRef CK (instanceRef Accum_5))
            (portRef CK (instanceRef Accum_4))
@@ -798,7 +793,7 @@
            (portRef CK (instanceRef DeltaReg_1))
            (portRef CK (instanceRef DeltaReg_0))
            (portRef CK (instanceRef LedOn))
-           (portRef R4_c)
+           (portRef xclk)
            (portRef OSC (instanceRef OSCInst0))
           ))
           (net LedOn (joined
@@ -806,9 +801,9 @@
            (portRef C (instanceRef un1_r_i_0_0))
            (portRef C (instanceRef un1_g_i_0_0))
           ))
-          (net GSRnX (joined
-           (portRef GSRnX)
-           (portRef GSRnX (instanceRef TBLOCK_TK))
+          (net R4_c (joined
+           (portRef R4_c)
+           (portRef R4_c (instanceRef TBLOCK_TK))
           ))
           (net (rename DeltaReg_s_0 "DeltaReg_s[0]") (joined
            (portRef S1 (instanceRef DeltaReg_cry_0_0))
@@ -1101,11 +1096,6 @@
            (portRef O (instanceRef GRNL))
            (portRef LEDG)
           ))
-          (net GSRnX (joined
-           (portRef O (instanceRef IBgsr))
-           (portRef GSRnX (instanceRef F))
-           (portRef GSR (instanceRef GSR_GSR))
-          ))
           (net red_flash (joined
            (portRef Q (instanceRef F_Rio))
            (portRef I (instanceRef REDL))
@@ -1114,6 +1104,11 @@
            (portRef Q (instanceRef F_Gio))
            (portRef I (instanceRef GRNL))
           ))
+          (net (rename F_xclk "F.xclk") (joined
+           (portRef xclk (instanceRef F))
+           (portRef SCLK (instanceRef F_Gio))
+           (portRef SCLK (instanceRef F_Rio))
+          ))
           (net N_4 (joined
            (portRef N_4 (instanceRef F))
            (portRef D (instanceRef F_Gio))
@@ -1121,12 +1116,6 @@
           (net N_6 (joined
            (portRef N_6 (instanceRef F))
            (portRef D (instanceRef F_Rio))
-          ))
-          (net R4_c (joined
-           (portRef R4_c (instanceRef F))
-           (portRef I (instanceRef R4_pad))
-           (portRef SCLK (instanceRef F_Gio))
-           (portRef SCLK (instanceRef F_Rio))
           ))
           (net GND (joined
            (portRef Z (instanceRef GND_0))
@@ -1147,6 +1136,12 @@
           (net R1 (joined
            (portRef O (instanceRef R1_pad))
            (portRef R1)
+          ))
+          (net R4_c (joined
+           (portRef O (instanceRef IBgsr))
+           (portRef R4_c (instanceRef F))
+           (portRef GSR (instanceRef GSR_GSR))
+           (portRef I (instanceRef R4_pad))
           ))
           (net R4 (joined
            (portRef O (instanceRef R4_pad))

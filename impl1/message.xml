@@ -2,52 +2,181 @@
 <BaliMessageLog>
     <Task name="Map">
         <Message>
-            <ID>1100679</ID>
+            <ID>52101118</ID>
             <Severity>Warning</Severity>
-            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(35): Semantic error in &quot;LOCATE COMP &quot;SDA&quot; SITE &quot;125&quot; ;&quot;: </Dynamic>
-            <Dynamic>SDA</Dynamic>
-            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
-            <Navigation>35</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(36): Semantic error in &quot;LOCATE COMP &quot;SCL&quot; SITE &quot;126&quot; ;&quot;: </Dynamic>
-            <Dynamic>SCL</Dynamic>
-            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
-            <Navigation>36</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(96): Semantic error in &quot;IOBUF PORT &quot;SCL&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: </Dynamic>
-            <Dynamic>SCL</Dynamic>
-            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
-            <Navigation>96</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(97): Semantic error in &quot;IOBUF PORT &quot;SDA&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: </Dynamic>
-            <Dynamic>SDA</Dynamic>
-            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
-            <Navigation>97</Navigation>
-        </Message>
-        <Message>
-            <ID>1104062</ID>
-            <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>4 semantic errors</Dynamic>
+            <Dynamic>OSCH</Dynamic>
+            <Dynamic>F/OSCInst0</Dynamic>
+            <Dynamic>2.08</Dynamic>
+            <Dynamic>26.60</Dynamic>
         </Message>
         <Message>
             <ID>52101186</ID>
             <Severity>Warning</Severity>
             <Dynamic>MachXO2</Dynamic>
         </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
         <Message>
-            <ID>51001230</ID>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>E:/dev/RTC_Lattice/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/pifcfg.vhd(10): </Dynamic>
+            <Dynamic>pifcfg</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/pifcfg.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/pifcfg.vhd(19): </Dynamic>
+            <Dynamic>pifcfg</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/pifcfg.vhd</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(12): </Dynamic>
+            <Dynamic>downcounter</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(22): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(51): </Dynamic>
+            <Dynamic>pif_flasher</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(54): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/pifdefs.vhd(12): </Dynamic>
+            <Dynamic>defs</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/pifdefs.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/pifdefs.vhd(104): </Dynamic>
+            <Dynamic>defs</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/pifdefs.vhd</Navigation>
+            <Navigation>104</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/rtc.vhd(32): </Dynamic>
+            <Dynamic>rtc</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/rtc.vhd</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/rtc.vhd(47): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/rtc.vhd</Navigation>
+            <Navigation>47</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/pif_rtc.vhd(32): </Dynamic>
+            <Dynamic>pif_rtc</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/pif_rtc.vhd</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/dev/rtc_lattice/hdl/pif_rtc.vhd(45): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/pif_rtc.vhd</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
             <Severity>Warning</Severity>
-            <Dynamic>E:/dev/RTC_Lattice/pif.lpf</Dynamic>
+            <Dynamic>e:/dev/rtc_lattice/hdl/rtc.vhd(42): </Dynamic>
+            <Dynamic>RTC</Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>e:/dev/rtc_lattice/hdl/rtc.vhd</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35001537</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OB</Dynamic>
+            <Dynamic>O</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LEDR</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>LEDG</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GSRn</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001779</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>\F/R_37</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001779</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>\F/G_38</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/DownCounter_18__i205/VCC_net</Dynamic>
+            <Navigation>F/DownCounter_18__i205/VCC_net</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
         </Message>
     </Task>
     <Task name="PAR">
@@ -142,6 +271,18 @@
         <Message>
             <ID>2011000</ID>
             <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd&quot;:50:7:50:17|Signal one_sec_cnt is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Signal one_sec_cnt is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>

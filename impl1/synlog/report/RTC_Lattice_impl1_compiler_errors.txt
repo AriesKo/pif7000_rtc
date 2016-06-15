@@ -1,0 +1,2 @@
+@E: CD326 :"E:\dev\RTC_Lattice\hdl\RTC.vhd":115:0:115:11|Port rst of entity work.pif_rtc is unconnected
+

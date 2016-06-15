@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliProject version="3.2" title="RTC_Lattice" device="LCMXO2-7000HC-4TG144C" default_implementation="impl1">
     <Options/>
-    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
         <Options def_top="RTC"/>
         <Source name="hdl/pifcfg.vhd" type="VHDL" type_short="VHDL">
             <Options/>
@@ -13,6 +13,9 @@
             <Options top_module="RTC"/>
         </Source>
         <Source name="hdl/pifdefs.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="hdl/PIF_RTC.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="pif.lpf" type="Logic Preference" type_short="LPF">

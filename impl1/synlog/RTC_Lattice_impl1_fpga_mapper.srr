@@ -108,7 +108,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jun 15 12:42:09 2016
+# Timing Report written on Wed Jun 15 13:16:59 2016
 #
 
 
@@ -309,6 +309,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 53MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jun 15 12:42:09 2016
+# Wed Jun 15 13:17:00 2016
 
 ###########################################################]

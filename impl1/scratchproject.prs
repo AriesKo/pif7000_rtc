@@ -6,8 +6,9 @@
 add_file -vhdl -lib work "C:/lscc/diamond/3.7_x64/cae_library/synthesis/vhdl/machxo2.vhd"
 add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/pifcfg.vhd"
 add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/piffla.vhd"
-add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/pifdefs.vhd"
 add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/RTC.vhd"
+add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/pifdefs.vhd"
+add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/PIF_RTC.vhd"
 
 
 

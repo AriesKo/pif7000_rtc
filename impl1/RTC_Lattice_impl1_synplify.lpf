@@ -3,7 +3,7 @@
 #
 
 # Period Constraints 
-#FREQUENCY NET "F/R4_c" 2.1 MHz;
+#FREQUENCY NET "F/xclk" 2.1 MHz;
 
 
 # Output Constraints 

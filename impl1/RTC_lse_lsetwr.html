@@ -1,0 +1,220 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Jun 15 13:36:26 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     RTC
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets R4_c]
+            1112 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 989.942ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \comp_PIF_RTC/one_sec_cnt_15__i14  (from R4_c +)
+   Destination:    FD1S3AX    D              \comp_PIF_RTC/pps_p_sig_19  (to R4_c +)
+
+   Delay:                   9.898ns  (29.4% logic, 70.6% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.898ns data_path \comp_PIF_RTC/one_sec_cnt_15__i14 to \comp_PIF_RTC/pps_p_sig_19 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 989.942ns
+
+ Path Details: \comp_PIF_RTC/one_sec_cnt_15__i14 to \comp_PIF_RTC/pps_p_sig_19
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \comp_PIF_RTC/one_sec_cnt_15__i14 (from R4_c)
+Route         2   e 1.198                                  \comp_PIF_RTC/one_sec_cnt[14]
+LUT4        ---     0.493              D to Z              \comp_PIF_RTC/i10_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n24
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i12_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n26
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i165_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n265
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i166_4_lut
+Route        26   e 2.027                                  \comp_PIF_RTC/n163
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i1_2_lut_adj_9
+Route         1   e 0.941                                  \comp_PIF_RTC/PPS_P_N_131
+                  --------
+                    9.898  (29.4% logic, 70.6% route), 6 logic levels.
+
+
+Passed:  The following path meets requirements by 989.942ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \comp_PIF_RTC/one_sec_cnt_15__i14  (from R4_c +)
+   Destination:    FD1S3AX    D              \comp_PIF_RTC/pps_r_sig_20  (to R4_c +)
+
+   Delay:                   9.898ns  (29.4% logic, 70.6% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.898ns data_path \comp_PIF_RTC/one_sec_cnt_15__i14 to \comp_PIF_RTC/pps_r_sig_20 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 989.942ns
+
+ Path Details: \comp_PIF_RTC/one_sec_cnt_15__i14 to \comp_PIF_RTC/pps_r_sig_20
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \comp_PIF_RTC/one_sec_cnt_15__i14 (from R4_c)
+Route         2   e 1.198                                  \comp_PIF_RTC/one_sec_cnt[14]
+LUT4        ---     0.493              D to Z              \comp_PIF_RTC/i10_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n24
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i12_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n26
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i165_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n265
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i166_4_lut
+Route        26   e 2.027                                  \comp_PIF_RTC/n163
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i1_2_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/PPS_R_N_132
+                  --------
+                    9.898  (29.4% logic, 70.6% route), 6 logic levels.
+
+
+Passed:  The following path meets requirements by 989.942ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \comp_PIF_RTC/one_sec_cnt_15__i12  (from R4_c +)
+   Destination:    FD1S3AX    D              \comp_PIF_RTC/pps_p_sig_19  (to R4_c +)
+
+   Delay:                   9.898ns  (29.4% logic, 70.6% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.898ns data_path \comp_PIF_RTC/one_sec_cnt_15__i12 to \comp_PIF_RTC/pps_p_sig_19 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 989.942ns
+
+ Path Details: \comp_PIF_RTC/one_sec_cnt_15__i12 to \comp_PIF_RTC/pps_p_sig_19
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \comp_PIF_RTC/one_sec_cnt_15__i12 (from R4_c)
+Route         2   e 1.198                                  \comp_PIF_RTC/one_sec_cnt[12]
+LUT4        ---     0.493              A to Z              \comp_PIF_RTC/i10_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n24
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i12_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n26
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i165_4_lut
+Route         1   e 0.941                                  \comp_PIF_RTC/n265
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i166_4_lut
+Route        26   e 2.027                                  \comp_PIF_RTC/n163
+LUT4        ---     0.493              B to Z              \comp_PIF_RTC/i1_2_lut_adj_9
+Route         1   e 0.941                                  \comp_PIF_RTC/PPS_P_N_131
+                  --------
+                    9.898  (29.4% logic, 70.6% route), 6 logic levels.
+
+Report: 10.058 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets R4_c]                    |  1000.000 ns|    10.058 ns|     6  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  1246 paths, 158 nets, and 323 connections (98.2% coverage)
+
+
+Peak memory: 79835136 bytes, TRCE: 1220608 bytes, DLYMAN: 4096 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

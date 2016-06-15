@@ -48,6 +48,7 @@ add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/pifcfg.vhd}
 add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/piffla.vhd}
 add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/RTC.vhd}
 add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/pifdefs.vhd}
+add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/PIF_RTC.vhd}
 
 #-- top module name
 set_option -top_module RTC
@@ -63,4 +64,4 @@ project -log_file {RTC_Lattice_impl1.srf}
 
 #-- run Synplify with 'arrange HDL file'
 project -run hdl_info_gen -fileorder
-project -run -clean
+project -run

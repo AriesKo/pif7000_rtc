@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-top|RTC|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|E:\\dev\\RTC_Lattice\\impl1\\syntmp\\hdlorder.tcl"
+#OPTIONS:"|-top|RTC|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|E:\\dev\\RTC_Lattice\\impl1\\syntmp\\hdlorder.tcl"
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\bin64\\c_vhdl.exe":1449684046
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\location.map":1449864194
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std.vhd":1449683646
@@ -12,21 +12,24 @@
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1449683646
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1376964008
 #CUR:"E:\\dev\\RTC_Lattice\\hdl\\pifcfg.vhd":1413869330
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\piffla.vhd":1465962075
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\RTC.vhd":1465960452
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\piffla.vhd":1465964997
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\RTC.vhd":1465964317
 #CUR:"E:\\dev\\RTC_Lattice\\hdl\\pifdefs.vhd":1413869330
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\PIF_RTC.vhd":1465964923
 0 "C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
 1 "E:\dev\RTC_Lattice\hdl\pifcfg.vhd" vhdl
 2 "E:\dev\RTC_Lattice\hdl\piffla.vhd" vhdl
 3 "E:\dev\RTC_Lattice\hdl\RTC.vhd" vhdl
 4 "E:\dev\RTC_Lattice\hdl\pifdefs.vhd" vhdl
+5 "E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
 1 -1
 2 0 
-3 2 4 0 
+3 2 5 4 0 
 4 1 
+5 -1
 
 # Dependency Lists (Users Of)
 0 3 2 
@@ -34,6 +37,7 @@
 2 3 
 3 -1
 4 3 
+5 3 
 
 # Design Unit to File Association
 arch work pif_flasher rtl 2
@@ -42,3 +46,5 @@ arch work downcounter rtl 2
 module work downcounter 2
 arch work rtc rtl 3
 module work rtc 3
+arch work pif_rtc rtl 5
+module work pif_rtc 5

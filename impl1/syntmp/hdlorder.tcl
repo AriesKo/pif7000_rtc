@@ -1,1 +1,1 @@
-project -fileorder "C:/lscc/diamond/3.7_x64/cae_library/synthesis/vhdl/machxo2.vhd" "E:/dev/RTC_Lattice/hdl/pifcfg.vhd" "E:/dev/RTC_Lattice/hdl/piffla.vhd" "E:/dev/RTC_Lattice/hdl/pifdefs.vhd" "E:/dev/RTC_Lattice/hdl/RTC.vhd" 
+project -fileorder "C:/lscc/diamond/3.7_x64/cae_library/synthesis/vhdl/machxo2.vhd" "E:/dev/RTC_Lattice/hdl/pifcfg.vhd" "E:/dev/RTC_Lattice/hdl/PIF_RTC.vhd" "E:/dev/RTC_Lattice/hdl/piffla.vhd" "E:/dev/RTC_Lattice/hdl/pifdefs.vhd" "E:/dev/RTC_Lattice/hdl/RTC.vhd" 
