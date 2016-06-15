@@ -1,0 +1,36 @@
+---------------------------------------------------
+Report for cell RTC
+   Instance path: RTC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        100.0
+                                 IOLGC	       2.00        100.0
+                                  LUT4	       6.00        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	          6        100.0
+                                PFUREG	         33        100.0
+                                RIPPLE	         18        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           pif_flasher	          1        97.7
+---------------------------------------------------
+Report for cell pif_flasher
+   Instance path: RTC/F
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.50        97.7
+                                  LUT4	       5.00        83.3
+                                PFUREG	         33        100.0
+                                RIPPLE	         18        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           DownCounter	          1        50.0
+---------------------------------------------------
+Report for cell DownCounter
+   Instance path: RTC/F/TBLOCK.TK
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00        50.0
+                                  LUT4	       2.00        33.3
+                                PFUREG	         19        57.6
+                                RIPPLE	         10        55.6

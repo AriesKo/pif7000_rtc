@@ -1,0 +1,314 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1368R, Built Jan  8 2016 09:37:50
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version K-2015.09L-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N:"e:\dev\rtc_lattice\hdl\piffla.vhd":166:4:166:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   475.95ns		   7 /        35
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 35 clock pin(s) of sequential element(s)
+0 instances converted, 35 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       F.OSCInst0          OSCH                   35         F.DeltaReg[6]       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 140MB)
+
+Writing Analyst data base E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.edi
+K-2015.09L-2
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+@W: MT420 |Found inferred clock pif_flasher|xclk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:F.xclk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 15 12:30:10 2016
+#
+
+
+Top view:               RTC
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 475.384
+
+                                    Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------
+pif_flasher|xclk_inferred_clock     2.1 MHz       185.7 MHz     480.769       5.385         475.384     inferred     Inferred_clkgroup_0
+System                              1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
+========================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+pif_flasher|xclk_inferred_clock  pif_flasher|xclk_inferred_clock  |  480.769     475.384  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pif_flasher|xclk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                           Arrival            
+Instance                Reference                           Type        Pin     Net        Time        Slack  
+                        Clock                                                                                 
+--------------------------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[0]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[0]     1.044       475.384
+F.TBLOCK\.TK.Ctr[1]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[1]     0.972       475.599
+F.TBLOCK\.TK.Ctr[2]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[2]     0.972       475.599
+F.TBLOCK\.TK.Ctr[3]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[3]     0.972       475.741
+F.TBLOCK\.TK.Ctr[4]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[4]     0.972       475.741
+F.TBLOCK\.TK.Ctr[5]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[5]     0.972       475.884
+F.TBLOCK\.TK.Ctr[6]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[6]     0.972       475.884
+F.TBLOCK\.TK.Ctr[7]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[7]     0.972       476.027
+F.TBLOCK\.TK.Ctr[8]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[8]     0.972       476.027
+F.TBLOCK\.TK.Ctr[9]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[9]     0.972       476.170
+==============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                Required            
+Instance                 Reference                           Type        Pin     Net             Time         Slack  
+                         Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[17]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[17]     480.664      475.384
+F.TBLOCK\.TK.Ctr[18]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[18]     480.664      475.384
+F.TBLOCK\.TK.Ctr[15]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[15]     480.664      475.527
+F.TBLOCK\.TK.Ctr[16]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[16]     480.664      475.527
+F.TBLOCK\.TK.Ctr[13]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[13]     480.664      475.670
+F.TBLOCK\.TK.Ctr[14]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[14]     480.664      475.670
+F.TBLOCK\.TK.Ctr[11]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[11]     480.664      475.812
+F.TBLOCK\.TK.Ctr[12]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[12]     480.664      475.812
+F.TBLOCK\.TK.Ctr[9]      pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[9]      480.664      475.955
+F.TBLOCK\.TK.Ctr[10]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[10]     480.664      475.955
+=====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      5.280
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     475.384
+
+    Number of logic level(s):                10
+    Starting point:                          F.TBLOCK\.TK.Ctr[0] / Q
+    Ending point:                            F.TBLOCK\.TK.Ctr[18] / D
+    The start point is clocked by            pif_flasher|xclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pif_flasher|xclk_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                              Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[0]               FD1S3JX     Q        Out     1.044     1.044       -         
+Ctr[0]                            Net         -        -       -         -           2         
+F.TBLOCK\.TK.un6_ctr_cry_0_0      CCU2D       A1       In      0.000     1.044       -         
+F.TBLOCK\.TK.un6_ctr_cry_0_0      CCU2D       COUT     Out     1.545     2.588       -         
+un6_ctr_cry_0                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_1_0      CCU2D       CIN      In      0.000     2.588       -         
+F.TBLOCK\.TK.un6_ctr_cry_1_0      CCU2D       COUT     Out     0.143     2.731       -         
+un6_ctr_cry_2                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_3_0      CCU2D       CIN      In      0.000     2.731       -         
+F.TBLOCK\.TK.un6_ctr_cry_3_0      CCU2D       COUT     Out     0.143     2.874       -         
+un6_ctr_cry_4                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_5_0      CCU2D       CIN      In      0.000     2.874       -         
+F.TBLOCK\.TK.un6_ctr_cry_5_0      CCU2D       COUT     Out     0.143     3.017       -         
+un6_ctr_cry_6                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_7_0      CCU2D       CIN      In      0.000     3.017       -         
+F.TBLOCK\.TK.un6_ctr_cry_7_0      CCU2D       COUT     Out     0.143     3.160       -         
+un6_ctr_cry_8                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_9_0      CCU2D       CIN      In      0.000     3.160       -         
+F.TBLOCK\.TK.un6_ctr_cry_9_0      CCU2D       COUT     Out     0.143     3.302       -         
+un6_ctr_cry_10                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_11_0     CCU2D       CIN      In      0.000     3.302       -         
+F.TBLOCK\.TK.un6_ctr_cry_11_0     CCU2D       COUT     Out     0.143     3.445       -         
+un6_ctr_cry_12                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_13_0     CCU2D       CIN      In      0.000     3.445       -         
+F.TBLOCK\.TK.un6_ctr_cry_13_0     CCU2D       COUT     Out     0.143     3.588       -         
+un6_ctr_cry_14                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_15_0     CCU2D       CIN      In      0.000     3.588       -         
+F.TBLOCK\.TK.un6_ctr_cry_15_0     CCU2D       COUT     Out     0.143     3.731       -         
+un6_ctr_cry_16                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_17_0     CCU2D       CIN      In      0.000     3.731       -         
+F.TBLOCK\.TK.un6_ctr_cry_17_0     CCU2D       S1       Out     1.549     5.280       -         
+un6_ctr[18]                       Net         -        -       -         -           1         
+F.TBLOCK\.TK.Ctr[18]              FD1S3IX     D        In      0.000     5.280       -         
+===============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000hc-4
+
+Register bits: 35 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       6
+
+
+Details:
+CCU2D:          18
+FD1P3AX:        7
+FD1S3AX:        1
+FD1S3IX:        15
+FD1S3JX:        10
+GSR:            1
+IB:             1
+INV:            4
+OB:             5
+OFS1P3DX:       2
+ORCALUT4:       3
+OSCH:           1
+PUR:            1
+VHI:            3
+VLO:            3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 53MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 15 12:30:10 2016
+
+###########################################################]

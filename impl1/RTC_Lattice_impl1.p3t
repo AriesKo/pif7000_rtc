@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "RTC_Lattice_impl1.log"
+-o "RTC_Lattice_impl1.csv"
+-pr "RTC_Lattice_impl1.prf"

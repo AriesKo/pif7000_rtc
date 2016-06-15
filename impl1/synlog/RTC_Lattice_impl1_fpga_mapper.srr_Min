@@ -1,0 +1,134 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 15 12:30:10 2016
+#
+
+
+Top view:               RTC
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.320
+
+                                    Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------
+pif_flasher|xclk_inferred_clock     2.1 MHz       185.7 MHz     480.769       5.385         475.384     inferred     Inferred_clkgroup_0
+System                              1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
+========================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+pif_flasher|xclk_inferred_clock  pif_flasher|xclk_inferred_clock  |  0.000       0.320  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pif_flasher|xclk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                Arrival          
+Instance                 Reference                           Type        Pin     Net             Time        Slack
+                         Clock                                                                                    
+------------------------------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[18]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       zero            0.882       0.320
+F.Accum[5]               pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Accum[5]        0.680       0.606
+F.LedOn                  pif_flasher|xclk_inferred_clock     FD1S3AX     Q       LedOn           0.731       0.971
+F.DeltaReg[5]            pif_flasher|xclk_inferred_clock     FD1P3AX     Q       DeltaReg[5]     0.775       1.016
+F.DeltaReg[6]            pif_flasher|xclk_inferred_clock     FD1P3AX     Q       DeltaReg[6]     0.775       1.016
+F.TBLOCK\.TK.Ctr[0]      pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[0]          0.731       1.054
+F.Accum[0]               pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Accum[0]        0.731       1.225
+F.DeltaReg[0]            pif_flasher|xclk_inferred_clock     FD1P3AX     Q       accum           0.775       1.269
+F.Accum[1]               pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Accum[1]        0.680       1.453
+F.Accum[2]               pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Accum[2]        0.680       1.453
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                         Required          
+Instance          Reference                           Type        Pin     Net      Time         Slack
+                  Clock                                                                              
+-----------------------------------------------------------------------------------------------------
+F.Accum[0]        pif_flasher|xclk_inferred_clock     FD1S3IX     CD      Tick     0.562        0.320
+F.Accum[1]        pif_flasher|xclk_inferred_clock     FD1S3IX     CD      Tick     0.562        0.320
+F.Accum[2]        pif_flasher|xclk_inferred_clock     FD1S3IX     CD      Tick     0.562        0.320
+F.Accum[3]        pif_flasher|xclk_inferred_clock     FD1S3IX     CD      Tick     0.562        0.320
+F.Accum[4]        pif_flasher|xclk_inferred_clock     FD1S3IX     CD      Tick     0.562        0.320
+F.Accum[5]        pif_flasher|xclk_inferred_clock     FD1S3IX     CD      Tick     0.562        0.320
+F.DeltaReg[0]     pif_flasher|xclk_inferred_clock     FD1P3AX     SP      Tick     0.330        0.552
+F.DeltaReg[1]     pif_flasher|xclk_inferred_clock     FD1P3AX     SP      Tick     0.330        0.552
+F.DeltaReg[2]     pif_flasher|xclk_inferred_clock     FD1P3AX     SP      Tick     0.330        0.552
+F.DeltaReg[3]     pif_flasher|xclk_inferred_clock     FD1P3AX     SP      Tick     0.330        0.552
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.882
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.320
+
+    Number of logic level(s):                0
+    Starting point:                          F.TBLOCK\.TK.Ctr[18] / Q
+    Ending point:                            F.Accum[0] / CD
+    The start point is clocked by            pif_flasher|xclk_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pif_flasher|xclk_inferred_clock [rising] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[18]     FD1S3IX     Q        Out     0.882     0.882       -         
+zero                     Net         -        -       -         -           15        
+F.Accum[0]               FD1S3IX     CD       In      0.000     0.882       -         
+======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None

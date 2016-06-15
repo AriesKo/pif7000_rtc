@@ -1,0 +1,60 @@
+----------------------------------------------------------------------
+Report for cell RTC.rtl
+
+Register bits: 35 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       18       100.0
+                            FD1P3AX        7       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       15       100.0
+                            FD1S3JX       10       100.0
+                                GSR        1       100.0
+                                 IB        1       100.0
+                                INV        4       100.0
+                                 OB        5       100.0
+                           OFS1P3DX        2       100.0
+                           ORCALUT4        3       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                        DownCounter        1       100.0
+                        pif_flasher        1       100.0
+                            
+                         TOTAL            77           
+----------------------------------------------------------------------
+Report for cell pif_flasher.netlist
+     Instance path:  F
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       18       100.0
+                            FD1P3AX        7       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       15       100.0
+                            FD1S3JX       10       100.0
+                                INV        4       100.0
+                           ORCALUT4        3       100.0
+                               OSCH        1       100.0
+                                VHI        2        66.7
+                                VLO        2        66.7
+SUB MODULES 
+                        DownCounter        1       100.0
+                            
+                         TOTAL            64           
+----------------------------------------------------------------------
+Report for cell DownCounter.rtl
+     Instance path:  F.TBLOCK.TK
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       10        55.6
+                            FD1S3IX        9        60.0
+                            FD1S3JX       10       100.0
+                                INV        3        75.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            34           

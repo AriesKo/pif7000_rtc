@@ -1,0 +1,336 @@
+
+             Lattice Mapping Report File for Design Module 'RTC'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial
+     RTC_Lattice_impl1.ngd -o RTC_Lattice_impl1_map.ncd -pr
+     RTC_Lattice_impl1.prf -mp RTC_Lattice_impl1.mrp -lpf
+     E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1_synplify.lpf -lpf
+     E:/dev/RTC_Lattice/pif.lpf -c 0 -gui -msgset E:/dev/RTC_Lattice/promote.xml
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HCTQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
+Mapped on:  06/15/16  12:30:11
+
+Design Summary
+--------------
+
+   Number of registers:     35 out of  7209 (0%)
+      PFU registers:           33 out of  6864 (0%)
+      PIO registers:            2 out of   345 (1%)
+   Number of SLICEs:        22 out of  3432 (1%)
+      SLICEs as Logic/ROM:     22 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         18 out of  3432 (1%)
+   Number of LUT4s:         42 out of  6864 (1%)
+      Number used as logic LUTs:          6
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       36
+      Number used as shift registers:     0
+   Number of PIO sites used: 6 + 1(JTAGENB) out of 115 (6%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net R4_c: 21 loads, 21 rising, 0 falling (Driver: F/OSCInst0 )
+   Number of Clock Enables:  1
+
+                                    Page 1
+
+
+
+
+Design:  RTC                                           Date:  06/15/16  12:30:11
+
+Design Summary (cont)
+---------------------
+     Net F/Tick: 4 loads, 4 LSLICEs
+   Number of LSRs:  1
+     Net F/Tick: 14 loads, 14 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net F/Tick: 19 loads
+     Net F/accum: 3 loads
+     Net F/DeltaReg[5]: 3 loads
+     Net F/DeltaReg[6]: 3 loads
+     Net F/Accum[0]: 2 loads
+     Net F/DeltaReg[1]: 2 loads
+     Net F/DeltaReg[2]: 2 loads
+     Net F/DeltaReg[3]: 2 loads
+     Net F/DeltaReg[4]: 2 loads
+     Net F/LedOn: 2 loads
+
+
+
+
+   Number of warnings:  7
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: E:/dev/RTC_Lattice/pif.lpf(35): Semantic error in "LOCATE COMP
+     "SDA" SITE "125" ;": COMP "SDA" cannot be found in design. This preference
+     has been disabled.
+WARNING - map: E:/dev/RTC_Lattice/pif.lpf(36): Semantic error in "LOCATE COMP
+     "SCL" SITE "126" ;": COMP "SCL" cannot be found in design. This preference
+     has been disabled.
+WARNING - map: E:/dev/RTC_Lattice/pif.lpf(96): Semantic error in "IOBUF PORT
+     "SCL" IO_TYPE=LVCMOS33 PULLMODE=UP ;": Port "SCL" does not exist in the
+     design. This preference has been disabled.
+WARNING - map: E:/dev/RTC_Lattice/pif.lpf(97): Semantic error in "IOBUF PORT
+     "SDA" IO_TYPE=LVCMOS33 PULLMODE=UP ;": Port "SDA" does not exist in the
+     design. This preference has been disabled.
+WARNING - map: Preference parsing results:  4 semantic errors detected.
+WARNING - map: The JTAG port has been disabled in this project and JTAG pins
+     will be configured as General Purpose IO.  You have to use JTAGENB pin in
+     hardware to change the personality of the port from JTAG pins to general
+     purpose IO.  Reference MachXO2 Handbook for details on dual function JTAG
+     port.
+WARNING - map: There are semantic errors in the preference file
+     E:/dev/RTC_Lattice/pif.lpf.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| LEDG                | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  RTC                                           Date:  06/15/16  12:30:11
+
+IO (PIO) Attributes (cont)
+--------------------------
+| GSRn                | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| R4                  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| R1                  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| R0                  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LEDR                | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GND_0 undriven or does not drive anything - clipped.
+Block F/TBLOCK.TK/VCC_0 undriven or does not drive anything - clipped.
+Signal F/Tick_i was merged into signal F/Tick
+Signal F/TBLOCK.TK/LoadN_i was merged into signal F/Tick_i
+Signal F/GND undriven or does not drive anything - clipped.
+Signal F/TBLOCK.TK/GND undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal F/DeltaReg_cry_0_COUT[5] undriven or does not drive anything - clipped.
+Signal F/accum_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal F/accum_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal F/N_2 undriven or does not drive anything - clipped.
+Signal F/accum_cry_4_0_S1 undriven or does not drive anything - clipped.
+Signal F/accum_cry_4_0_COUT undriven or does not drive anything - clipped.
+Signal F/TBLOCK.TK/un6_ctr_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal F/TBLOCK.TK/un6_ctr_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal F/TBLOCK.TK/N_1 undriven or does not drive anything - clipped.
+Signal F/TBLOCK.TK/un6_ctr_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal F/DeltaReg_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal F/N_1 undriven or does not drive anything - clipped.
+Signal F/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Block F/TBLOCK.TK_zero_RNIV245 was optimized away.
+Block F/TBLOCK.TK/LoadN_RNIEHJB was optimized away.
+Block F/GND_0 was optimized away.
+Block F/TBLOCK.TK/GND_0 was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                F/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              PIN,NODE R4_c
+
+                                    Page 3
+
+
+
+
+Design:  RTC                                           Date:  06/15/16  12:30:11
+
+OSC Summary (cont)
+------------------
+  OSC Nominal Frequency (MHz):                      7.00
+
+ASIC Components
+---------------
+
+Instance Name: F/OSCInst0
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'GSRnX'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'GSRnX' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 25 
+
+     Type and instance name of component: 
+   Register : F/Accum[5]
+   Register : F/TBLOCK.TK/Ctr[17]
+   Register : F/TBLOCK.TK/Ctr[0]
+   Register : F/TBLOCK.TK/Ctr[1]
+   Register : F/TBLOCK.TK/Ctr[2]
+   Register : F/TBLOCK.TK/Ctr[3]
+   Register : F/TBLOCK.TK/Ctr[4]
+   Register : F/TBLOCK.TK/Ctr[5]
+   Register : F/TBLOCK.TK/Ctr[6]
+   Register : F/TBLOCK.TK/Ctr[7]
+   Register : F/TBLOCK.TK/Ctr[8]
+   Register : F/TBLOCK.TK/Ctr[9]
+   Register : F/TBLOCK.TK/Ctr[10]
+   Register : F/TBLOCK.TK/Ctr[11]
+   Register : F/TBLOCK.TK/Ctr[12]
+   Register : F/TBLOCK.TK/Ctr[13]
+   Register : F/TBLOCK.TK/Ctr[14]
+   Register : F/TBLOCK.TK/Ctr[15]
+   Register : F/TBLOCK.TK/Ctr[16]
+   Register : F/TBLOCK.TK/Ctr[18]
+   Register : F/Accum[0]
+   Register : F/Accum[1]
+
+                                    Page 4
+
+
+
+
+Design:  RTC                                           Date:  06/15/16  12:30:11
+
+GSR Usage (cont)
+----------------
+   Register : F/Accum[2]
+   Register : F/Accum[3]
+   Register : F/Accum[4]
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 58 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

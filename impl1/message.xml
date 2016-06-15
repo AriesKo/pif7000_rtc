@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(35): Semantic error in &quot;LOCATE COMP &quot;SDA&quot; SITE &quot;125&quot; ;&quot;: </Dynamic>
+            <Dynamic>SDA</Dynamic>
+            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(36): Semantic error in &quot;LOCATE COMP &quot;SCL&quot; SITE &quot;126&quot; ;&quot;: </Dynamic>
+            <Dynamic>SCL</Dynamic>
+            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(96): Semantic error in &quot;IOBUF PORT &quot;SCL&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>SCL</Dynamic>
+            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(97): Semantic error in &quot;IOBUF PORT &quot;SDA&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>SDA</Dynamic>
+            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
+            <Navigation>97</Navigation>
+        </Message>
+        <Message>
+            <ID>1104062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>4 semantic errors</Dynamic>
+        </Message>
+        <Message>
+            <ID>52101186</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MachXO2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001230</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061044</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MachXO2</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061045</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/TBLOCK.TK/un6_ctr_cry_0_0_S1</Dynamic>
+            <Navigation>F/TBLOCK.TK/un6_ctr_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/TBLOCK.TK/un6_ctr_cry_0_0_S0</Dynamic>
+            <Navigation>F/TBLOCK.TK/un6_ctr_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/TBLOCK.TK/un6_ctr_cry_17_0_COUT</Dynamic>
+            <Navigation>F/TBLOCK.TK/un6_ctr_cry_17_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/accum_cry_4_0_COUT</Dynamic>
+            <Navigation>F/accum_cry_4_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/accum_cry_4_0_S1</Dynamic>
+            <Navigation>F/accum_cry_4_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/accum_cry_0_0_S0</Dynamic>
+            <Navigation>F/accum_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/accum_cry_0_0_S1</Dynamic>
+            <Navigation>F/accum_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/DeltaReg_cry_0_COUT[5]</Dynamic>
+            <Navigation>F/DeltaReg_cry_0_COUT[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/DeltaReg_cry_0_S0[0]</Dynamic>
+            <Navigation>F/DeltaReg_cry_0_S0[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>F/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>F/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>10</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;e:\dev\rtc_lattice\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\piffla.vhd</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock pif_flasher|xclk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:F.xclk&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock pif_flasher|xclk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:F.xclk&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

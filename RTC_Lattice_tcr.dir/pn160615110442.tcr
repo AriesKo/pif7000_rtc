@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/15/2016 10:42:44
+#Project Location: E:/dev/RTC_Lattice; Project name: RTC_Lattice
+prj_project new -name "RTC_Lattice" -impl "impl1" -dev LCMXO2-7000HC-4TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 6/15/2016 11:04:42
