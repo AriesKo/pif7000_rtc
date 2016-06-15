@@ -788,29 +788,29 @@
 
     <instance  name = "comp_PIF_RTC/one_sec_cnt_23__I_0"  library = "work"  arch = "RTL"  type = "comb">
         <pins>
-        <pitem  name = "b[22]"  direction = "in"  />
         <pitem  name = "b[21]"  direction = "in"  />
-        <pitem  name = "b[17]"  direction = "in"  />
-        <pitem  name = "b[15]"  direction = "in"  />
-        <pitem  name = "b[14]"  direction = "in"  />
-        <pitem  name = "b[12]"  direction = "in"  />
+        <pitem  name = "b[20]"  direction = "in"  />
+        <pitem  name = "b[18]"  direction = "in"  />
+        <pitem  name = "b[16]"  direction = "in"  />
+        <pitem  name = "b[11]"  direction = "in"  />
         <pitem  name = "b[10]"  direction = "in"  />
-        <pitem  name = "b[8]"  direction = "in"  />
+        <pitem  name = "b[9]"  direction = "in"  />
         <pitem  name = "b[7]"  direction = "in"  />
+        <pitem  name = "b[6]"  direction = "in"  />
         <pitem  name = "b[4]"  direction = "in"  />
         <pitem  name = "b[3]"  direction = "in"  />
         <pitem  name = "b[2]"  direction = "in"  />
         <pitem  name = "b[1]"  direction = "in"  />
         <pitem  name = "b[0]"  direction = "in"  />
         <pitem  name = "b[23]"  direction = "in"  />
-        <pitem  name = "b[20]"  direction = "in"  />
+        <pitem  name = "b[22]"  direction = "in"  />
         <pitem  name = "b[19]"  direction = "in"  />
-        <pitem  name = "b[18]"  direction = "in"  />
-        <pitem  name = "b[16]"  direction = "in"  />
+        <pitem  name = "b[17]"  direction = "in"  />
+        <pitem  name = "b[15]"  direction = "in"  />
+        <pitem  name = "b[14]"  direction = "in"  />
         <pitem  name = "b[13]"  direction = "in"  />
-        <pitem  name = "b[11]"  direction = "in"  />
-        <pitem  name = "b[9]"  direction = "in"  />
-        <pitem  name = "b[6]"  direction = "in"  />
+        <pitem  name = "b[12]"  direction = "in"  />
+        <pitem  name = "b[8]"  direction = "in"  />
         <pitem  name = "b[5]"  direction = "in"  />
         <pitem  name = "a[23]"  direction = "in"  />
         <pitem  name = "a[22]"  direction = "in"  />

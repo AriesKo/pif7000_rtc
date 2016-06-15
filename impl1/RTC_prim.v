@@ -1,36 +1,36 @@
 // Verilog netlist produced by program LSE :  version Diamond (64-bit) 3.7.1.502
-// Netlist written on Wed Jun 15 13:36:26 2016
+// Netlist written on Wed Jun 15 16:25:34 2016
 //
 // Verilog Description of module RTC
 //
 
-module RTC (GSRn, LEDR, LEDG, R0, R1, R4);   // e:/dev/rtc_lattice/hdl/rtc.vhd(32[8:11])
-    input GSRn /* synthesis black_box_pad_pin=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(35[3:7])
-    output LEDR /* synthesis black_box_pad_pin=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(36[3:7])
-    output LEDG;   // e:/dev/rtc_lattice/hdl/rtc.vhd(37[3:7])
-    output R0;   // e:/dev/rtc_lattice/hdl/rtc.vhd(38[3:5])
-    output R1;   // e:/dev/rtc_lattice/hdl/rtc.vhd(39[3:5])
-    output R4;   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
+module RTC (GSRn, LEDR, LEDG, R0, R1, R4);   // d:/dev/pif7000_rtc/hdl/rtc.vhd(32[8:11])
+    input GSRn /* synthesis black_box_pad_pin=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(35[3:7])
+    output LEDR /* synthesis black_box_pad_pin=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(36[3:7])
+    output LEDG;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(37[3:7])
+    output R0;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(38[3:5])
+    output R1;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(39[3:5])
+    output R4;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
     
-    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
-    wire GSRnX /* synthesis pullmode="UP" */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(80[8:13])
+    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
+    wire GSRnX /* synthesis pullmode="UP" */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(80[8:13])
     
     wire R0_c, R1_c, red_flash, green_flash, GND_net, VCC_net;
     
-    GSR GSR_INST (.GSR(GSRnX)) /* synthesis syn_black_box=true, syn_noprune=1, syn_instantiated=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(98[11:14])
-    OB REDL (.I(red_flash), .O(LEDR)) /* synthesis syn_black_box=true, syn_instantiated=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(128[7:9])
-    OB GRNL (.I(green_flash), .O(LEDG)) /* synthesis syn_black_box=true, syn_instantiated=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(129[7:9])
-    IB IBgsr (.I(GSRn), .O(GSRnX)) /* synthesis syn_black_box=true, syn_instantiated=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(97[11:13])
-    OB R4_pad (.I(R4_c), .O(R4));   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
-    OB R1_pad (.I(R1_c), .O(R1));   // e:/dev/rtc_lattice/hdl/rtc.vhd(39[3:5])
-    OB R0_pad (.I(R0_c), .O(R0));   // e:/dev/rtc_lattice/hdl/rtc.vhd(38[3:5])
+    GSR GSR_INST (.GSR(GSRnX)) /* synthesis syn_black_box=true, syn_noprune=1, syn_instantiated=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(98[11:14])
+    OB REDL (.I(red_flash), .O(LEDR)) /* synthesis syn_black_box=true, syn_instantiated=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(128[7:9])
+    OB GRNL (.I(green_flash), .O(LEDG)) /* synthesis syn_black_box=true, syn_instantiated=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(129[7:9])
+    IB IBgsr (.I(GSRn), .O(GSRnX)) /* synthesis syn_black_box=true, syn_instantiated=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(97[11:13])
+    OB R4_pad (.I(R4_c), .O(R4));   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
+    OB R1_pad (.I(R1_c), .O(R1));   // d:/dev/pif7000_rtc/hdl/rtc.vhd(39[3:5])
+    OB R0_pad (.I(R0_c), .O(R0));   // d:/dev/pif7000_rtc/hdl/rtc.vhd(38[3:5])
     PUR PUR_INST (.PUR(VCC_net));
     defparam PUR_INST.RST_PULSE = 1;
     VLO i1 (.Z(GND_net));
     TSALL TSALL_INST (.TSALL(GND_net));
-    PIF_RTC comp_PIF_RTC (.R0_c(R0_c), .R4_c(R4_c), .R1_c(R1_c), .GND_net(GND_net));   // e:/dev/rtc_lattice/hdl/rtc.vhd(116[16:23])
+    PIF_RTC comp_PIF_RTC (.R0_c(R0_c), .R4_c(R4_c), .R1_c(R1_c), .GND_net(GND_net));   // d:/dev/pif7000_rtc/hdl/rtc.vhd(116[16:23])
     pif_flasher_U0 F (.GND_net(GND_net), .R4_c(R4_c), .red_flash(red_flash), 
-            .green_flash(green_flash));   // e:/dev/rtc_lattice/hdl/rtc.vhd(105[5:16])
+            .green_flash(green_flash));   // d:/dev/pif7000_rtc/hdl/rtc.vhd(105[5:16])
     VHI i179 (.Z(VCC_net));
     
 endmodule
@@ -54,22 +54,22 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     output R1_c;
     input GND_net;
     
-    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
-    wire [23:0]one_sec_cnt;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(61[8:19])
+    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
+    wire [23:0]one_sec_cnt;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(61[8:19])
     
     wire n17, PPS_P_N_131, PPS_R_N_132, n163;
     wire [23:0]n101;
     
-    wire n208, n207, n206, n205, n204, n24, n203, n202, n201, 
-        n200, n18, n199, n198, n197, n26, n22, n265, n15, 
+    wire n208, n207, n206, n205, n204, n203, n24, n202, n201, 
+        n200, n199, n18, n198, n197, n26, n22, n265, n15, 
         n16;
     
-    LUT4 i7_4_lut (.A(one_sec_cnt[6]), .B(one_sec_cnt[20]), .C(one_sec_cnt[23]), 
+    LUT4 i7_4_lut (.A(one_sec_cnt[12]), .B(one_sec_cnt[22]), .C(one_sec_cnt[23]), 
          .D(one_sec_cnt[13]), .Z(n17)) /* synthesis lut_function=(A (B (C (D)))) */ ;
     defparam i7_4_lut.init = 16'h8000;
-    FD1S3AX pps_p_sig_19 (.D(PPS_P_N_131), .CK(R4_c), .Q(R0_c)) /* synthesis LSE_LINE_FILE_ID=22, LSE_LCOL=16, LSE_RCOL=23, LSE_LLINE=116, LSE_RLINE=116 */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(71[2] 82[9])
+    FD1S3AX pps_p_sig_19 (.D(PPS_P_N_131), .CK(R4_c), .Q(R0_c)) /* synthesis LSE_LINE_FILE_ID=22, LSE_LCOL=16, LSE_RCOL=23, LSE_LLINE=116, LSE_RLINE=116 */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(71[2] 82[9])
     defparam pps_p_sig_19.GSR = "ENABLED";
-    FD1S3AX pps_r_sig_20 (.D(PPS_R_N_132), .CK(R4_c), .Q(R1_c)) /* synthesis LSE_LINE_FILE_ID=22, LSE_LCOL=16, LSE_RCOL=23, LSE_LLINE=116, LSE_RLINE=116 */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(71[2] 82[9])
+    FD1S3AX pps_r_sig_20 (.D(PPS_R_N_132), .CK(R4_c), .Q(R1_c)) /* synthesis LSE_LINE_FILE_ID=22, LSE_LCOL=16, LSE_RCOL=23, LSE_LLINE=116, LSE_RLINE=116 */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(71[2] 82[9])
     defparam pps_r_sig_20.GSR = "ENABLED";
     FD1S3IX one_sec_cnt_15__i0 (.D(n101[0]), .CK(R4_c), .CD(n163), .Q(one_sec_cnt[0])) /* synthesis syn_use_carry_chain=1 */ ;   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
     defparam one_sec_cnt_15__i0.GSR = "ENABLED";
@@ -108,9 +108,6 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15_add_4_17.INIT1 = 16'hfaaa;
     defparam one_sec_cnt_15_add_4_17.INJECT1_0 = "NO";
     defparam one_sec_cnt_15_add_4_17.INJECT1_1 = "NO";
-    LUT4 i10_4_lut (.A(one_sec_cnt[12]), .B(one_sec_cnt[8]), .C(one_sec_cnt[22]), 
-         .D(one_sec_cnt[14]), .Z(n24)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(77[7:47])
-    defparam i10_4_lut.init = 16'hfffe;
     CCU2D one_sec_cnt_15_add_4_15 (.A0(one_sec_cnt[13]), .B0(GND_net), .C0(GND_net), 
           .D0(GND_net), .A1(one_sec_cnt[14]), .B1(GND_net), .C1(GND_net), 
           .D1(GND_net), .CIN(n203), .COUT(n204), .S0(n101[13]), .S1(n101[14]));   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
@@ -118,6 +115,9 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15_add_4_15.INIT1 = 16'hfaaa;
     defparam one_sec_cnt_15_add_4_15.INJECT1_0 = "NO";
     defparam one_sec_cnt_15_add_4_15.INJECT1_1 = "NO";
+    LUT4 i10_4_lut (.A(one_sec_cnt[6]), .B(one_sec_cnt[10]), .C(one_sec_cnt[20]), 
+         .D(one_sec_cnt[21]), .Z(n24)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(77[7:35])
+    defparam i10_4_lut.init = 16'hfffe;
     CCU2D one_sec_cnt_15_add_4_13 (.A0(one_sec_cnt[11]), .B0(GND_net), .C0(GND_net), 
           .D0(GND_net), .A1(one_sec_cnt[12]), .B1(GND_net), .C1(GND_net), 
           .D1(GND_net), .CIN(n202), .COUT(n203), .S0(n101[11]), .S1(n101[12]));   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
@@ -139,8 +139,6 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15_add_4_9.INIT1 = 16'hfaaa;
     defparam one_sec_cnt_15_add_4_9.INJECT1_0 = "NO";
     defparam one_sec_cnt_15_add_4_9.INJECT1_1 = "NO";
-    LUT4 i4_2_lut (.A(one_sec_cnt[15]), .B(one_sec_cnt[1]), .Z(n18)) /* synthesis lut_function=(A+(B)) */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(77[7:47])
-    defparam i4_2_lut.init = 16'heeee;
     CCU2D one_sec_cnt_15_add_4_7 (.A0(one_sec_cnt[5]), .B0(GND_net), .C0(GND_net), 
           .D0(GND_net), .A1(one_sec_cnt[6]), .B1(GND_net), .C1(GND_net), 
           .D1(GND_net), .CIN(n199), .COUT(n200), .S0(n101[5]), .S1(n101[6]));   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
@@ -148,6 +146,8 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15_add_4_7.INIT1 = 16'hfaaa;
     defparam one_sec_cnt_15_add_4_7.INJECT1_0 = "NO";
     defparam one_sec_cnt_15_add_4_7.INJECT1_1 = "NO";
+    LUT4 i4_2_lut (.A(one_sec_cnt[18]), .B(one_sec_cnt[1]), .Z(n18)) /* synthesis lut_function=(A+(B)) */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(77[7:35])
+    defparam i4_2_lut.init = 16'heeee;
     CCU2D one_sec_cnt_15_add_4_5 (.A0(one_sec_cnt[3]), .B0(GND_net), .C0(GND_net), 
           .D0(GND_net), .A1(one_sec_cnt[4]), .B1(GND_net), .C1(GND_net), 
           .D1(GND_net), .CIN(n198), .COUT(n199), .S0(n101[3]), .S1(n101[4]));   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
@@ -155,8 +155,6 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15_add_4_5.INIT1 = 16'hfaaa;
     defparam one_sec_cnt_15_add_4_5.INJECT1_0 = "NO";
     defparam one_sec_cnt_15_add_4_5.INJECT1_1 = "NO";
-    LUT4 i1_2_lut (.A(R1_c), .B(n163), .Z(PPS_R_N_132)) /* synthesis lut_function=(!(A (B)+!A !(B))) */ ;
-    defparam i1_2_lut.init = 16'h6666;
     CCU2D one_sec_cnt_15_add_4_3 (.A0(one_sec_cnt[1]), .B0(GND_net), .C0(GND_net), 
           .D0(GND_net), .A1(one_sec_cnt[2]), .B1(GND_net), .C1(GND_net), 
           .D1(GND_net), .CIN(n197), .COUT(n198), .S0(n101[1]), .S1(n101[2]));   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
@@ -164,19 +162,21 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15_add_4_3.INIT1 = 16'hfaaa;
     defparam one_sec_cnt_15_add_4_3.INJECT1_0 = "NO";
     defparam one_sec_cnt_15_add_4_3.INJECT1_1 = "NO";
-    LUT4 i165_4_lut (.A(one_sec_cnt[7]), .B(n26), .C(n22), .D(one_sec_cnt[17]), 
-         .Z(n265)) /* synthesis lut_function=(!(A+(B+(C+(D))))) */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(77[7:47])
+    LUT4 i1_2_lut (.A(R1_c), .B(n163), .Z(PPS_R_N_132)) /* synthesis lut_function=(!(A (B)+!A !(B))) */ ;
+    defparam i1_2_lut.init = 16'h6666;
+    LUT4 i165_4_lut (.A(one_sec_cnt[9]), .B(n26), .C(n22), .D(one_sec_cnt[11]), 
+         .Z(n265)) /* synthesis lut_function=(!(A+(B+(C+(D))))) */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(77[7:35])
     defparam i165_4_lut.init = 16'h0001;
-    LUT4 i5_2_lut (.A(one_sec_cnt[18]), .B(one_sec_cnt[9]), .Z(n15)) /* synthesis lut_function=(A (B)) */ ;
+    LUT4 i5_2_lut (.A(one_sec_cnt[15]), .B(one_sec_cnt[19]), .Z(n15)) /* synthesis lut_function=(A (B)) */ ;
     defparam i5_2_lut.init = 16'h8888;
-    LUT4 i6_4_lut (.A(one_sec_cnt[19]), .B(one_sec_cnt[5]), .C(one_sec_cnt[11]), 
-         .D(one_sec_cnt[16]), .Z(n16)) /* synthesis lut_function=(A (B (C (D)))) */ ;
+    LUT4 i6_4_lut (.A(one_sec_cnt[14]), .B(one_sec_cnt[5]), .C(one_sec_cnt[17]), 
+         .D(one_sec_cnt[8]), .Z(n16)) /* synthesis lut_function=(A (B (C (D)))) */ ;
     defparam i6_4_lut.init = 16'h8000;
-    LUT4 i12_4_lut (.A(one_sec_cnt[21]), .B(n24), .C(n18), .D(one_sec_cnt[2]), 
-         .Z(n26)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(77[7:47])
+    LUT4 i12_4_lut (.A(one_sec_cnt[2]), .B(n24), .C(n18), .D(one_sec_cnt[4]), 
+         .Z(n26)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(77[7:35])
     defparam i12_4_lut.init = 16'hfffe;
-    LUT4 i8_4_lut (.A(one_sec_cnt[4]), .B(one_sec_cnt[0]), .C(one_sec_cnt[3]), 
-         .D(one_sec_cnt[10]), .Z(n22)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(77[7:47])
+    LUT4 i8_4_lut (.A(one_sec_cnt[7]), .B(one_sec_cnt[0]), .C(one_sec_cnt[3]), 
+         .D(one_sec_cnt[16]), .Z(n22)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(77[7:35])
     defparam i8_4_lut.init = 16'hfffe;
     LUT4 i1_2_lut_adj_9 (.A(R0_c), .B(n163), .Z(PPS_P_N_131)) /* synthesis lut_function=(!(A (B)+!A !(B))) */ ;
     defparam i1_2_lut_adj_9.init = 16'h6666;
@@ -226,7 +226,7 @@ module PIF_RTC (R0_c, R4_c, R1_c, GND_net);
     defparam one_sec_cnt_15__i2.GSR = "ENABLED";
     FD1S3IX one_sec_cnt_15__i1 (.D(n101[1]), .CK(R4_c), .CD(n163), .Q(one_sec_cnt[1])) /* synthesis syn_use_carry_chain=1 */ ;   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
     defparam one_sec_cnt_15__i1.GSR = "ENABLED";
-    LUT4 i166_4_lut (.A(n17), .B(n265), .C(n15), .D(n16), .Z(n163)) /* synthesis lut_function=(A (B (C (D)))) */ ;   // e:/dev/rtc_lattice/hdl/pif_rtc.vhd(77[7:47])
+    LUT4 i166_4_lut (.A(n17), .B(n265), .C(n15), .D(n16), .Z(n163)) /* synthesis lut_function=(A (B (C (D)))) */ ;   // d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(77[7:35])
     defparam i166_4_lut.init = 16'h8000;
     CCU2D one_sec_cnt_15_add_4_1 (.A0(GND_net), .B0(GND_net), .C0(GND_net), 
           .D0(GND_net), .A1(one_sec_cnt[0]), .B1(GND_net), .C1(GND_net), 
@@ -247,9 +247,9 @@ module pif_flasher_U0 (GND_net, R4_c, red_flash, green_flash);
     output red_flash;
     output green_flash;
     
-    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
-    wire [5:0]Accum;   // e:/dev/rtc_lattice/hdl/piffla.vhd(111[10:15])
-    wire [6:0]DeltaReg;   // e:/dev/rtc_lattice/hdl/piffla.vhd(114[10:18])
+    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
+    wire [5:0]Accum;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(111[10:15])
+    wire [6:0]DeltaReg;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(114[10:18])
     wire [5:0]Accum_5__N_21;
     
     wire LedOn, n261, n2, n287, n289, n288, Tick;
@@ -259,38 +259,38 @@ module pif_flasher_U0 (GND_net, R4_c, red_flash, green_flash);
     wire Tick_N_41, n221, n220, n219;
     
     LUT4 i2_3_lut_4_lut (.A(Accum[0]), .B(DeltaReg[0]), .C(Accum[1]), 
-         .D(DeltaReg[1]), .Z(Accum_5__N_21[1])) /* synthesis lut_function=(A (B (C (D)+!C !(D))+!B !(C (D)+!C !(D)))+!A !(C (D)+!C !(D))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+         .D(DeltaReg[1]), .Z(Accum_5__N_21[1])) /* synthesis lut_function=(A (B (C (D)+!C !(D))+!B !(C (D)+!C !(D)))+!A !(C (D)+!C !(D))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i2_3_lut_4_lut.init = 16'h8778;
-    OSCH OSCInst0 (.STDBY(GND_net), .OSC(R4_c)) /* synthesis nom_freq="26.60", syn_instantiated=1, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(105[5:16])
+    OSCH OSCInst0 (.STDBY(GND_net), .OSC(R4_c)) /* synthesis nom_freq="26.60", syn_instantiated=1, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(105[5:16])
     defparam OSCInst0.NOM_FREQ = "26.60";
-    FD1S3AX LedOn_36 (.D(Accum[5]), .CK(R4_c), .Q(LedOn)) /* synthesis LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3AX LedOn_36 (.D(Accum[5]), .CK(R4_c), .Q(LedOn)) /* synthesis LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam LedOn_36.GSR = "DISABLED";
-    FD1S3JX R_37 (.D(n261), .CK(R4_c), .PD(DeltaReg[6]), .Q(red_flash)) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3JX R_37 (.D(n261), .CK(R4_c), .PD(DeltaReg[6]), .Q(red_flash)) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam R_37.GSR = "DISABLED";
-    FD1S3JX G_38 (.D(n261), .CK(R4_c), .PD(n2), .Q(green_flash)) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3JX G_38 (.D(n261), .CK(R4_c), .PD(n2), .Q(green_flash)) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam G_38.GSR = "DISABLED";
-    LUT4 i53_4_lut_3_lut (.A(DeltaReg[4]), .B(n287), .C(Accum[4]), .Z(Accum_5__N_21[5])) /* synthesis lut_function=(A (B+(C))+!A (B (C))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+    LUT4 i53_4_lut_3_lut (.A(DeltaReg[4]), .B(n287), .C(Accum[4]), .Z(Accum_5__N_21[5])) /* synthesis lut_function=(A (B+(C))+!A (B (C))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i53_4_lut_3_lut.init = 16'he8e8;
     LUT4 i32_4_lut_3_lut_rep_3_4_lut (.A(Accum[0]), .B(DeltaReg[0]), .C(Accum[1]), 
-         .D(DeltaReg[1]), .Z(n289)) /* synthesis lut_function=(A (B (C+(D))+!B (C (D)))+!A (C (D))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+         .D(DeltaReg[1]), .Z(n289)) /* synthesis lut_function=(A (B (C+(D))+!B (C (D)))+!A (C (D))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i32_4_lut_3_lut_rep_3_4_lut.init = 16'hf880;
     LUT4 i46_4_lut_3_lut_rep_1 (.A(DeltaReg[3]), .B(n288), .C(Accum[3]), 
-         .Z(n287)) /* synthesis lut_function=(A (B+(C))+!A (B (C))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+         .Z(n287)) /* synthesis lut_function=(A (B+(C))+!A (B (C))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i46_4_lut_3_lut_rep_1.init = 16'he8e8;
     FD1P3AX DeltaReg_14__i0 (.D(n33[0]), .SP(Tick), .CK(R4_c), .Q(DeltaReg[0])) /* synthesis syn_use_carry_chain=1 */ ;   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
     defparam DeltaReg_14__i0.GSR = "DISABLED";
     FD1P3AX DeltaReg_14__i6 (.D(n33[6]), .SP(Tick), .CK(R4_c), .Q(DeltaReg[6])) /* synthesis syn_use_carry_chain=1 */ ;   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
     defparam DeltaReg_14__i6.GSR = "DISABLED";
-    LUT4 i19_2_lut (.A(Accum[0]), .B(DeltaReg[0]), .Z(n26[0])) /* synthesis lut_function=(!(A (B)+!A !(B))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+    LUT4 i19_2_lut (.A(Accum[0]), .B(DeltaReg[0]), .Z(n26[0])) /* synthesis lut_function=(!(A (B)+!A !(B))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i19_2_lut.init = 16'h6666;
     LUT4 i39_4_lut_3_lut_rep_2 (.A(DeltaReg[2]), .B(n289), .C(Accum[2]), 
-         .Z(n288)) /* synthesis lut_function=(A (B+(C))+!A (B (C))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+         .Z(n288)) /* synthesis lut_function=(A (B+(C))+!A (B (C))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i39_4_lut_3_lut_rep_2.init = 16'he8e8;
-    LUT4 Tick_I_0_1_lut (.A(Tick), .Z(Tick_N_41)) /* synthesis lut_function=(!(A)) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(149[14:36])
+    LUT4 Tick_I_0_1_lut (.A(Tick), .Z(Tick_N_41)) /* synthesis lut_function=(!(A)) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(149[14:36])
     defparam Tick_I_0_1_lut.init = 16'h5555;
-    FD1S3IX Accum__i0 (.D(n26[0]), .CK(R4_c), .CD(Tick), .Q(Accum[0])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3IX Accum__i0 (.D(n26[0]), .CK(R4_c), .CD(Tick), .Q(Accum[0])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam Accum__i0.GSR = "DISABLED";
-    LUT4 i54_1_lut (.A(DeltaReg[6]), .Z(n2)) /* synthesis lut_function=(!(A)) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(188[24:34])
+    LUT4 i54_1_lut (.A(DeltaReg[6]), .Z(n2)) /* synthesis lut_function=(!(A)) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(188[24:34])
     defparam i54_1_lut.init = 16'h5555;
     FD1P3AX DeltaReg_14__i5 (.D(n33[5]), .SP(Tick), .CK(R4_c), .Q(DeltaReg[5])) /* synthesis syn_use_carry_chain=1 */ ;   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
     defparam DeltaReg_14__i5.GSR = "DISABLED";
@@ -302,11 +302,11 @@ module pif_flasher_U0 (GND_net, R4_c, red_flash, green_flash);
     defparam DeltaReg_14__i2.GSR = "DISABLED";
     FD1P3AX DeltaReg_14__i1 (.D(n33[1]), .SP(Tick), .CK(R4_c), .Q(DeltaReg[1])) /* synthesis syn_use_carry_chain=1 */ ;   // C:/lscc/diamond/3.7_x64/ispfpga/vhdl_packages/numeric_std.vhd(1241[12:13])
     defparam DeltaReg_14__i1.GSR = "DISABLED";
-    LUT4 i161_2_lut (.A(DeltaReg[5]), .B(LedOn), .Z(n261)) /* synthesis lut_function=(A (B)+!A !(B)) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(187[22:78])
+    LUT4 i161_2_lut (.A(DeltaReg[5]), .B(LedOn), .Z(n261)) /* synthesis lut_function=(A (B)+!A !(B)) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(187[22:78])
     defparam i161_2_lut.init = 16'h9999;
-    FD1S3IX Accum__i5 (.D(Accum_5__N_21[5]), .CK(R4_c), .CD(Tick), .Q(Accum[5])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3IX Accum__i5 (.D(Accum_5__N_21[5]), .CK(R4_c), .CD(Tick), .Q(Accum[5])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam Accum__i5.GSR = "DISABLED";
-    LUT4 i2_3_lut (.A(n289), .B(DeltaReg[2]), .C(Accum[2]), .Z(Accum_5__N_21[2])) /* synthesis lut_function=(A (B (C)+!B !(C))+!A !(B (C)+!B !(C))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+    LUT4 i2_3_lut (.A(n289), .B(DeltaReg[2]), .C(Accum[2]), .Z(Accum_5__N_21[2])) /* synthesis lut_function=(A (B (C)+!B !(C))+!A !(B (C)+!B !(C))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i2_3_lut.init = 16'h9696;
     \DownCounter(18)_c15  DownCounter_18__i205 (.Tick(Tick), .R4_c(R4_c), 
             .Tick_N_41(Tick_N_41));
@@ -338,17 +338,17 @@ module pif_flasher_U0 (GND_net, R4_c, red_flash, green_flash);
     defparam DeltaReg_14_add_4_1.INIT1 = 16'h0555;
     defparam DeltaReg_14_add_4_1.INJECT1_0 = "NO";
     defparam DeltaReg_14_add_4_1.INJECT1_1 = "NO";
-    LUT4 i2_3_lut_adj_7 (.A(n288), .B(DeltaReg[3]), .C(Accum[3]), .Z(Accum_5__N_21[3])) /* synthesis lut_function=(A (B (C)+!B !(C))+!A !(B (C)+!B !(C))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+    LUT4 i2_3_lut_adj_7 (.A(n288), .B(DeltaReg[3]), .C(Accum[3]), .Z(Accum_5__N_21[3])) /* synthesis lut_function=(A (B (C)+!B !(C))+!A !(B (C)+!B !(C))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i2_3_lut_adj_7.init = 16'h9696;
-    LUT4 i2_3_lut_adj_8 (.A(n287), .B(DeltaReg[4]), .C(Accum[4]), .Z(Accum_5__N_21[4])) /* synthesis lut_function=(A (B (C)+!B !(C))+!A !(B (C)+!B !(C))) */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(182[18:21])
+    LUT4 i2_3_lut_adj_8 (.A(n287), .B(DeltaReg[4]), .C(Accum[4]), .Z(Accum_5__N_21[4])) /* synthesis lut_function=(A (B (C)+!B !(C))+!A !(B (C)+!B !(C))) */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(182[18:21])
     defparam i2_3_lut_adj_8.init = 16'h9696;
-    FD1S3IX Accum__i4 (.D(Accum_5__N_21[4]), .CK(R4_c), .CD(Tick), .Q(Accum[4])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3IX Accum__i4 (.D(Accum_5__N_21[4]), .CK(R4_c), .CD(Tick), .Q(Accum[4])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam Accum__i4.GSR = "DISABLED";
-    FD1S3IX Accum__i3 (.D(Accum_5__N_21[3]), .CK(R4_c), .CD(Tick), .Q(Accum[3])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3IX Accum__i3 (.D(Accum_5__N_21[3]), .CK(R4_c), .CD(Tick), .Q(Accum[3])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam Accum__i3.GSR = "DISABLED";
-    FD1S3IX Accum__i2 (.D(Accum_5__N_21[2]), .CK(R4_c), .CD(Tick), .Q(Accum[2])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3IX Accum__i2 (.D(Accum_5__N_21[2]), .CK(R4_c), .CD(Tick), .Q(Accum[2])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam Accum__i2.GSR = "DISABLED";
-    FD1S3IX Accum__i1 (.D(Accum_5__N_21[1]), .CK(R4_c), .CD(Tick), .Q(Accum[1])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // e:/dev/rtc_lattice/hdl/piffla.vhd(176[5] 189[12])
+    FD1S3IX Accum__i1 (.D(Accum_5__N_21[1]), .CK(R4_c), .CD(Tick), .Q(Accum[1])) /* synthesis lse_init_val=0, LSE_LINE_FILE_ID=22, LSE_LCOL=5, LSE_RCOL=16, LSE_LLINE=105, LSE_RLINE=105 */ ;   // d:/dev/pif7000_rtc/hdl/piffla.vhd(176[5] 189[12])
     defparam Accum__i1.GSR = "DISABLED";
     
 endmodule
@@ -361,7 +361,7 @@ module \DownCounter(18)_c15  (Tick, R4_c, Tick_N_41) /* synthesis syn_hier="hard
     input R4_c;
     input Tick_N_41;
     
-    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
+    wire R4_c /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
     wire [18:0]n142;
     
     wire xclk_keep_2, n164;
@@ -480,7 +480,7 @@ module \DownCounter(18)_c15  (Tick, R4_c, Tick_N_41) /* synthesis syn_hier="hard
     defparam Ctr_17__i0.GSR = "DISABLED";
     VLO HierGndInst_1 (.Z(GND_net));
     pif_flasher F (.Tick(Tick), .Tick_kb_in(n142[18]), .R4_c(R4_c), .xclk_keep_2(xclk_keep_2), 
-            .n164(n164), .Tick_N_41(Tick_N_41));   // e:/dev/rtc_lattice/hdl/rtc.vhd(105[5:16])
+            .n164(n164), .Tick_N_41(Tick_N_41));   // d:/dev/pif7000_rtc/hdl/rtc.vhd(105[5:16])
     VHI HierPwrInst_1 (.Z(VCC_net));
     
 endmodule
@@ -496,11 +496,11 @@ module pif_flasher (Tick, Tick_kb_in, R4_c, xclk_keep_2, n164, Tick_N_41);
     output n164;
     input Tick_N_41;
     
-    wire xclk_keep_2 /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(40[3:5])
+    wire xclk_keep_2 /* synthesis SET_AS_NETWORK=R4_c, is_clock=1 */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(40[3:5])
     
     assign Tick = Tick_kb_in;
     assign xclk_keep_2 = R4_c;
-    LUT4 i88_1_lut (.A(Tick_N_41), .Z(n164)) /* synthesis lut_function=(!(A)) */ ;   // e:/dev/rtc_lattice/hdl/rtc.vhd(105[5:16])
+    LUT4 i88_1_lut (.A(Tick_N_41), .Z(n164)) /* synthesis lut_function=(!(A)) */ ;   // d:/dev/pif7000_rtc/hdl/rtc.vhd(105[5:16])
     defparam i88_1_lut.init = 16'h5555;
     
 endmodule

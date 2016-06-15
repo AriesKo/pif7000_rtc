@@ -33,7 +33,7 @@ entity PIF_RTC is
 	port 
 	(	
 		RST					: in std_logic;
-		CLOCK				: in std_logic; -- 20.60MHz, 48.54ns
+		CLOCK				: in std_logic; -- 26.60MHz, 48.54ns
 		PPS_P				: out std_logic;
 		PPS_R				: out std_logic
 	);
@@ -53,7 +53,7 @@ signal pps_r_sig			: std_logic;
 ----------------------------------------------------------------------------------------------------
 -- constant
 ----------------------------------------------------------------------------------------------------
-constant one_sec_period		: std_logic_vector(23 downto 0) := "100111010010101001100000"; -- 10300000
+constant one_sec_period		: unsigned(23 downto 0) := "110010101111000100100000"; -- 13300000, 500ms
 
 ----------------------------------------------------------------------------------------------------
 -- unsigned
@@ -74,7 +74,7 @@ begin
 		pps_r_sig <= '0';
 	elsif rising_edge(CLOCK) then
 		one_sec_cnt <= one_sec_cnt + 1;
-		if (one_sec_cnt = "100111010010101001100000") then -- 500 ms
+		if (one_sec_cnt = one_sec_period) then -- 500 ms
 			pps_p_sig <= not pps_p_sig;
 			pps_r_sig <= not pps_r_sig;
 			one_sec_cnt <= (others => '0');

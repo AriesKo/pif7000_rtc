@@ -24,111 +24,111 @@
             <ID>35921504</ID>
             <Severity>Info</Severity>
             <Dynamic></Dynamic>
-            <Dynamic>E:/dev/RTC_Lattice/impl1</Dynamic>
+            <Dynamic>D:/dev/pif7000_rtc/impl1</Dynamic>
         </Message>
         <Message>
             <ID>35921014</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/pifcfg.vhd(10): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/pifcfg.vhd(10): </Dynamic>
             <Dynamic>pifcfg</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/pifcfg.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/pifcfg.vhd</Navigation>
             <Navigation>10</Navigation>
         </Message>
         <Message>
             <ID>35921013</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/pifcfg.vhd(19): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/pifcfg.vhd(19): </Dynamic>
             <Dynamic>pifcfg</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/pifcfg.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/pifcfg.vhd</Navigation>
             <Navigation>19</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(12): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/piffla.vhd(12): </Dynamic>
             <Dynamic>downcounter</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/piffla.vhd</Navigation>
             <Navigation>12</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(22): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/piffla.vhd(22): </Dynamic>
             <Dynamic>rtl</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/piffla.vhd</Navigation>
             <Navigation>22</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(51): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/piffla.vhd(51): </Dynamic>
             <Dynamic>pif_flasher</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/piffla.vhd</Navigation>
             <Navigation>51</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/piffla.vhd(54): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/piffla.vhd(54): </Dynamic>
             <Dynamic>rtl</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/piffla.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/piffla.vhd</Navigation>
             <Navigation>54</Navigation>
         </Message>
         <Message>
             <ID>35921014</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/pifdefs.vhd(12): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/pifdefs.vhd(12): </Dynamic>
             <Dynamic>defs</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/pifdefs.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/pifdefs.vhd</Navigation>
             <Navigation>12</Navigation>
         </Message>
         <Message>
             <ID>35921013</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/pifdefs.vhd(104): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/pifdefs.vhd(104): </Dynamic>
             <Dynamic>defs</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/pifdefs.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/pifdefs.vhd</Navigation>
             <Navigation>104</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/rtc.vhd(32): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/rtc.vhd(32): </Dynamic>
             <Dynamic>rtc</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/rtc.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/rtc.vhd</Navigation>
             <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/rtc.vhd(47): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/rtc.vhd(47): </Dynamic>
             <Dynamic>rtl</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/rtc.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/rtc.vhd</Navigation>
             <Navigation>47</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/pif_rtc.vhd(32): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(32): </Dynamic>
             <Dynamic>pif_rtc</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/pif_rtc.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/pif_rtc.vhd</Navigation>
             <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/pif_rtc.vhd(45): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/pif_rtc.vhd(45): </Dynamic>
             <Dynamic>rtl</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/pif_rtc.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/pif_rtc.vhd</Navigation>
             <Navigation>45</Navigation>
         </Message>
         <Message>
             <ID>35921205</ID>
             <Severity>Warning</Severity>
-            <Dynamic>e:/dev/rtc_lattice/hdl/rtc.vhd(42): </Dynamic>
+            <Dynamic>d:/dev/pif7000_rtc/hdl/rtc.vhd(42): </Dynamic>
             <Dynamic>RTC</Dynamic>
             <Dynamic>rtl</Dynamic>
-            <Navigation>e:/dev/rtc_lattice/hdl/rtc.vhd</Navigation>
+            <Navigation>d:/dev/pif7000_rtc/hdl/rtc.vhd</Navigation>
             <Navigation>42</Navigation>
         </Message>
         <Message>

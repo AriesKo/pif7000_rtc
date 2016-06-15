@@ -8,14 +8,14 @@ Design Information
 Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial
      RTC_Lattice_impl1.ngd -o RTC_Lattice_impl1_map.ncd -pr
      RTC_Lattice_impl1.prf -mp RTC_Lattice_impl1.mrp -lpf
-     E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1.lpf -lpf
-     E:/dev/RTC_Lattice/pif.lpf -c 0 -gui -msgset E:/dev/RTC_Lattice/promote.xml
+     D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1.lpf -lpf
+     D:/dev/pif7000_rtc/pif.lpf -c 0 -gui -msgset D:/dev/pif7000_rtc/promote.xml
      
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HCTQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
-Mapped on:  06/15/16  13:36:26
+Mapped on:  06/15/16  16:25:35
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  RTC                                           Date:  06/15/16  13:36:26
+Design:  RTC                                           Date:  06/15/16  16:25:35
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  RTC                                           Date:  06/15/16  13:36:26
+Design:  RTC                                           Date:  06/15/16  16:25:35
 
 Removed logic
 -------------
@@ -198,7 +198,7 @@ Instance Name: F/OSCInst0
 
 
 
-Design:  RTC                                           Date:  06/15/16  13:36:26
+Design:  RTC                                           Date:  06/15/16  16:25:35
 
 ASIC Components (cont)
 ----------------------
@@ -264,7 +264,7 @@ GSR Component:
 
 
 
-Design:  RTC                                           Date:  06/15/16  13:36:26
+Design:  RTC                                           Date:  06/15/16  16:25:35
 
 GSR Usage (cont)
 ----------------

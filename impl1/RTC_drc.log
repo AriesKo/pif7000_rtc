@@ -1,0 +1,17 @@
+Results of NGD DRC are available in RTC_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'F/DownCounter_18__i205/VCC_net' has no load.
+WARNING - synthesis: DRC complete with 1 warnings.
+
+Design Results:
+    125 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file RTC_Lattice_impl1.ngd.
