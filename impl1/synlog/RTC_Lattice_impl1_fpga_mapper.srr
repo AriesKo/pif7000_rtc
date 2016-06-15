@@ -29,7 +29,7 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
 
-@N:"e:\dev\rtc_lattice\hdl\piffla.vhd":166:4:166:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
+@N:"e:\dev\rtc_lattice\hdl\piffla.vhd":165:4:165:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
 
@@ -108,7 +108,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jun 15 12:30:10 2016
+# Timing Report written on Wed Jun 15 12:42:09 2016
 #
 
 
@@ -309,6 +309,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 53MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jun 15 12:30:10 2016
+# Wed Jun 15 12:42:09 2016
 
 ###########################################################]

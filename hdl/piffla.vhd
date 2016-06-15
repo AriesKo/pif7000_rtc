@@ -89,8 +89,7 @@ architecture rtl of pif_flasher is
   ---------------------------------------------------------------------
 
   constant OSC_RATE : natural := (26600 * 1000);
-  --constant OSC_STR  : string  := "26.60";
-  constant OSC_STR  : string  := "7.00";
+  constant OSC_STR  : string  := "26.60";
   constant TICK_RATE: integer := 150;
 
   attribute nom_freq : string;

@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2016 6 15 12 30 10)
+      (timeStamp 2016 6 15 12 42 9)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "K-2015.09L-2, mapper maplat, Build 1368R"))
      )
@@ -752,7 +752,7 @@
            (property INIT1 (string "0x300A"))
           )
           (instance OSCInst0 (viewRef PRIM (cellRef OSCH (libraryRef LUCENT)))
-           (property nom_freq (string "7.00"))
+           (property nom_freq (string "26.60"))
           )
           (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
           (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
