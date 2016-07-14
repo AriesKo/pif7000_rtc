@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2016 7 14 10 15 58)
+      (timeStamp 2016 7 14 15 21 18)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "K-2015.09L-2, mapper maplat, Build 1368R"))
      )
@@ -667,7 +667,7 @@
     (cell PIF_RTC (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port XIO27_c (direction OUTPUT))
+           (port GPIO27_c (direction OUTPUT))
            (port R4_c (direction INPUT))
            (port GSRnX_i (direction INPUT))
          )
@@ -994,10 +994,10 @@
            (portRef Z (instanceRef one_sec_cnt_RNO_5))
            (portRef D (instanceRef one_sec_cnt_5))
           ))
-          (net XIO27_c (joined
+          (net GPIO27_c (joined
            (portRef Q (instanceRef pps_p_sig))
            (portRef A (instanceRef pps_p_sig_RNO))
-           (portRef XIO27_c)
+           (portRef GPIO27_c)
           ))
           (net pps_p_sig_RNO (joined
            (portRef Z (instanceRef pps_p_sig_RNO))
@@ -1804,8 +1804,8 @@
            (port GSRn (direction INPUT))
            (port LEDR (direction OUTPUT))
            (port LEDG (direction OUTPUT))
-           (port XIO17 (direction OUTPUT))
-           (port XIO27 (direction OUTPUT))
+           (port GPIO17 (direction OUTPUT))
+           (port GPIO27 (direction OUTPUT))
            (port R4 (direction OUTPUT))
          )
          (contents
@@ -1819,8 +1819,8 @@
            (property INIT (string "0"))
           )
           (instance R4_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
-          (instance XIO27_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
-          (instance XIO17_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance GPIO27_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance GPIO17_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
           (instance IBgsr (viewRef PRIM (cellRef IB (libraryRef LUCENT)))
           )
           (instance GSR_GSR (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
@@ -1884,18 +1884,18 @@
            (portRef SP (instanceRef F_Gio))
            (portRef SP (instanceRef F_Rio))
           ))
-          (net XIO17 (joined
-           (portRef O (instanceRef XIO17_pad))
-           (portRef XIO17)
+          (net GPIO17 (joined
+           (portRef O (instanceRef GPIO17_pad))
+           (portRef GPIO17)
           ))
-          (net XIO27_c (joined
-           (portRef XIO27_c (instanceRef comp_PIF_RTC))
-           (portRef I (instanceRef XIO17_pad))
-           (portRef I (instanceRef XIO27_pad))
+          (net GPIO27_c (joined
+           (portRef GPIO27_c (instanceRef comp_PIF_RTC))
+           (portRef I (instanceRef GPIO17_pad))
+           (portRef I (instanceRef GPIO27_pad))
           ))
-          (net XIO27 (joined
-           (portRef O (instanceRef XIO27_pad))
-           (portRef XIO27)
+          (net GPIO27 (joined
+           (portRef O (instanceRef GPIO27_pad))
+           (portRef GPIO27)
           ))
           (net R4 (joined
            (portRef O (instanceRef R4_pad))

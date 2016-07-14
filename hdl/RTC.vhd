@@ -35,8 +35,8 @@ entity RTC is
 		GSRn				: in std_logic;
 		LEDR				: out std_logic;
 		LEDG				: out std_logic;
-		XIO17				: out std_logic;
-		XIO27				: out std_logic;
+		GPIO17				: out std_logic;
+		GPIO27				: out std_logic;
 		R4					: out std_logic
 	);
 end RTC;
@@ -118,8 +118,8 @@ comp_PIF_RTC : PIF_RTC
 	(	
 		RST		=> GSRnX,
 		CLOCK 	=> osc,
-		PPS_P 	=> XIO17,
-		PPS_R 	=> XIO27
+		PPS_P 	=> GPIO17,
+		PPS_R 	=> GPIO27
 	);
 	
 ----------------------------------------------------------------------------------------------------

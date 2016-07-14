@@ -16,7 +16,7 @@
 #CUR:"D:\\dev\\pif7000_rtc\\hdl\\pifdefs.vhd":1465968229
 #CUR:"D:\\dev\\pif7000_rtc\\hdl\\piffla.vhd":1465968229
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1449679782
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\RTC.vhd":1468458932
+#CUR:"D:\\dev\\pif7000_rtc\\hdl\\RTC.vhd":1468477267
 0 "C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
 1 "D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd" vhdl
 2 "D:\dev\pif7000_rtc\hdl\pifcfg.vhd" vhdl

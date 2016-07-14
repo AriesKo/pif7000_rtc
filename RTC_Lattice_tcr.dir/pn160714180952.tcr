@@ -1,0 +1,5 @@
+#Start recording tcl command: 7/14/2016 15:20:01
+#Project Location: D:/dev/pif7000_rtc; Project name: RTC_Lattice
+prj_project open "D:/dev/pif7000_rtc/RTC_Lattice.ldf"
+prj_run Export -impl impl1 -forceAll
+#Stop recording: 7/14/2016 18:09:52

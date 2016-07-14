@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  RTC  -incremental_debug  -multisrs  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs  -osyn  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_mult.srs  -log  D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_multi_srs_gen.srr 
 rc:0 success:1 runtime:0
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs|i|1468458955|8066
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_mult.srs|o|1468458956|3986
-D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_multi_srs_gen.srr|o|1468458956|497
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs|i|1468477275|8077
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_mult.srs|o|1468477276|3995
+D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_multi_srs_gen.srr|o|1468477276|497
 C:\lscc\diamond\3.7_x64\synpbase\bin\syn_nfilter.exe|i|1449683874|3110400
 C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe|i|1449684076|4182528

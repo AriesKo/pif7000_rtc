@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HCTQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
-Mapped on:  07/14/16  10:16:00
+Mapped on:  07/14/16  15:21:20
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  RTC                                           Date:  07/14/16  10:16:00
+Design:  RTC                                           Date:  07/14/16  15:21:20
 
 Design Summary (cont)
 ---------------------
@@ -84,7 +84,7 @@ Design Summary (cont)
      Net F/accum: 3 loads
      Net F/DeltaReg[5]: 3 loads
      Net F/DeltaReg[6]: 3 loads
-     Net XIO27_c: 3 loads
+     Net GPIO27_c: 3 loads
      Net comp_PIF_RTC/one_sec_cnt[1]: 2 loads
 
 
@@ -116,9 +116,9 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | R4                  | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| XIO27               | OUTPUT    | LVCMOS33  |            |
+| GPIO27              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| XIO17               | OUTPUT    | LVCMOS33  |            |
+| GPIO17              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | LEDR                | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  RTC                                           Date:  07/14/16  10:16:00
+Design:  RTC                                           Date:  07/14/16  15:21:20
 
 Removed logic
 -------------
@@ -198,7 +198,7 @@ OSC 1:                                     Pin/Node Value
 
 
 
-Design:  RTC                                           Date:  07/14/16  10:16:00
+Design:  RTC                                           Date:  07/14/16  15:21:20
 
 OSC Summary (cont)
 ------------------
@@ -264,7 +264,7 @@ GSR Component:
 
 
 
-Design:  RTC                                           Date:  07/14/16  10:16:00
+Design:  RTC                                           Date:  07/14/16  15:21:20
 
 GSR Usage (cont)
 ----------------

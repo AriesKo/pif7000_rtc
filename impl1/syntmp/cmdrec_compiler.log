@@ -1,12 +1,12 @@
 C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs  -top  RTC  -hdllog  D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_compiler.srr  -encrypt  -mp  4  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\dev\pif7000_rtc\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd -lib work D:\dev\pif7000_rtc\hdl\pifcfg.vhd -lib work D:\dev\pif7000_rtc\hdl\pifdefs.vhd -lib work D:\dev\pif7000_rtc\hdl\piffla.vhd -lib work D:\dev\pif7000_rtc\hdl\RTC.vhd 
-rc:0 success:1 runtime:1
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs|o|1468458955|8066
-D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_compiler.srr|o|1468458955|3511
+rc:0 success:1 runtime:2
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs|o|1468477275|8077
+D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_compiler.srr|o|1468477275|3509
 C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1376964008|73964
 D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd|i|1465975526|3505
 D:\dev\pif7000_rtc\hdl\pifcfg.vhd|i|1465968229|768
 D:\dev\pif7000_rtc\hdl\pifdefs.vhd|i|1465968229|6537
 D:\dev\pif7000_rtc\hdl\piffla.vhd|i|1465968229|6208
-D:\dev\pif7000_rtc\hdl\RTC.vhd|i|1468458932|5011
+D:\dev\pif7000_rtc\hdl\RTC.vhd|i|1468477267|5015
 C:\lscc\diamond\3.7_x64\synpbase\bin\c_hdl.exe|i|1449683780|1311232
 C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe|i|1449683982|1936896

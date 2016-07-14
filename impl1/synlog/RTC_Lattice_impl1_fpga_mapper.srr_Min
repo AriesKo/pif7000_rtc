@@ -1,7 +1,7 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Jul 14 10:15:58 2016
+# Timing Report written on Thu Jul 14 15:21:18 2016
 #
 
 
@@ -75,7 +75,7 @@ F.TBLOCK\.TK.Ctr[0]             pif_flasher|xclk_inferred_clock     FD1S3JX     
 F.Accum[0]                      pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Accum[0]           0.731       1.225
 F.DeltaReg[0]                   pif_flasher|xclk_inferred_clock     FD1P3AX     Q       accum              0.775       1.269
 comp_PIF_RTC.one_sec_cnt[0]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[0]     0.775       1.269
-comp_PIF_RTC.pps_p_sig          pif_flasher|xclk_inferred_clock     FD1S3DX     Q       XIO27_c            0.775       1.269
+comp_PIF_RTC.pps_p_sig          pif_flasher|xclk_inferred_clock     FD1S3DX     Q       GPIO27_c           0.775       1.269
 ============================================================================================================================
 
 

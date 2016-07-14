@@ -6,7 +6,7 @@ sourcing C:\lscc\diamond\3.7_x64\synpbase\lib\message_override.tcl
 Starting:    C:\lscc\diamond\3.7_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.7_x64\synpbase
 Hostname:    DESKTOP-FFCRFT1
-Date:        Thu Jul 14 10:15:46 2016
+Date:        Thu Jul 14 10:15:54 2016
 Version:     K-2015.09L-2
 
 Arguments:   -product synplify_pro -batch RTC_Lattice_impl1_synplify.tcl
@@ -53,7 +53,7 @@ Copied D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs to D:\dev\pif
 
 compiler Completed
 Return Code: 0
-Run Time:0h:00m:02s
+Run Time:0h:00m:01s
 
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
