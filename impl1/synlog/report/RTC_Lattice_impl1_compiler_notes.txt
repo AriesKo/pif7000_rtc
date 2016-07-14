@@ -1,16 +1,14 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Top entity is set to RTC.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Synthesizing work.rtc.rtl.
+@N:"D:\dev\pif7000_rtc\hdl\RTC.vhd":32:7:32:9|Top entity is set to RTC.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\RTC.vhd":32:7:32:9|Synthesizing work.rtc.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":32:7:32:13|Synthesizing work.pif_rtc.rtl.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd":32:7:32:13|Synthesizing work.pif_rtc.rtl.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":12:7:12:17|Synthesizing work.downcounter.rtl.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\piffla.vhd":12:7:12:17|Synthesizing work.downcounter.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":591:10:591:12|Synthesizing work.gsr.syn_black_box.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
-@N: CL159 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":35:2:35:4|Input RST is unused.
-@N: CL159 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":36:2:36:6|Input CLOCK is unused.
 @N|Running in 64-bit mode
 

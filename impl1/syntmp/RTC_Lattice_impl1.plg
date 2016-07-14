@@ -1,26 +1,27 @@
-@P:  Worst Slack : 475.384
-@P:  pif_flasher|xclk_inferred_clock - Estimated Frequency : 185.7 MHz
+@P:  Worst Slack : 474.469
+@P:  pif_flasher|xclk_inferred_clock - Estimated Frequency : 158.7 MHz
 @P:  pif_flasher|xclk_inferred_clock - Requested Frequency : 2.1 MHz
-@P:  pif_flasher|xclk_inferred_clock - Estimated Period : 5.385
+@P:  pif_flasher|xclk_inferred_clock - Estimated Period : 6.300
 @P:  pif_flasher|xclk_inferred_clock - Requested Period : 480.769
-@P:  pif_flasher|xclk_inferred_clock - Slack : 475.384
+@P:  pif_flasher|xclk_inferred_clock - Slack : 474.469
 @P:  System - Estimated Frequency : NA
 @P:  System - Requested Frequency : 1.0 MHz
 @P:  System - Estimated Period : NA
 @P:  System - Requested Period : 1000.000
 @P:  System - Slack : NA
 @P:  Worst Slack(min analysis) : 0.320
-@P:  pif_flasher|xclk_inferred_clock - Estimated Frequency(min analysis) : 185.7 MHz
+@P:  pif_flasher|xclk_inferred_clock - Estimated Frequency(min analysis) : 158.7 MHz
 @P:  pif_flasher|xclk_inferred_clock - Requested Frequency(min analysis) : 2.1 MHz
-@P:  pif_flasher|xclk_inferred_clock - Estimated Period(min analysis) : 5.385
+@P:  pif_flasher|xclk_inferred_clock - Estimated Period(min analysis) : 6.300
 @P:  pif_flasher|xclk_inferred_clock - Requested Period(min analysis) : 480.769
-@P:  pif_flasher|xclk_inferred_clock - Slack(min analysis) : 475.384
+@P:  pif_flasher|xclk_inferred_clock - Slack(min analysis) : 474.469
 @P:  System - Estimated Frequency(min analysis) : NA
 @P:  System - Requested Frequency(min analysis) : 1.0 MHz
 @P:  System - Estimated Period(min analysis) : NA
 @P:  System - Requested Period(min analysis) : 1000.000
 @P:  System - Slack(min analysis) : NA
-@P:  Total Area : 7.0
+@P:  Total Area : 27.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
-@P:  CPU Time : 0h:00m:00s
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:01s

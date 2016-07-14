@@ -6,7 +6,7 @@ Performance Grade:      4
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Wed Jun 15 16:25:40 2016
+Thu Jul 14 10:16:05 2016
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
@@ -15,9 +15,9 @@ Pinout by Port Name:
 | GSRn      | 136/0    | LVCMOS33_IN  | PT14D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL  |
 | LEDG      | 113/0    | LVCMOS33_OUT | PT33B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 | LEDR      | 112/0    | LVCMOS33_OUT | PT35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| R0        | 74/1     | LVCMOS33_OUT | PR24A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| R1        | 76/1     | LVCMOS33_OUT | PR23A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 | R4        | 92/1     | LVCMOS33_OUT | PR12A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
+| XIO17     | 26/3     | LVCMOS33_OUT | PL19B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
+| XIO27     | 22/4     | LVCMOS33_OUT | PL15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 +-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
 
 Vccio by Bank:
@@ -28,6 +28,7 @@ Vccio by Bank:
 | 1    | 3.3V  |
 | 2    | 3.3V  |
 | 3    | 3.3V  |
+| 4    | 3.3V  |
 +------+-------+
 
 Vref by Bank:
@@ -57,11 +58,11 @@ Pinout by Pin Number:
 | 19/4     |     unused, PULL:DOWN |            |               | PL12A | PCLKT4_0       |           |           |
 | 20/4     |     unused, PULL:DOWN |            |               | PL12B | PCLKC4_0       |           |           |
 | 21/4     |     unused, PULL:DOWN |            |               | PL15A |                |           |           |
-| 22/4     |     unused, PULL:DOWN |            |               | PL15B |                |           |           |
+| 22/4     | XIO27                 | LOCATED    | LVCMOS33_OUT  | PL15B |                |           |           |
 | 23/4     |     unused, PULL:DOWN |            |               | PL17A |                |           |           |
 | 24/4     |     unused, PULL:DOWN |            |               | PL17B |                |           |           |
 | 25/3     |     unused, PULL:DOWN |            |               | PL19A |                |           |           |
-| 26/3     |     unused, PULL:DOWN |            |               | PL19B |                |           |           |
+| 26/3     | XIO17                 | LOCATED    | LVCMOS33_OUT  | PL19B |                |           |           |
 | 27/3     |     unused, PULL:DOWN |            |               | PL22A | PCLKT3_0       |           |           |
 | 28/3     |     unused, PULL:DOWN |            |               | PL22B | PCLKC3_0       |           |           |
 | 31/3     |     unused, PULL:DOWN |            |               | PL23D |                |           |           |
@@ -99,9 +100,9 @@ Pinout by Pin Number:
 | 70/2     | Reserved: sysCONFIG   |            | LVCMOS33_IN   | PB38A | SN             |           |           |
 | 71/2     | Reserved: sysCONFIG   |            | LVCMOS33_BIDI | PB38B | SI/SISPI       |           |           |
 | 73/1     |     unused, PULL:DOWN |            |               | PR24B | DQ1            |           |           |
-| 74/1     | R0                    | LOCATED    | LVCMOS33_OUT  | PR24A | DQ1            |           |           |
+| 74/1     |     unused, PULL:DOWN |            |               | PR24A | DQ1            |           |           |
 | 75/1     |     unused, PULL:DOWN |            |               | PR23B | DQ1            |           |           |
-| 76/1     | R1                    | LOCATED    | LVCMOS33_OUT  | PR23A | DQ1            |           |           |
+| 76/1     |     unused, PULL:DOWN |            |               | PR23A | DQ1            |           |           |
 | 77/1     |     unused, PULL:DOWN |            |               | PR21B | DQ1            |           |           |
 | 78/1     |     unused, PULL:DOWN |            |               | PR21A | DQ1            |           |           |
 | 81/1     |     unused, PULL:DOWN |            |               | PR18B | DQ1            |           |           |
@@ -398,9 +399,9 @@ Locate Preferences for each Pin:
 LOCATE  COMP  "GSRn"  SITE  "136";
 LOCATE  COMP  "LEDG"  SITE  "113";
 LOCATE  COMP  "LEDR"  SITE  "112";
-LOCATE  COMP  "R0"  SITE  "74";
-LOCATE  COMP  "R1"  SITE  "76";
 LOCATE  COMP  "R4"  SITE  "92";
+LOCATE  COMP  "XIO17"  SITE  "26";
+LOCATE  COMP  "XIO27"  SITE  "22";
 
 
 
@@ -412,5 +413,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Jun 15 16:25:40 2016
+Thu Jul 14 10:16:05 2016
 

@@ -8,29 +8,29 @@ Design Information
 Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial
      RTC_Lattice_impl1.ngd -o RTC_Lattice_impl1_map.ncd -pr
      RTC_Lattice_impl1.prf -mp RTC_Lattice_impl1.mrp -lpf
-     D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1.lpf -lpf
+     D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1_synplify.lpf -lpf
      D:/dev/pif7000_rtc/pif.lpf -c 0 -gui -msgset D:/dev/pif7000_rtc/promote.xml
      
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HCTQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
-Mapped on:  06/15/16  16:25:35
+Mapped on:  07/14/16  10:16:00
 
 Design Summary
 --------------
 
-   Number of registers:     61 out of  7209 (1%)
-      PFU registers:           61 out of  6864 (1%)
-      PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        39 out of  3432 (1%)
-      SLICEs as Logic/ROM:     39 out of  3432 (1%)
+   Number of registers:     60 out of  7209 (1%)
+      PFU registers:           58 out of  6864 (1%)
+      PIO registers:            2 out of   345 (1%)
+   Number of SLICEs:        44 out of  3432 (1%)
+      SLICEs as Logic/ROM:     44 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         27 out of  3432 (1%)
-   Number of LUT4s:         75 out of  6864 (1%)
-      Number used as logic LUTs:         21
+      SLICEs as Carry:         31 out of  3432 (1%)
+   Number of LUT4s:         86 out of  6864 (1%)
+      Number used as logic LUTs:         24
       Number used as distributed RAM:     0
-      Number used as ripple logic:       54
+      Number used as ripple logic:       62
       Number used as shift registers:     0
    Number of PIO sites used: 6 + 1(JTAGENB) out of 115 (6%)
    Number of block RAMs:  0 out of 26 (0%)
@@ -58,7 +58,7 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net R4_c: 35 loads, 35 rising, 0 falling (Driver: F/OSCInst0 )
+     Net R4_c: 38 loads, 38 rising, 0 falling (Driver: F/OSCInst0 )
    Number of Clock Enables:  1
 
                                     Page 1
@@ -66,40 +66,37 @@ Design Summary
 
 
 
-Design:  RTC                                           Date:  06/15/16  16:25:35
+Design:  RTC                                           Date:  07/14/16  10:16:00
 
 Design Summary (cont)
 ---------------------
      Net F/Tick: 4 loads, 4 LSLICEs
-   Number of LSRs:  3
-     Net comp_PIF_RTC/n163: 13 loads, 13 LSLICEs
-     Net F/DeltaReg_6: 2 loads, 2 LSLICEs
-     Net F/Tick: 13 loads, 13 LSLICEs
+   Number of local set/reset loads for net GSRnX merged into GSR:  25
+   Number of LSRs:  1
+     Net F/Tick: 14 loads, 14 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net F/Tick: 18 loads
-     Net comp_PIF_RTC/n163: 15 loads
-     Net F/DeltaReg_0: 4 loads
-     Net F/Accum_0: 3 loads
-     Net F/DeltaReg_1: 3 loads
-     Net F/DeltaReg_2: 3 loads
-     Net F/DeltaReg_3: 3 loads
-     Net F/DeltaReg_4: 3 loads
-     Net F/DeltaReg_6: 3 loads
-     Net comp_PIF_RTC/one_sec_cnt_0: 2 loads
+     Net F/Tick: 19 loads
+     Net comp_PIF_RTC/un5_one_sec_cnt_16: 12 loads
+     Net comp_PIF_RTC/un5_one_sec_cnt_17: 12 loads
+     Net comp_PIF_RTC/un5_one_sec_cnt_21: 12 loads
+     Net comp_PIF_RTC/one_sec_cnt[0]: 3 loads
+     Net F/accum: 3 loads
+     Net F/DeltaReg[5]: 3 loads
+     Net F/DeltaReg[6]: 3 loads
+     Net XIO27_c: 3 loads
+     Net comp_PIF_RTC/one_sec_cnt[1]: 2 loads
 
 
 
 
-   Number of warnings:  2
+   Number of warnings:  1
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
-WARNING - map: OSCH 'F/OSCInst0' has mismatching FREQUENCY preference value of
-     2.08 MHz and NOM_FREQ value of 26.60 MHz.
 WARNING - map: The JTAG port has been disabled in this project and JTAG pins
      will be configured as General Purpose IO.  You have to use JTAGENB pin in
      hardware to change the personality of the port from JTAG pins to general
@@ -113,18 +110,21 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| LEDR                | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| LEDG                | OUTPUT    | LVCMOS33  |            |
+| LEDG                | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
 | GSRn                | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | R4                  | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| R1                  | OUTPUT    | LVCMOS33  |            |
+| XIO27               | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| R0                  | OUTPUT    | LVCMOS33  |            |
+| XIO17               | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
+| LEDR                | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+
+
+
 
 
                                     Page 2
@@ -132,45 +132,53 @@ IO (PIO) Attributes
 
 
 
-Design:  RTC                                           Date:  06/15/16  16:25:35
+Design:  RTC                                           Date:  07/14/16  10:16:00
 
 Removed logic
 -------------
 
-Block i179 undriven or does not drive anything - clipped.
-Block F/DownCounter_18__i205/HierPwrInst_1 undriven or does not drive anything -
+Block GND_0 undriven or does not drive anything - clipped.
+Block VCC_0 undriven or does not drive anything - clipped.
+Block F/TBLOCK.TK/VCC_0 undriven or does not drive anything - clipped.
+Signal GSRnX_i was merged into signal GSRnX
+Signal F/Tick_i was merged into signal F/Tick
+Signal F/TBLOCK.TK/LoadN_i was merged into signal F/Tick_i
+Signal F/GND undriven or does not drive anything - clipped.
+Signal F/TBLOCK.TK/GND undriven or does not drive anything - clipped.
+Signal comp_PIF_RTC/GND undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal F/DeltaReg_cry_0_COUT[5] undriven or does not drive anything - clipped.
+Signal F/accum_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal F/accum_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal F/N_2 undriven or does not drive anything - clipped.
+Signal F/accum_cry_4_0_S1 undriven or does not drive anything - clipped.
+Signal F/accum_cry_4_0_COUT undriven or does not drive anything - clipped.
+Signal F/TBLOCK.TK/un6_ctr_cry_0_0_S1 undriven or does not drive anything -
      clipped.
-Signal F/Tick_N_41 was merged into signal F/Tick
-Signal F/DownCounter_18__i205/n164 was merged into signal F/Tick_N_41
-Signal F/n2 was merged into signal F/DeltaReg_6
-Signal GND_net undriven or does not drive anything - clipped.
-Signal F/DownCounter_18__i205/GND_net undriven or does not drive anything -
+Signal F/TBLOCK.TK/un6_ctr_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal VCC_net undriven or does not drive anything - clipped.
-Signal F/DeltaReg_14_add_4_1/S0 undriven or does not drive anything - clipped.
-Signal F/DeltaReg_14_add_4_1/CI undriven or does not drive anything - clipped.
-Signal F/DeltaReg_14_add_4_7/CO undriven or does not drive anything - clipped.
-Signal F/DownCounter_18__i205/VCC_net undriven or does not drive anything -
+Signal F/TBLOCK.TK/N_1 undriven or does not drive anything - clipped.
+Signal F/TBLOCK.TK/un6_ctr_cry_17_0_COUT undriven or does not drive anything -
      clipped.
-Signal F/DownCounter_18__i205/Ctr_17_add_4_1/S0 undriven or does not drive
+Signal F/DeltaReg_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal F/N_1 undriven or does not drive anything - clipped.
+Signal F/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1 undriven or does not drive
      anything - clipped.
-Signal F/DownCounter_18__i205/Ctr_17_add_4_1/CI undriven or does not drive
+Signal comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0 undriven or does not drive
      anything - clipped.
-Signal F/DownCounter_18__i205/Ctr_17_add_4_19/CO undriven or does not drive
+Signal comp_PIF_RTC/N_1 undriven or does not drive anything - clipped.
+Signal comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1 undriven or does not drive
      anything - clipped.
-Signal comp_PIF_RTC/one_sec_cnt_15_add_4_1/S0 undriven or does not drive
+Signal comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT undriven or does not drive
      anything - clipped.
-Signal comp_PIF_RTC/one_sec_cnt_15_add_4_1/CI undriven or does not drive
-     anything - clipped.
-Signal comp_PIF_RTC/one_sec_cnt_15_add_4_25/S1 undriven or does not drive
-     anything - clipped.
-Signal comp_PIF_RTC/one_sec_cnt_15_add_4_25/CO undriven or does not drive
-     anything - clipped.
-Block F/Tick_I_0_1_lut was optimized away.
-Block F/DownCounter_18__i205/F/i88_1_lut was optimized away.
-Block F/i54_1_lut was optimized away.
-Block i1 was optimized away.
-Block F/DownCounter_18__i205/HierGndInst_1 was optimized away.
+Block IBgsr_RNINPSD was optimized away.
+Block F/TBLOCK.TK_zero_RNIV245 was optimized away.
+Block F/TBLOCK.TK/LoadN_RNIEHJB was optimized away.
+Block F/GND_0 was optimized away.
+Block F/TBLOCK.TK/GND_0 was optimized away.
+Block comp_PIF_RTC/GND_0 was optimized away.
 
 Memory Usage
 ------------
@@ -184,6 +192,16 @@ OSC Summary
 OSC 1:                                     Pin/Node Value
   OSC Instance Name:                                F/OSCInst0
   OSC Type:                                         OSCH
+
+                                    Page 3
+
+
+
+
+Design:  RTC                                           Date:  07/14/16  10:16:00
+
+OSC Summary (cont)
+------------------
   STDBY Input:                                      NONE
   OSC Output:                              PIN,NODE R4_c
   OSC Nominal Frequency (MHz):                      26.60
@@ -192,16 +210,6 @@ ASIC Components
 ---------------
 
 Instance Name: F/OSCInst0
-
-                                    Page 3
-
-
-
-
-Design:  RTC                                           Date:  06/15/16  16:25:35
-
-ASIC Components (cont)
-----------------------
          Type: OSCH
 
 GSR Usage
@@ -218,62 +226,6 @@ GSR Component:
         not.
         
 
-     Components with disabled GSR Property
--------------------------------------
-
-     These components have the GSR property set to DISABLED. The components will
-     not respond to the reset signal 'GSRnX' via the GSR component.
-
-     Type and number of components of the type: 
-   Register = 35 
-
-     Type and instance name of component: 
-   Register : F/LedOn_36
-   Register : F/R_37
-   Register : F/G_38
-   Register : F/DeltaReg_14__i0
-   Register : F/DeltaReg_14__i6
-   Register : F/Accum__i0
-   Register : F/DeltaReg_14__i5
-   Register : F/DeltaReg_14__i4
-   Register : F/DeltaReg_14__i3
-   Register : F/DeltaReg_14__i2
-   Register : F/DeltaReg_14__i1
-   Register : F/Accum__i5
-   Register : F/DownCounter_18__i205/Ctr_17__i18
-   Register : F/DownCounter_18__i205/Ctr_17__i17
-   Register : F/DownCounter_18__i205/Ctr_17__i15
-   Register : F/DownCounter_18__i205/Ctr_17__i16
-   Register : F/DownCounter_18__i205/Ctr_17__i13
-   Register : F/DownCounter_18__i205/Ctr_17__i14
-   Register : F/DownCounter_18__i205/Ctr_17__i11
-   Register : F/DownCounter_18__i205/Ctr_17__i12
-   Register : F/DownCounter_18__i205/Ctr_17__i9
-   Register : F/DownCounter_18__i205/Ctr_17__i10
-   Register : F/DownCounter_18__i205/Ctr_17__i7
-   Register : F/DownCounter_18__i205/Ctr_17__i8
-   Register : F/DownCounter_18__i205/Ctr_17__i5
-   Register : F/DownCounter_18__i205/Ctr_17__i6
-   Register : F/DownCounter_18__i205/Ctr_17__i3
-   Register : F/DownCounter_18__i205/Ctr_17__i4
-   Register : F/DownCounter_18__i205/Ctr_17__i1
-   Register : F/DownCounter_18__i205/Ctr_17__i2
-
-                                    Page 4
-
-
-
-
-Design:  RTC                                           Date:  06/15/16  16:25:35
-
-GSR Usage (cont)
-----------------
-   Register : F/DownCounter_18__i205/Ctr_17__i0
-   Register : F/Accum__i4
-   Register : F/Accum__i3
-   Register : F/Accum__i2
-   Register : F/Accum__i1
-
      Components with synchronous local reset also reset by asynchronous GSR
 ----------------------------------------------------------------------
 
@@ -283,33 +235,44 @@ GSR Usage (cont)
      component.
 
      Type and number of components of the type: 
-   Register = 24 
+   Register = 25 
 
      Type and instance name of component: 
-   Register : comp_PIF_RTC/one_sec_cnt_15__i0
-   Register : comp_PIF_RTC/one_sec_cnt_15__i23
-   Register : comp_PIF_RTC/one_sec_cnt_15__i22
-   Register : comp_PIF_RTC/one_sec_cnt_15__i21
-   Register : comp_PIF_RTC/one_sec_cnt_15__i20
-   Register : comp_PIF_RTC/one_sec_cnt_15__i19
-   Register : comp_PIF_RTC/one_sec_cnt_15__i18
-   Register : comp_PIF_RTC/one_sec_cnt_15__i17
-   Register : comp_PIF_RTC/one_sec_cnt_15__i16
-   Register : comp_PIF_RTC/one_sec_cnt_15__i15
-   Register : comp_PIF_RTC/one_sec_cnt_15__i14
-   Register : comp_PIF_RTC/one_sec_cnt_15__i13
-   Register : comp_PIF_RTC/one_sec_cnt_15__i12
-   Register : comp_PIF_RTC/one_sec_cnt_15__i11
-   Register : comp_PIF_RTC/one_sec_cnt_15__i10
-   Register : comp_PIF_RTC/one_sec_cnt_15__i9
-   Register : comp_PIF_RTC/one_sec_cnt_15__i8
-   Register : comp_PIF_RTC/one_sec_cnt_15__i7
-   Register : comp_PIF_RTC/one_sec_cnt_15__i6
-   Register : comp_PIF_RTC/one_sec_cnt_15__i5
-   Register : comp_PIF_RTC/one_sec_cnt_15__i4
-   Register : comp_PIF_RTC/one_sec_cnt_15__i3
-   Register : comp_PIF_RTC/one_sec_cnt_15__i2
-   Register : comp_PIF_RTC/one_sec_cnt_15__i1
+   Register : F/Accum[5]
+   Register : F/TBLOCK.TK/Ctr[17]
+   Register : F/TBLOCK.TK/Ctr[0]
+   Register : F/TBLOCK.TK/Ctr[1]
+   Register : F/TBLOCK.TK/Ctr[2]
+   Register : F/TBLOCK.TK/Ctr[3]
+   Register : F/TBLOCK.TK/Ctr[4]
+   Register : F/TBLOCK.TK/Ctr[5]
+   Register : F/TBLOCK.TK/Ctr[6]
+   Register : F/TBLOCK.TK/Ctr[7]
+   Register : F/TBLOCK.TK/Ctr[8]
+   Register : F/TBLOCK.TK/Ctr[9]
+   Register : F/TBLOCK.TK/Ctr[10]
+   Register : F/TBLOCK.TK/Ctr[11]
+   Register : F/TBLOCK.TK/Ctr[12]
+   Register : F/TBLOCK.TK/Ctr[13]
+   Register : F/TBLOCK.TK/Ctr[14]
+   Register : F/TBLOCK.TK/Ctr[15]
+   Register : F/TBLOCK.TK/Ctr[16]
+   Register : F/TBLOCK.TK/Ctr[18]
+
+                                    Page 4
+
+
+
+
+Design:  RTC                                           Date:  07/14/16  10:16:00
+
+GSR Usage (cont)
+----------------
+   Register : F/Accum[0]
+   Register : F/Accum[1]
+   Register : F/Accum[2]
+   Register : F/Accum[3]
+   Register : F/Accum[4]
 
 Run Time and Memory Usage
 -------------------------
@@ -318,6 +281,43 @@ Run Time and Memory Usage
    Total REAL Time: 0 secs  
    Peak Memory Usage: 58 MB
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

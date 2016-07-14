@@ -2,14 +2,6 @@
 <BaliMessageLog>
     <Task name="Map">
         <Message>
-            <ID>52101118</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>OSCH</Dynamic>
-            <Dynamic>F/OSCInst0</Dynamic>
-            <Dynamic>2.08</Dynamic>
-            <Dynamic>26.60</Dynamic>
-        </Message>
-        <Message>
             <ID>52101186</ID>
             <Severity>Warning</Severity>
             <Dynamic>MachXO2</Dynamic>
@@ -216,6 +208,34 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
+            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT</Dynamic>
+            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1</Dynamic>
+            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0</Dynamic>
+            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1</Dynamic>
+            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
             <Dynamic>F/accum_cry_4_0_COUT</Dynamic>
             <Navigation>F/accum_cry_4_0_COUT</Navigation>
         </Message>
@@ -264,25 +284,13 @@
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>10</Dynamic>
+            <Dynamic>14</Dynamic>
         </Message>
     </Task>
     <Task name="Synplify_Synthesis">
         <Message>
             <ID>2011000</ID>
             <Severity>Info</Severity>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CD638 :&quot;E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd&quot;:50:7:50:17|Signal one_sec_cnt is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
-            <Navigation>CD638</Navigation>
-            <Navigation>E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd</Navigation>
-            <Navigation>50</Navigation>
-            <Navigation>7</Navigation>
-            <Navigation>50</Navigation>
-            <Navigation>17</Navigation>
-            <Navigation>Signal one_sec_cnt is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>
@@ -294,14 +302,26 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;e:\dev\rtc_lattice\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;d:\dev\pif7000_rtc\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
-            <Navigation>e:\dev\rtc_lattice\hdl\piffla.vhd</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\piffla.vhd</Navigation>
             <Navigation>31</Navigation>
             <Navigation>4</Navigation>
             <Navigation>31</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Navigation>Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\pif_rtc.vhd&quot;:71:1:71:2|Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\pif_rtc.vhd</Navigation>
+            <Navigation>71</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>71</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>

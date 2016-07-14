@@ -1,1 +1,2 @@
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\pif_rtc.vhd":71:1:71:2|Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: MT420 |Found inferred clock pif_flasher|xclk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:F.xclk"

@@ -1,26 +1,26 @@
 #--  Synopsys, Inc.
 #--  Version K-2015.09L-2
-#--  Project file E:\dev\RTC_Lattice\impl1\scratchproject.prs
+#--  Project file D:\dev\pif7000_rtc\impl1\scratchproject.prs
 
 #project files
 add_file -vhdl -lib work "C:/lscc/diamond/3.7_x64/cae_library/synthesis/vhdl/machxo2.vhd"
-add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/pifcfg.vhd"
-add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/piffla.vhd"
-add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/RTC.vhd"
-add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/pifdefs.vhd"
-add_file -vhdl -lib work "E:/dev/RTC_Lattice/hdl/PIF_RTC.vhd"
+add_file -vhdl -lib work "D:/dev/pif7000_rtc/hdl/PIF_RTC.vhd"
+add_file -vhdl -lib work "D:/dev/pif7000_rtc/hdl/pifcfg.vhd"
+add_file -vhdl -lib work "D:/dev/pif7000_rtc/hdl/pifdefs.vhd"
+add_file -vhdl -lib work "D:/dev/pif7000_rtc/hdl/piffla.vhd"
+add_file -vhdl -lib work "D:/dev/pif7000_rtc/hdl/RTC.vhd"
 
 
 
 #implementation: "impl1"
-impl -add E:\dev\RTC_Lattice\impl1 -type fpga
+impl -add D:\dev\pif7000_rtc\impl1 -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {E:/dev/RTC_Lattice/impl1/}
+set_option -include_path {D:/dev/pif7000_rtc/impl1/}
 
 #device options
 set_option -technology MACHXO2
@@ -68,8 +68,8 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1.edi"
+project -result_file "D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1.edi"
 
 #set log file 
-set_option log_file "E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1.srf" 
+set_option log_file "D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1.srf" 
 impl -active "impl1"

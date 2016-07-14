@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|E:\\dev\\RTC_Lattice\\impl1\\synwork\\RTC_Lattice_impl1_comp.srs|-top|RTC|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\dev\\pif7000_rtc\\impl1\\synwork\\RTC_Lattice_impl1_comp.srs|-top|RTC|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\bin64\\c_vhdl.exe":1449684046
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\location.map":1449864194
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std.vhd":1449683646
@@ -10,38 +10,38 @@
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1449683646
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1449683646
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1376964008
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\pifcfg.vhd":1413869330
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\PIF_RTC.vhd":1465964173
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\piffla.vhd":1465962075
+#CUR:"D:\\dev\\pif7000_rtc\\hdl\\PIF_RTC.vhd":1465975526
+#CUR:"D:\\dev\\pif7000_rtc\\hdl\\pifcfg.vhd":1465968229
+#CUR:"D:\\dev\\pif7000_rtc\\hdl\\pifdefs.vhd":1465968229
+#CUR:"D:\\dev\\pif7000_rtc\\hdl\\piffla.vhd":1465968229
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1449679782
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\pifdefs.vhd":1413869330
-#CUR:"E:\\dev\\RTC_Lattice\\hdl\\RTC.vhd":1465964210
+#CUR:"D:\\dev\\pif7000_rtc\\hdl\\RTC.vhd":1468458932
 0			"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
-1			"E:\dev\RTC_Lattice\hdl\pifcfg.vhd" vhdl
-2			"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd" vhdl
-3			"E:\dev\RTC_Lattice\hdl\piffla.vhd" vhdl
-4			"E:\dev\RTC_Lattice\hdl\pifdefs.vhd" vhdl
-5			"E:\dev\RTC_Lattice\hdl\RTC.vhd" vhdl
+1			"D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd" vhdl
+2			"D:\dev\pif7000_rtc\hdl\pifcfg.vhd" vhdl
+3			"D:\dev\pif7000_rtc\hdl\pifdefs.vhd" vhdl
+4			"D:\dev\pif7000_rtc\hdl\piffla.vhd" vhdl
+5			"D:\dev\pif7000_rtc\hdl\RTC.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1
 2 -1
-3 0
-4 1
-5 0 4 2 3
+3 2
+4 0
+5 0 3 1 4
 #Dependency Lists(Users Of)
-0 3 5
-1 4
-2 5
+0 4 5
+1 5
+2 3
 3 5
 4 5
 5 -1
 #Design Unit to File Association
 module work rtc 5
 arch work rtc rtl 5
-module work downcounter 3
-arch work downcounter rtl 3
-module work pif_flasher 3
-arch work pif_flasher rtl 3
-module work pif_rtc 2
-arch work pif_rtc rtl 2
+module work downcounter 4
+arch work downcounter rtl 4
+module work pif_flasher 4
+arch work pif_flasher rtl 4
+module work pif_rtc 1
+arch work pif_rtc rtl 1

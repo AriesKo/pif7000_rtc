@@ -4,8 +4,8 @@ Product Version K-2015.09L-2
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@L: E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1_scck.rpt 
-Printing clock  summary report in "E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1_scck.rpt" file 
+@L: D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_scck.rpt 
+Printing clock  summary report in "D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled 
 
@@ -39,7 +39,7 @@ Clock                               Frequency     Period        Type         Gro
 pif_flasher|xclk_inferred_clock     2.1 MHz       480.769       inferred     Inferred_clkgroup_0
 ================================================================================================
 
-@W: MT529 :"e:\dev\rtc_lattice\hdl\piffla.vhd":31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\dev\pif7000_rtc\hdl\piffla.vhd":31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
@@ -59,6 +59,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 140MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jun 15 13:16:59 2016
+# Thu Jul 14 10:15:57 2016
 
 ###########################################################]

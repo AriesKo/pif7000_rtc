@@ -1,38 +1,47 @@
 [ START MERGED ]
-F/n2 F/DeltaReg_6
-F/Tick_N_41 F/Tick
-F/DownCounter_18__i205/n164 F/Tick_N_41
+GSRnX_i GSRnX
+F/TBLOCK.TK/LoadN_i F/Tick_i
+F/Tick_i F/Tick
 [ END MERGED ]
 [ START CLIPPED ]
-GND_net
-F/DownCounter_18__i205/GND_net
-VCC_net
-F/DeltaReg_14_add_4_1/S0
-F/DeltaReg_14_add_4_1/CI
-F/DeltaReg_14_add_4_7/CO
-F/DownCounter_18__i205/VCC_net
-F/DownCounter_18__i205/Ctr_17_add_4_1/S0
-F/DownCounter_18__i205/Ctr_17_add_4_1/CI
-F/DownCounter_18__i205/Ctr_17_add_4_19/CO
-comp_PIF_RTC/one_sec_cnt_15_add_4_1/S0
-comp_PIF_RTC/one_sec_cnt_15_add_4_1/CI
-comp_PIF_RTC/one_sec_cnt_15_add_4_25/S1
-comp_PIF_RTC/one_sec_cnt_15_add_4_25/CO
+F/GND
+F/TBLOCK.TK/GND
+comp_PIF_RTC/GND
+GND
+VCC
+F/DeltaReg_cry_0_COUT[5]
+F/accum_cry_0_0_S1
+F/accum_cry_0_0_S0
+F/N_2
+F/accum_cry_4_0_S1
+F/accum_cry_4_0_COUT
+F/TBLOCK.TK/un6_ctr_cry_0_0_S1
+F/TBLOCK.TK/un6_ctr_cry_0_0_S0
+F/TBLOCK.TK/N_1
+F/TBLOCK.TK/un6_ctr_cry_17_0_COUT
+F/DeltaReg_cry_0_S0[0]
+F/N_1
+F/OSCInst0_SEDSTDBY
+comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1
+comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0
+comp_PIF_RTC/N_1
+comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1
+comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT
 [ END CLIPPED ]
 [ START OSC ]
 R4_c 26.60
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.7.1.502 -- WARNING: Map write only section -- Wed Jun 15 16:25:35 2016
+# map:  version Diamond (64-bit) 3.7.1.502 -- WARNING: Map write only section -- Thu Jul 14 10:16:01 2016
 
 SYSCONFIG SDM_PORT=PROGRAMN SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=10.23 JTAG_PORT=DISABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF ;
-LOCATE COMP "LEDR" SITE "112" ;
 LOCATE COMP "LEDG" SITE "113" ;
 LOCATE COMP "GSRn" SITE "136" ;
 LOCATE COMP "R4" SITE "92" ;
-LOCATE COMP "R1" SITE "76" ;
-LOCATE COMP "R0" SITE "74" ;
-FREQUENCY NET "R4_c" 2.080000 MHz ;
+LOCATE COMP "XIO27" SITE "22" ;
+LOCATE COMP "XIO17" SITE "26" ;
+LOCATE COMP "LEDR" SITE "112" ;
+FREQUENCY NET "R4_c" 26.600000 MHz ;
 SCHEMATIC END ;
 [ END DESIGN PREFS ]

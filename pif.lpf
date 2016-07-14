@@ -41,8 +41,8 @@ SYSCONFIG JTAG_PORT=DISABLE  SDM_PORT=PROGRAMN  I2C_PORT=DISABLE  SLAVE_SPI_PORT
 #   LOCATE COMP "FTDO"          SITE "137" ;
 
 ## right bank
-    LOCATE COMP "R0"            SITE "74"  ;
-    LOCATE COMP "R1"            SITE "76"  ;
+#	LOCATE COMP "R0"            SITE "74"  ;
+#	LOCATE COMP "R1"            SITE "76"  ;
 #   LOCATE COMP "R2"            SITE "82"  ;
 #   LOCATE COMP "R3"            SITE "84"  ;
     LOCATE COMP "R4"            SITE "92"  ;
@@ -78,11 +78,11 @@ SYSCONFIG JTAG_PORT=DISABLE  SDM_PORT=PROGRAMN  I2C_PORT=DISABLE  SLAVE_SPI_PORT
 #   LOCATE COMP "GPIO22"        SITE "19"  ;
 #   LOCATE COMP "GPIO27"        SITE "20"  ;
 #   LOCATE COMP "XIO22"         SITE "21"  ;
-#   LOCATE COMP "XIO27"         SITE "22"  ;
+	LOCATE COMP "XIO27"         SITE "22"  ;
 #   LOCATE COMP "GPIO18"        SITE "23"  ;
 #   LOCATE COMP "XIO18"         SITE "24"  ;
 #   LOCATE COMP "GPIO17"        SITE "25"  ;
-#   LOCATE COMP "XIO17"         SITE "26"  ;
+	LOCATE COMP "XIO17"         SITE "26"  ;
 #   LOCATE COMP "GPIO15"        SITE "27"  ;
 #   LOCATE COMP "XIO15"         SITE "28"  ;
 #   LOCATE COMP "GPIO14"        SITE "32"  ;

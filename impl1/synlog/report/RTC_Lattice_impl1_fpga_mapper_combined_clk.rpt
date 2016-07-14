@@ -6,13 +6,13 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 35 clock pin(s) of sequential element(s)
-0 instances converted, 35 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 60 clock pin(s) of sequential element(s)
+0 instances converted, 60 sequential instances remain driven by gated/generated clocks
 
 ================================================================================================= Gated/Generated Clocks =================================================================================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       F.OSCInst0          OSCH                   35         F.DeltaReg[6]       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       F.OSCInst0          OSCH                   60         F.DeltaReg[6]       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 ==========================================================================================================================================================================================================================
 
 
