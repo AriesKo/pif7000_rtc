@@ -40,7 +40,11 @@ The file contains the job information from mapper to be displayed as part of the
 <data>140MB</data>
 </info>
 <info name="Date &amp; Time">
+<<<<<<< HEAD
 <data type="timestamp">1468463574</data>
+=======
+<data type="timestamp">1468477277</data>
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 </info>
 </job_info>
 </job_run_status>

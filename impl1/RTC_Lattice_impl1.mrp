@@ -15,7 +15,11 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HCTQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
+<<<<<<< HEAD
 Mapped on:  07/14/16  11:32:56
+=======
+Mapped on:  07/14/16  15:21:20
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 Design Summary
 --------------
@@ -66,7 +70,11 @@ Design Summary
 
 
 
+<<<<<<< HEAD
 Design:  RTC                                           Date:  07/14/16  11:32:56
+=======
+Design:  RTC                                           Date:  07/14/16  15:21:20
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 Design Summary (cont)
 ---------------------
@@ -84,7 +92,7 @@ Design Summary (cont)
      Net F/accum: 3 loads
      Net F/DeltaReg[5]: 3 loads
      Net F/DeltaReg[6]: 3 loads
-     Net XIO27_c: 3 loads
+     Net GPIO27_c: 3 loads
      Net comp_PIF_RTC/one_sec_cnt[1]: 2 loads
 
 
@@ -116,9 +124,9 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | R4                  | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| XIO27               | OUTPUT    | LVCMOS33  |            |
+| GPIO27              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| XIO17               | OUTPUT    | LVCMOS33  |            |
+| GPIO17              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | LEDR                | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
@@ -132,7 +140,11 @@ IO (PIO) Attributes
 
 
 
+<<<<<<< HEAD
 Design:  RTC                                           Date:  07/14/16  11:32:56
+=======
+Design:  RTC                                           Date:  07/14/16  15:21:20
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 Removed logic
 -------------
@@ -198,7 +210,11 @@ OSC 1:                                     Pin/Node Value
 
 
 
+<<<<<<< HEAD
 Design:  RTC                                           Date:  07/14/16  11:32:56
+=======
+Design:  RTC                                           Date:  07/14/16  15:21:20
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 OSC Summary (cont)
 ------------------
@@ -264,7 +280,11 @@ GSR Component:
 
 
 
+<<<<<<< HEAD
 Design:  RTC                                           Date:  07/14/16  11:32:56
+=======
+Design:  RTC                                           Date:  07/14/16  15:21:20
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 GSR Usage (cont)
 ----------------

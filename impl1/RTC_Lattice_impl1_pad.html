@@ -14,18 +14,22 @@ Performance Grade:      4
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
+<<<<<<< HEAD
 Thu Jul 14 11:32:59 2016
+=======
+Thu Jul 14 15:21:24 2016
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
 | Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                         |
 +-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
+| GPIO17    | 25/3     | LVCMOS33_OUT | PL19A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
+| GPIO27    | 20/4     | LVCMOS33_OUT | PL12B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 | GSRn      | 136/0    | LVCMOS33_IN  | PT14D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL  |
 | LEDG      | 113/0    | LVCMOS33_OUT | PT33B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 | LEDR      | 112/0    | LVCMOS33_OUT | PT35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 | R4        | 92/1     | LVCMOS33_OUT | PR12A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| XIO17     | 26/3     | LVCMOS33_OUT | PL19B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| XIO27     | 22/4     | LVCMOS33_OUT | PL15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
 +-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
 
 Vccio by Bank:
@@ -65,13 +69,13 @@ Vccio by Bank:
 | 15/4     |     unused, PULL:DOWN |            |               | PL11A |                |           |           |
 | 17/4     |     unused, PULL:DOWN |            |               | PL11B |                |           |           |
 | 19/4     |     unused, PULL:DOWN |            |               | PL12A | PCLKT4_0       |           |           |
-| 20/4     |     unused, PULL:DOWN |            |               | PL12B | PCLKC4_0       |           |           |
+| 20/4     | GPIO27                | LOCATED    | LVCMOS33_OUT  | PL12B | PCLKC4_0       |           |           |
 | 21/4     |     unused, PULL:DOWN |            |               | PL15A |                |           |           |
-| 22/4     | XIO27                 | LOCATED    | LVCMOS33_OUT  | PL15B |                |           |           |
+| 22/4     |     unused, PULL:DOWN |            |               | PL15B |                |           |           |
 | 23/4     |     unused, PULL:DOWN |            |               | PL17A |                |           |           |
 | 24/4     |     unused, PULL:DOWN |            |               | PL17B |                |           |           |
-| 25/3     |     unused, PULL:DOWN |            |               | PL19A |                |           |           |
-| 26/3     | XIO17                 | LOCATED    | LVCMOS33_OUT  | PL19B |                |           |           |
+| 25/3     | GPIO17                | LOCATED    | LVCMOS33_OUT  | PL19A |                |           |           |
+| 26/3     |     unused, PULL:DOWN |            |               | PL19B |                |           |           |
 | 27/3     |     unused, PULL:DOWN |            |               | PL22A | PCLKT3_0       |           |           |
 | 28/3     |     unused, PULL:DOWN |            |               | PL22B | PCLKC3_0       |           |           |
 | 31/3     |     unused, PULL:DOWN |            |               | PL23D |                |           |           |
@@ -405,12 +409,12 @@ Dedicated sysCONFIG Pins:
 
 Locate Preferences for each Pin: 
 
+LOCATE  COMP  "GPIO17"  SITE  "25";
+LOCATE  COMP  "GPIO27"  SITE  "20";
 LOCATE  COMP  "GSRn"  SITE  "136";
 LOCATE  COMP  "LEDG"  SITE  "113";
 LOCATE  COMP  "LEDR"  SITE  "112";
 LOCATE  COMP  "R4"  SITE  "92";
-LOCATE  COMP  "XIO17"  SITE  "26";
-LOCATE  COMP  "XIO27"  SITE  "22";
 
 
 
@@ -422,7 +426,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+<<<<<<< HEAD
 Thu Jul 14 11:32:59 2016
+=======
+Thu Jul 14 15:21:24 2016
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 
 

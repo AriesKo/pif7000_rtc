@@ -5,15 +5,24 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+<<<<<<< HEAD
             <Task name="Jedecgen" build_result="0" update_result="2" update_time="1468463584"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
         <Milestone name="Map" build_result="0" build_time="1468463576">
             <Task name="Map" build_result="0" update_result="2" update_time="1468463576"/>
+=======
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1468477290"/>
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1468477280">
+            <Task name="Map" build_result="2" update_result="0" update_time="1468477280"/>
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
             <Task name="MapTrace" build_result="0" update_result="2" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="2" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
+<<<<<<< HEAD
         <Milestone name="PAR" build_result="0" build_time="1468463581">
             <Task name="PAR" build_result="0" update_result="2" update_time="1468463581"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
@@ -24,11 +33,24 @@
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
             <Task name="HDLE" build_result="2" update_result="0" update_time="1468468112"/>
+=======
+        <Milestone name="PAR" build_result="2" build_time="1468477287">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1468477287"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1468477279">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1468477279"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1468477267"/>
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
+<<<<<<< HEAD
         <Milestone name="Translate" build_result="0" build_time="1468463576">
             <Task name="Translate" build_result="0" update_result="2" update_time="1468463576"/>
         </Milestone>
@@ -40,5 +62,18 @@
         <Report name="RTC_Lattice_impl1.ncd" last_build_time="1468463581" last_build_size="88806"/>
         <Report name="RTC_Lattice_impl1.ngd" last_build_time="1468463576" last_build_size="81612"/>
         <Report name="RTC_Lattice_impl1_map.ncd" last_build_time="1468463576" last_build_size="63326"/>
+=======
+        <Milestone name="Translate" build_result="2" build_time="1468477280">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1468477280"/>
+        </Milestone>
+        <Report name=".vdbs/RTC_Lattice_impl1_map.vdb" last_build_time="1465975536" last_build_size="48317"/>
+        <Report name="RTC_Lattice_impl1.bgn" last_build_time="1468477290" last_build_size="4070"/>
+        <Report name="RTC_Lattice_impl1.edi" last_build_time="1468477278" last_build_size="89320"/>
+        <Report name="RTC_Lattice_impl1.jed" last_build_time="1468477290" last_build_size="1464767"/>
+        <Report name="RTC_Lattice_impl1.lsedata" last_build_time="1465975534" last_build_size="79546"/>
+        <Report name="RTC_Lattice_impl1.ncd" last_build_time="1468477287" last_build_size="88789"/>
+        <Report name="RTC_Lattice_impl1.ngd" last_build_time="1468477280" last_build_size="81619"/>
+        <Report name="RTC_Lattice_impl1_map.ncd" last_build_time="1468477280" last_build_size="63335"/>
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
     </Strategy>
 </BuildStatus>

@@ -29,13 +29,17 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>0h:00m:00s</data>
+  <data>0h:00m:01s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
+<<<<<<< HEAD
   <data type="timestamp">1468463572</data>
+=======
+  <data type="timestamp">1468477275</data>
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
   </info>
 			</job_info>
 </job_run_status>

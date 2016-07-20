@@ -10,6 +10,10 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
+<<<<<<< HEAD
 # Thu Jul 14 11:32:51 2016
+=======
+# Thu Jul 14 15:21:14 2016
+>>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
 
 ###########################################################]
