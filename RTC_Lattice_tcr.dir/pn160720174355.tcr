@@ -1,0 +1,7 @@
+#Start recording tcl command: 7/20/2016 17:41:13
+#Project Location: D:/dev/pif7000_rtc; Project name: RTC_Lattice
+prj_project open "D:/dev/pif7000_rtc/RTC_Lattice.ldf"
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Export -impl impl1 -forceAll
+#Stop recording: 7/20/2016 17:43:55

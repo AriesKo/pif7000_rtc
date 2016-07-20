@@ -6,7 +6,7 @@ The file contains the job information from compiler to be displayed as part of t
 
 <job_run_status name="compiler"> 
   <report_link name="Detailed report">
-    <data>E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_compiler.srr</data>
+    <data>D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_compiler.srr</data>
     <title>Synopsys HDL Compiler</title>
   </report_link> 
   <job_status>
@@ -14,16 +14,16 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>13</data>
-  <report_link name="more"><data>E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_compiler_notes.txt</data></report_link>
+  <data>71</data>
+  <report_link name="more"><data>D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>0</data>
-  <report_link name="more"><data>E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_compiler_warnings.txt</data></report_link>
+  <data>11</data>
+  <report_link name="more"><data>D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
   <data>0</data>
-  <report_link name="more"><data>E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_compiler_errors.txt</data></report_link>
+  <report_link name="more"><data>D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_compiler_errors.txt</data></report_link>
   </info>
 			<info name="CPU Time">
   <data>-</data>
@@ -35,11 +35,7 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-<<<<<<< HEAD
-  <data type="timestamp">1468463572</data>
-=======
-  <data type="timestamp">1468477275</data>
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+  <data type="timestamp">1469004206</data>
   </info>
 			</job_info>
 </job_run_status>

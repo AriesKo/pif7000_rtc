@@ -181,8 +181,428 @@
             <ID>61061045</ID>
             <Severity>Warning</Severity>
         </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>XCLK_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>XCLK</Dynamic>
+            <Dynamic>34</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>62061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>XCLK_c</Dynamic>
+        </Message>
     </Task>
     <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_COUT</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_COUT</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_1_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_COUT</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_1_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_N_62</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_N_62</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_COUT</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_cry_0_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_COUT</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_COUT</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S0</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S1</Dynamic>
+            <Navigation>comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S1</Navigation>
+        </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
@@ -203,34 +623,6 @@
             <Dynamic>logical</Dynamic>
             <Dynamic>F/TBLOCK.TK/un6_ctr_cry_17_0_COUT</Dynamic>
             <Navigation>F/TBLOCK.TK/un6_ctr_cry_17_0_COUT</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT</Dynamic>
-            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1</Dynamic>
-            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0</Dynamic>
-            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
-            <Dynamic>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1</Dynamic>
-            <Navigation>comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1</Navigation>
         </Message>
         <Message>
             <ID>1166052</ID>
@@ -284,13 +676,145 @@
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>14</Dynamic>
+            <Dynamic>68</Dynamic>
         </Message>
     </Task>
     <Task name="Synplify_Synthesis">
         <Message>
             <ID>2011000</ID>
             <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd&quot;:103:7:103:13|Signal s_pps_p is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal s_pps_p is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd&quot;:104:7:104:13|Signal s_pps_r is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal s_pps_r is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD280 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:135:10:135:12|Unbound component RTC mapped to black box</Dynamic>
+            <Navigation>CD280</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>135</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>135</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Unbound component RTC mapped to black box</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:271:1:271:2|Pruning unused register S_PPS_CNT_4(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>271</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>271</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused register S_PPS_CNT_4(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:271:1:271:2|Pruning unused register S_TMP_PPS_DFF_2. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>271</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>271</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused register S_TMP_PPS_DFF_2. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:256:1:256:2|Pruning unused register S_TMP_PPS_4. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>256</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused register S_TMP_PPS_4. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd&quot;:41:4:41:9|Input port bit 25 of cnt_tv(25 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input port bit 25 of cnt_tv(25 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd&quot;:41:4:41:9|Input port bits 13 to 0 of cnt_tv(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input port bits 13 to 0 of cnt_tv(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;D:\dev\pif7000_rtc\hdl\LOCK.vhd&quot;:188:1:188:2|Sharing sequential element CLK_REF_FE_D1. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\LOCK.vhd</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Sharing sequential element CLK_REF_FE_D1. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd&quot;:75:1:75:2|Pruning register bit 1 of CNT_LOCKED(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning register bit 1 of CNT_LOCKED(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd&quot;:43:2:43:8|Input port bits 1 to 0 of sub_out(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Input port bits 1 to 0 of sub_out(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>
@@ -302,26 +826,177 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;e:\dev\rtc_lattice\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
-            <Navigation>MT529</Navigation>
-            <Navigation>e:\dev\rtc_lattice\hdl\piffla.vhd</Navigation>
-            <Navigation>31</Navigation>
-            <Navigation>4</Navigation>
-            <Navigation>31</Navigation>
-            <Navigation>5</Navigation>
-            <Navigation>Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\lock.vhd&quot;:188:1:188:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_D2 because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\lock.vhd</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_D2 because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\pif_rtc.vhd&quot;:71:1:71:2|Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>BN132</Navigation>
-            <Navigation>e:\dev\rtc_lattice\hdl\pif_rtc.vhd</Navigation>
-            <Navigation>71</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>71</Navigation>
+            <Dynamic>BN114 :&quot;d:\dev\pif7000_rtc\hdl\adpll_rtc_core.vhd&quot;:325:0:325:6|Removing instance RTC_FUN (in view: work.ADPLL_RTC_CORE(behavioral)) of black box view:work.RTC(syn_black_box) because it does not drive other instances.</Dynamic>
+            <Navigation>BN114</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\adpll_rtc_core.vhd</Navigation>
+            <Navigation>325</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>325</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing instance RTC_FUN (in view: work.ADPLL_RTC_CORE(behavioral)) of black box view:work.RTC(syn_black_box) because it does not drive other instances.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\dev\pif7000_rtc\hdl\pfd.vhd&quot;:83:2:83:3|Found inferred clock TOP_ADPLL|XCLK which controls 479 sequential elements including comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u1.UPDN_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\pfd.vhd</Navigation>
+            <Navigation>83</Navigation>
             <Navigation>2</Navigation>
-            <Navigation>Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>83</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock TOP_ADPLL|XCLK which controls 479 sequential elements including comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u1.UPDN_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\dev\pif7000_rtc\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\piffla.vhd</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>220</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock TOP_ADPLL|XCLK with period 1000.00ns. Please declare a user-defined clock on object &quot;p:XCLK&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock TOP_ADPLL|XCLK with period 1000.00ns. Please declare a user-defined clock on object &quot;p:XCLK&quot;</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>

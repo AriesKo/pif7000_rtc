@@ -1,21 +1,20 @@
-C:\lscc\diamond\3.7_x64\synpbase\bin64\c_vhdl.exe  -osyn  E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_hdl_.srs  -top  RTC  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  E:\dev\RTC_Lattice\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd -lib work E:\dev\RTC_Lattice\hdl\pifcfg.vhd -lib work E:\dev\RTC_Lattice\hdl\pifdefs.vhd -lib work E:\dev\RTC_Lattice\hdl\piffla.vhd -lib work E:\dev\RTC_Lattice\hdl\RTC.vhd  -log  E:\dev\RTC_Lattice\impl1\syntax.log  -fileorder  E:\dev\RTC_Lattice\impl1\syntmp\hdlorder.tcl 
-rc:0 success:1 runtime:1
-E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_hdl_.srs|o|0|0
+C:\lscc\diamond\3.7_x64\synpbase\bin64\c_vhdl.exe  -osyn  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_hdl_.srs  -top  TOP_ADPLL  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\dev\pif7000_rtc\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\dev\pif7000_rtc\hdl\pifcfg.vhd -lib work D:\dev\pif7000_rtc\hdl\pifdefs.vhd -lib work D:\dev\pif7000_rtc\hdl\piffla.vhd -lib work D:\dev\pif7000_rtc\hdl\ADPLL_CORE.vhd -lib work D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd -lib work D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd -lib work D:\dev\pif7000_rtc\hdl\DCO.vhd -lib work D:\dev\pif7000_rtc\hdl\ED.vhd -lib work D:\dev\pif7000_rtc\hdl\LOCK.vhd -lib work D:\dev\pif7000_rtc\hdl\PFD.vhd -lib work D:\dev\pif7000_rtc\hdl\PPSD.vhd -lib work D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd -lib work D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd  -log  D:\dev\pif7000_rtc\impl1\syntax.log  -fileorder  D:\dev\pif7000_rtc\impl1\syntmp\hdlorder.tcl 
+rc:0 success:1 runtime:0
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_hdl_.srs|o|0|0
 C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1376964008|73964
-<<<<<<< HEAD
-E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd|i|1468459612|3505
-E:\dev\RTC_Lattice\hdl\pifcfg.vhd|i|1468459612|768
-E:\dev\RTC_Lattice\hdl\pifdefs.vhd|i|1468459612|6537
-E:\dev\RTC_Lattice\hdl\piffla.vhd|i|1468459612|6208
-E:\dev\RTC_Lattice\hdl\RTC.vhd|i|1468459612|5011
-E:\dev\RTC_Lattice\impl1\syntax.log|o|1468463571|919
-=======
-D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd|i|1465975526|3505
 D:\dev\pif7000_rtc\hdl\pifcfg.vhd|i|1465968229|768
 D:\dev\pif7000_rtc\hdl\pifdefs.vhd|i|1465968229|6537
 D:\dev\pif7000_rtc\hdl\piffla.vhd|i|1465968229|6208
-D:\dev\pif7000_rtc\hdl\RTC.vhd|i|1468477267|5015
-D:\dev\pif7000_rtc\impl1\syntax.log|o|1468477274|919
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+D:\dev\pif7000_rtc\hdl\ADPLL_CORE.vhd|i|1469002882|11915
+D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd|i|1469002882|12166
+D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd|i|1469002882|5303
+D:\dev\pif7000_rtc\hdl\DCO.vhd|i|1469002882|23897
+D:\dev\pif7000_rtc\hdl\ED.vhd|i|1469002882|3210
+D:\dev\pif7000_rtc\hdl\LOCK.vhd|i|1469002882|8830
+D:\dev\pif7000_rtc\hdl\PFD.vhd|i|1469002882|3757
+D:\dev\pif7000_rtc\hdl\PPSD.vhd|i|1469002882|3830
+D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd|i|1469004187|6359
+D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd|i|1469002882|5030
+D:\dev\pif7000_rtc\impl1\syntax.log|o|1469004205|932
 C:\lscc\diamond\3.7_x64\synpbase\bin\c_vhdl.exe|i|1449683836|2359296
 C:\lscc\diamond\3.7_x64\synpbase\bin64\c_vhdl.exe|i|1449684046|3228672

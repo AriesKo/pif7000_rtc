@@ -2,4 +2,4 @@
 
 -g RamCfg:Reset
 
--path "E:/dev/RTC_Lattice"  
+-path "D:/dev/pif7000_rtc"  

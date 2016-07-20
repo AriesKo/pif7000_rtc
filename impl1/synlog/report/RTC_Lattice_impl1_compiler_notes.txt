@@ -1,14 +1,72 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Top entity is set to RTC.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Synthesizing work.rtc.rtl.
+@N:"D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd":32:7:32:15|Top entity is set to TOP_ADPLL.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd":32:7:32:15|Synthesizing work.top_adpll.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":32:7:32:13|Synthesizing work.pif_rtc.rtl.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd":44:7:44:20|Synthesizing work.adpll_rtc_core.behavioral.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd":135:10:135:12|Synthesizing work.rtc.syn_black_box.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\ADPLL_CORE.vhd":35:7:35:16|Synthesizing work.adpll_core.behavioral.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":35:7:35:15|Synthesizing work.auto_cont.behavioral.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":92:7:92:16|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":101:5:101:12|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":106:7:106:7|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":114:7:114:7|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":117:16:117:16|Removing redundant assignment.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\LOCK.vhd":37:7:37:10|Synthesizing work.lock.behavioral.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\LOCK.vhd":151:6:151:12|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\LOCK.vhd":155:6:155:12|Removing redundant assignment.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\PPSD.vhd":36:7:36:10|Synthesizing work.ppsd.behavioral.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":40:7:40:9|Synthesizing work.dco.behavioral.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":153:8:153:13|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":154:8:154:15|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":265:3:265:16|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":301:18:301:30|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":302:18:302:25|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":303:18:303:22|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":316:16:316:28|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":317:16:317:23|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":318:16:318:20|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":341:20:341:32|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":342:20:342:27|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":343:20:343:24|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":359:18:359:30|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":360:18:360:25|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":361:18:361:22|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":378:14:378:26|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":379:14:379:21|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":380:14:380:18|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":421:18:421:32|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":422:18:422:27|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":423:18:423:23|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":436:16:436:30|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":437:16:437:25|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":438:16:438:21|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":461:20:461:34|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":462:20:462:29|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":463:20:463:25|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":479:18:479:32|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":480:18:480:27|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":481:18:481:23|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":498:14:498:28|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":499:14:499:23|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\DCO.vhd":500:14:500:19|Removing redundant assignment.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":36:7:36:14|Synthesizing work.updn_cnt.behavioral.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":84:20:84:22|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":95:20:95:22|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":99:10:99:12|Removing redundant assignment.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":105:10:105:12|Removing redundant assignment.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\ED.vhd":37:7:37:8|Synthesizing work.ed.behavioral.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\ED.vhd":81:6:81:17|Removing redundant assignment.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\PFD.vhd":36:7:36:9|Synthesizing work.pfd.behavioral.
+@N: CD364 :"D:\dev\pif7000_rtc\hdl\PFD.vhd":94:8:94:13|Removing redundant assignment.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-@N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":12:7:12:17|Synthesizing work.downcounter.rtl.
+@N: CD630 :"D:\dev\pif7000_rtc\hdl\piffla.vhd":12:7:12:17|Synthesizing work.downcounter.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":591:10:591:12|Synthesizing work.gsr.syn_black_box.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":599:10:599:11|Synthesizing work.ib.syn_black_box.
+@N: CL135 :"D:\dev\pif7000_rtc\hdl\PFD.vhd":104:1:104:2|Found seqShift CLK_DCO, depth=3, width=1
+@N: CL135 :"D:\dev\pif7000_rtc\hdl\LOCK.vhd":188:1:188:2|Found seqShift CNT_DCO_D4, depth=4, width=26
+@N: CL189 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":75:1:75:2|Register bit CNT_LOCKED(1) is always 0.
 @N|Running in 64-bit mode
 

@@ -13,61 +13,203 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
+@W: MO171 :|Sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.G_9 reduced to a combinational gate by constant propagation 
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":119:1:119:2|Removing sequential instance DIF_M[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":137:1:137:2|Removing sequential instance OLD_M_1[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":119:1:119:2|Removing sequential instance OLD_M[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":516:1:516:2|Removing sequential instance M_2[2:0] (in view: work.DCO(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":516:1:516:2|Removing sequential instance M_1[2:0] (in view: work.DCO(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":125:2:125:3|Removing sequential instance POS_ERR_VAL[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":146:2:146:3|Removing sequential instance CNT_CLK[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":163:2:163:3|Removing sequential instance CNT_LOCKED[1:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance SUB_OUT[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":146:2:146:3|Removing sequential instance POS_ERR (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN115 :"d:\dev\pif7000_rtc\hdl\adpll_core.vhd":325:0:325:3|Removing instance u6_2 (in view: work.ADPLL_CORE(behavioral)) of type view:work.PPSD(behavioral) because it does not drive other instances.
+@N: BN115 :"d:\dev\pif7000_rtc\hdl\adpll_core.vhd":318:0:318:3|Removing instance u6_1 (in view: work.ADPLL_CORE(behavioral)) of type view:work.PPSD(behavioral) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":88:2:88:3|Removing sequential instance u2_2.CLK_REF_FILT_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":73:2:73:3|Removing sequential instance u2_2.CLK_REF_FILT (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":99:2:99:3|Removing sequential instance u2_2.CLK_REF_FE (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_2.CLK_REF_D2 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_2.CLK_REF_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":88:2:88:3|Removing sequential instance u2_1.CLK_REF_FILT_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":73:2:73:3|Removing sequential instance u2_1.CLK_REF_FILT (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":99:2:99:3|Removing sequential instance u2_1.CLK_REF_FE (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_1.CLK_REF_D2 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_1.CLK_REF_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\pfd.vhd":104:1:104:2|Removing sequential instance u1.CLK_DCO_1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.seqshift(prim) because it does not drive other instances.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: BN132 :"e:\dev\rtc_lattice\hdl\pif_rtc.vhd":71:1:71:2|Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@A: BN291 :"e:\dev\rtc_lattice\hdl\pif_rtc.vhd":71:1:71:2|Boundary register pps_r_sig (in view: work.PIF_RTC(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
-@N:"e:\dev\rtc_lattice\hdl\piffla.vhd":165:4:165:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
+@N:"d:\dev\pif7000_rtc\hdl\piffla.vhd":165:4:165:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\pfd.vhd":83:2:83:3|Removing sequential instance u1.UPDN_i (in view: work.ADPLL_CORE(behavioral)) because it does not drive other instances.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF179 :"d:\dev\pif7000_rtc\hdl\dco.vhd":224:8:224:25|Found 26 bit by 26 bit '==' comparator, 'PULS_GEN\.un42_cnt_dco'
+@N: MF179 :"d:\dev\pif7000_rtc\hdl\dco.vhd":239:7:239:24|Found 26 bit by 26 bit '==' comparator, 'PULS_GEN\.un46_cnt_dco'
+@N: MF179 :"d:\dev\pif7000_rtc\hdl\dco.vhd":417:10:417:43|Found 26 bit by 26 bit '==' comparator, 'PRO_CNT_TV_128\.un70_clk_ref_fe'
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV[12] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing sequential instance CNT_TV_D[8] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing sequential instance CNT_TV_D[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV_2[11] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV_2[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[1] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[0] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_18 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_16 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_14 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_12 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_10 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_32 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_30 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_28 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_26 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_24 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_22 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_20 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_48 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_46 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_44 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_42 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_40 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_38 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_36 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_34 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_60 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_58 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_56 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_54 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_52 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_50 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[25] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[24] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[23] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[22] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[21] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[20] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[19] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[18] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[17] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[16] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[15] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[14] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[13] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[12] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[11] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[10] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[9] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[8] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[7] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[6] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[5] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[4] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[3] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[2] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_1 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_2 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_3 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_4 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_5 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_6 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_7 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance G_8 (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":188:1:188:2|Removing sequential instance CNT_DCO_D4_CR25[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\adpll_rtc_core.vhd":199:1:199:2|Removing sequential instance comp_ADPLL_RTC_CORE.S_EN_AUTO (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":167:1:167:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE_1 (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE_2 (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.TMP_CLK_DCO (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.LOCKED (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":131:1:131:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.TMP_SUB_OUT[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[2] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[1] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CNT_LOCKED[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[25] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[24] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[23] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[22] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[21] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[20] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[19] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[18] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[17] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[16] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[15] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[14] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[13] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[12] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[11] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[10] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[9] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[8] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[7] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[6] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[5] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[4] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[3] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[2] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[1] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
-
-
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		   475.04ns		  28 /        60
+   1		0h:00m:00s		   475.95ns		  19 /       105
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Boundary register comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO.fb (in view: work.TOP_ADPLL(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\dev\pif7000_rtc\hdl\dco.vhd":396:1:396:2|Boundary register comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128.fb (in view: work.TOP_ADPLL(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
 
@@ -76,50 +218,52 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 60 clock pin(s) of sequential element(s)
-0 instances converted, 60 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 70 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 35 clock pin(s) of sequential element(s)
+0 instances converted, 35 sequential instances remain driven by gated/generated clocks
 
+============================================== Non-Gated/Non-Generated Clocks ===============================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                      
+-----------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       XCLK                port                   70         comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio
+=============================================================================================================================
 ================================================================================================= Gated/Generated Clocks =================================================================================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       F.OSCInst0          OSCH                   60         F.DeltaReg[6]       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       F.OSCInst0          OSCH                   35         F.DeltaReg[6]       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 ==========================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 140MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 143MB)
 
-Writing Analyst data base E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_m.srm
+Writing Analyst data base D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 143MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.edi
+@N: FX1056 |Writing EDF file: D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.edi
 K-2015.09L-2
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
 
+@W: MT420 |Found inferred clock TOP_ADPLL|XCLK with period 1000.00ns. Please declare a user-defined clock on object "p:XCLK"
 @W: MT420 |Found inferred clock pif_flasher|xclk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:F.xclk"
 
 
 ##### START OF TIMING REPORT #####[
-<<<<<<< HEAD
-# Timing Report written on Thu Jul 14 11:32:55 2016
-=======
-# Timing Report written on Thu Jul 14 15:21:18 2016
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+# Timing Report written on Wed Jul 20 17:43:30 2016
 #
 
 
-Top view:               RTC
-Requested Frequency:    2.1 MHz
+Top view:               TOP_ADPLL
+Requested Frequency:    1.0 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
@@ -133,12 +277,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 474.469
+Worst slack in design: 475.384
 
                                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group              
 ----------------------------------------------------------------------------------------------------------------------------------------
-pif_flasher|xclk_inferred_clock     2.1 MHz       158.7 MHz     480.769       6.300         474.469     inferred     Inferred_clkgroup_0
+TOP_ADPLL|XCLK                      1.0 MHz       101.1 MHz     1000.000      9.886         990.114     inferred     Inferred_clkgroup_0
+pif_flasher|xclk_inferred_clock     2.1 MHz       185.7 MHz     480.769       5.385         475.384     inferred     Inferred_clkgroup_1
 System                              1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
 ========================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
@@ -154,7 +299,8 @@ Clocks                                                            |    rise  to 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-pif_flasher|xclk_inferred_clock  pif_flasher|xclk_inferred_clock  |  480.769     474.469  |  No paths    -      |  No paths    -      |  No paths    -    
+TOP_ADPLL|XCLK                   TOP_ADPLL|XCLK                   |  1000.000    990.114  |  No paths    -      |  No paths    -      |  No paths    -    
+pif_flasher|xclk_inferred_clock  pif_flasher|xclk_inferred_clock  |  480.769     475.384  |  No paths    -      |  No paths    -      |  No paths    -    
 ==========================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -169,6 +315,126 @@ No IO constraint found
 
 
 ====================================
+Detailed Report for Clock: TOP_ADPLL|XCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                           Starting                                                  Arrival            
+Instance                                                   Reference          Type        Pin     Net                Time        Slack  
+                                                           Clock                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0]         TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[0]       1.148       990.114
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[1]         TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[1]       1.108       990.154
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[8]      TOP_ADPLL|XCLK     FD1P3IX     Q       CNT_TV_128[8]      1.044       990.218
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[9]      TOP_ADPLL|XCLK     FD1P3IX     Q       CNT_TV_128[9]      1.044       990.218
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[2]         TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[2]       1.148       990.256
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[3]         TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[3]       1.148       990.256
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[4]         TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[4]       1.148       990.256
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[5]         TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[5]       1.148       990.256
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[10]     TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[10]     1.044       990.360
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[11]     TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[11]     1.044       990.360
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                   Required            
+Instance                                              Reference          Type        Pin     Net                                 Time         Slack  
+                                                      Clock                                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[7]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[8]                       999.894      990.114
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[5]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[6]                       999.894      990.256
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[6]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[7]                       999.894      990.256
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[3]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[4]                       999.894      990.399
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[4]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[5]                       999.894      990.399
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[1]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[2]                       999.894      990.542
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[2]     TOP_ADPLL|XCLK     FD1S3IX     D       un1_CNT256[3]                       999.894      990.542
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[0]     TOP_ADPLL|XCLK     FD1S3IX     CD      un42_cnt_dco_0_I_75_0_RNI72PT_0     999.197      991.288
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[1]     TOP_ADPLL|XCLK     FD1S3IX     CD      un42_cnt_dco_0_I_75_0_RNI72PT_0     999.197      991.288
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[2]     TOP_ADPLL|XCLK     FD1S3IX     CD      un42_cnt_dco_0_I_75_0_RNI72PT_0     999.197      991.288
+=====================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      9.781
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 990.114
+
+    Number of logic level(s):                14
+    Starting point:                          comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0] / Q
+    Ending point:                            comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[7] / D
+    The start point is clocked by            TOP_ADPLL|XCLK [rising] on pin CK
+    The end   point is clocked by            TOP_ADPLL|XCLK [rising] on pin CK
+
+Instance / Net                                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0]                                   FD1S3IX      Q        Out     1.148     1.148       -         
+CNT_DCO_i[0]                                                                         Net          -        -       -         -           4         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_1_0      CCU2D        D1       In      0.000     1.148       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_1_0      CCU2D        COUT     Out     1.545     2.692       -         
+un70_clk_ref_fe_0_data_tmp[0]                                                        Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_9_0      CCU2D        CIN      In      0.000     2.692       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_9_0      CCU2D        COUT     Out     0.143     2.835       -         
+un70_clk_ref_fe_0_data_tmp[2]                                                        Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_21_0     CCU2D        CIN      In      0.000     2.835       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_21_0     CCU2D        COUT     Out     0.143     2.978       -         
+un70_clk_ref_fe_0_data_tmp[4]                                                        Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_33_0     CCU2D        CIN      In      0.000     2.978       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_33_0     CCU2D        COUT     Out     0.143     3.121       -         
+un70_clk_ref_fe_0_data_tmp[6]                                                        Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_45_0     CCU2D        CIN      In      0.000     3.121       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_45_0     CCU2D        COUT     Out     0.143     3.264       -         
+un70_clk_ref_fe_0_data_tmp[8]                                                        Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_57_0     CCU2D        CIN      In      0.000     3.264       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_57_0     CCU2D        COUT     Out     0.143     3.406       -         
+un70_clk_ref_fe_0_data_tmp[10]                                                       Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_69_0     CCU2D        CIN      In      0.000     3.406       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_69_0     CCU2D        COUT     Out     0.143     3.549       -         
+un70_clk_ref_fe_0_I_75_cry                                                           Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_75_0     CCU2D        CIN      In      0.000     3.549       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.PRO_CNT_TV_128\.un70_clk_ref_fe_0_I_75_0     CCU2D        S0       Out     1.621     5.170       -         
+un70_clk_ref_fe_0_data_tmp_i[12]                                                     Net          -        -       -         -           2         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128_1_sqmuxa_0_a3                ORCALUT4     A        In      0.000     5.170       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128_1_sqmuxa_0_a3                ORCALUT4     Z        Out     1.089     6.259       -         
+TMP_CLK_DCO_128_1_sqmuxa                                                             Net          -        -       -         -           2         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_0_0                           CCU2D        B0       In      0.000     6.259       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_0_0                           CCU2D        COUT     Out     1.545     7.803       -         
+un1_CNT256_cry_0                                                                     Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_1_0                           CCU2D        CIN      In      0.000     7.803       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_1_0                           CCU2D        COUT     Out     0.143     7.946       -         
+un1_CNT256_cry_2                                                                     Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_3_0                           CCU2D        CIN      In      0.000     7.946       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_3_0                           CCU2D        COUT     Out     0.143     8.089       -         
+un1_CNT256_cry_4                                                                     Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_5_0                           CCU2D        CIN      In      0.000     8.089       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_cry_5_0                           CCU2D        COUT     Out     0.143     8.232       -         
+un1_CNT256_cry_6                                                                     Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_s_7_0                             CCU2D        CIN      In      0.000     8.232       -         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.un1_CNT256_s_7_0                             CCU2D        S0       Out     1.549     9.781       -         
+un1_CNT256[8]                                                                        Net          -        -       -         -           1         
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT256[7]                                    FD1S3IX      D        In      0.000     9.781       -         
+===================================================================================================================================================
+
+
+
+
+====================================
 Detailed Report for Clock: pif_flasher|xclk_inferred_clock
 ====================================
 
@@ -177,41 +443,41 @@ Detailed Report for Clock: pif_flasher|xclk_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-                                Starting                                                                   Arrival            
-Instance                        Reference                           Type        Pin     Net                Time        Slack  
-                                Clock                                                                                         
-------------------------------------------------------------------------------------------------------------------------------
-comp_PIF_RTC.one_sec_cnt[0]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[0]     1.108       474.469
-comp_PIF_RTC.one_sec_cnt[1]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[1]     1.044       474.676
-comp_PIF_RTC.one_sec_cnt[2]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[2]     1.044       474.676
-comp_PIF_RTC.one_sec_cnt[3]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[3]     1.044       474.819
-comp_PIF_RTC.one_sec_cnt[4]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[4]     1.044       474.819
-comp_PIF_RTC.one_sec_cnt[5]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[5]     1.044       474.962
-comp_PIF_RTC.one_sec_cnt[6]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[6]     1.044       474.962
-comp_PIF_RTC.one_sec_cnt[7]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[7]     1.044       475.104
-comp_PIF_RTC.one_sec_cnt[8]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[8]     1.044       475.104
-comp_PIF_RTC.one_sec_cnt[9]     pif_flasher|xclk_inferred_clock     FD1S3DX     Q       one_sec_cnt[9]     1.044       475.247
-==============================================================================================================================
+                        Starting                                                           Arrival            
+Instance                Reference                           Type        Pin     Net        Time        Slack  
+                        Clock                                                                                 
+--------------------------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[0]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[0]     1.044       475.384
+F.TBLOCK\.TK.Ctr[1]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[1]     0.972       475.599
+F.TBLOCK\.TK.Ctr[2]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[2]     0.972       475.599
+F.TBLOCK\.TK.Ctr[3]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[3]     0.972       475.741
+F.TBLOCK\.TK.Ctr[4]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[4]     0.972       475.741
+F.TBLOCK\.TK.Ctr[5]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[5]     0.972       475.884
+F.TBLOCK\.TK.Ctr[6]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[6]     0.972       475.884
+F.TBLOCK\.TK.Ctr[7]     pif_flasher|xclk_inferred_clock     FD1S3JX     Q       Ctr[7]     0.972       476.027
+F.TBLOCK\.TK.Ctr[8]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[8]     0.972       476.027
+F.TBLOCK\.TK.Ctr[9]     pif_flasher|xclk_inferred_clock     FD1S3IX     Q       Ctr[9]     0.972       476.170
+==============================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                 Starting                                                                          Required            
-Instance                         Reference                           Type        Pin     Net                       Time         Slack  
-                                 Clock                                                                                                 
----------------------------------------------------------------------------------------------------------------------------------------
-comp_PIF_RTC.one_sec_cnt[23]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[23]         480.858      474.469
-comp_PIF_RTC.one_sec_cnt[22]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[22]         480.858      474.612
-comp_PIF_RTC.one_sec_cnt[19]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[19]         480.858      474.755
-comp_PIF_RTC.one_sec_cnt[17]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[17]         480.858      474.897
-comp_PIF_RTC.one_sec_cnt[21]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       un2_one_sec_cnt_1[21]     480.664      475.034
-comp_PIF_RTC.one_sec_cnt[15]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[15]         480.858      475.040
-comp_PIF_RTC.one_sec_cnt[20]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       un2_one_sec_cnt_1[20]     480.664      475.177
-comp_PIF_RTC.one_sec_cnt[13]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[13]         480.858      475.183
-comp_PIF_RTC.one_sec_cnt[14]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       one_sec_cnt_3[14]         480.858      475.183
-comp_PIF_RTC.one_sec_cnt[18]     pif_flasher|xclk_inferred_clock     FD1S3DX     D       un2_one_sec_cnt_1[18]     480.664      475.320
-=======================================================================================================================================
+                         Starting                                                                Required            
+Instance                 Reference                           Type        Pin     Net             Time         Slack  
+                         Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[17]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[17]     480.664      475.384
+F.TBLOCK\.TK.Ctr[18]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[18]     480.664      475.384
+F.TBLOCK\.TK.Ctr[15]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[15]     480.664      475.527
+F.TBLOCK\.TK.Ctr[16]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[16]     480.664      475.527
+F.TBLOCK\.TK.Ctr[13]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[13]     480.664      475.670
+F.TBLOCK\.TK.Ctr[14]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[14]     480.664      475.670
+F.TBLOCK\.TK.Ctr[11]     pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[11]     480.664      475.812
+F.TBLOCK\.TK.Ctr[12]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[12]     480.664      475.812
+F.TBLOCK\.TK.Ctr[9]      pif_flasher|xclk_inferred_clock     FD1S3IX     D       un6_ctr[9]      480.664      475.955
+F.TBLOCK\.TK.Ctr[10]     pif_flasher|xclk_inferred_clock     FD1S3JX     D       un6_ctr[10]     480.664      475.955
+=====================================================================================================================
 
 
 
@@ -221,69 +487,57 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      480.769
-    - Setup time:                            -0.089
+    - Setup time:                            0.106
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         480.858
+    = Required time:                         480.664
 
-    - Propagation time:                      6.389
+    - Propagation time:                      5.280
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     474.469
+    = Slack (critical) :                     475.384
 
-    Number of logic level(s):                14
-    Starting point:                          comp_PIF_RTC.one_sec_cnt[0] / Q
-    Ending point:                            comp_PIF_RTC.one_sec_cnt[23] / D
+    Number of logic level(s):                10
+    Starting point:                          F.TBLOCK\.TK.Ctr[0] / Q
+    Ending point:                            F.TBLOCK\.TK.Ctr[18] / D
     The start point is clocked by            pif_flasher|xclk_inferred_clock [rising] on pin CK
     The end   point is clocked by            pif_flasher|xclk_inferred_clock [rising] on pin CK
 
-Instance / Net                                           Pin      Pin               Arrival     No. of    
-Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------
-comp_PIF_RTC.one_sec_cnt[0]                 FD1S3DX      Q        Out     1.108     1.108       -         
-one_sec_cnt[0]                              Net          -        -       -         -           3         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_0_0      CCU2D        A1       In      0.000     1.108       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_0_0      CCU2D        COUT     Out     1.545     2.652       -         
-un2_one_sec_cnt_1_cry_0                     Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_1_0      CCU2D        CIN      In      0.000     2.652       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_1_0      CCU2D        COUT     Out     0.143     2.795       -         
-un2_one_sec_cnt_1_cry_2                     Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_3_0      CCU2D        CIN      In      0.000     2.795       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_3_0      CCU2D        COUT     Out     0.143     2.938       -         
-un2_one_sec_cnt_1_cry_4                     Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_5_0      CCU2D        CIN      In      0.000     2.938       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_5_0      CCU2D        COUT     Out     0.143     3.081       -         
-un2_one_sec_cnt_1_cry_6                     Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_7_0      CCU2D        CIN      In      0.000     3.081       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_7_0      CCU2D        COUT     Out     0.143     3.224       -         
-un2_one_sec_cnt_1_cry_8                     Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_9_0      CCU2D        CIN      In      0.000     3.224       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_9_0      CCU2D        COUT     Out     0.143     3.366       -         
-un2_one_sec_cnt_1_cry_10                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_11_0     CCU2D        CIN      In      0.000     3.366       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_11_0     CCU2D        COUT     Out     0.143     3.509       -         
-un2_one_sec_cnt_1_cry_12                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_13_0     CCU2D        CIN      In      0.000     3.509       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_13_0     CCU2D        COUT     Out     0.143     3.652       -         
-un2_one_sec_cnt_1_cry_14                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_15_0     CCU2D        CIN      In      0.000     3.652       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_15_0     CCU2D        COUT     Out     0.143     3.795       -         
-un2_one_sec_cnt_1_cry_16                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_17_0     CCU2D        CIN      In      0.000     3.795       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_17_0     CCU2D        COUT     Out     0.143     3.938       -         
-un2_one_sec_cnt_1_cry_18                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_19_0     CCU2D        CIN      In      0.000     3.938       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_19_0     CCU2D        COUT     Out     0.143     4.080       -         
-un2_one_sec_cnt_1_cry_20                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_21_0     CCU2D        CIN      In      0.000     4.080       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_cry_21_0     CCU2D        COUT     Out     0.143     4.223       -         
-un2_one_sec_cnt_1_cry_22                    Net          -        -       -         -           1         
-comp_PIF_RTC.un2_one_sec_cnt_1_s_23_0       CCU2D        CIN      In      0.000     4.223       -         
-comp_PIF_RTC.un2_one_sec_cnt_1_s_23_0       CCU2D        S0       Out     1.549     5.772       -         
-un2_one_sec_cnt_1_s_23_0_S0                 Net          -        -       -         -           1         
-comp_PIF_RTC.one_sec_cnt_RNO[23]            ORCALUT4     A        In      0.000     5.772       -         
-comp_PIF_RTC.one_sec_cnt_RNO[23]            ORCALUT4     Z        Out     0.617     6.389       -         
-one_sec_cnt_3[23]                           Net          -        -       -         -           1         
-comp_PIF_RTC.one_sec_cnt[23]                FD1S3DX      D        In      0.000     6.389       -         
-==========================================================================================================
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                              Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+F.TBLOCK\.TK.Ctr[0]               FD1S3JX     Q        Out     1.044     1.044       -         
+Ctr[0]                            Net         -        -       -         -           2         
+F.TBLOCK\.TK.un6_ctr_cry_0_0      CCU2D       A1       In      0.000     1.044       -         
+F.TBLOCK\.TK.un6_ctr_cry_0_0      CCU2D       COUT     Out     1.545     2.588       -         
+un6_ctr_cry_0                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_1_0      CCU2D       CIN      In      0.000     2.588       -         
+F.TBLOCK\.TK.un6_ctr_cry_1_0      CCU2D       COUT     Out     0.143     2.731       -         
+un6_ctr_cry_2                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_3_0      CCU2D       CIN      In      0.000     2.731       -         
+F.TBLOCK\.TK.un6_ctr_cry_3_0      CCU2D       COUT     Out     0.143     2.874       -         
+un6_ctr_cry_4                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_5_0      CCU2D       CIN      In      0.000     2.874       -         
+F.TBLOCK\.TK.un6_ctr_cry_5_0      CCU2D       COUT     Out     0.143     3.017       -         
+un6_ctr_cry_6                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_7_0      CCU2D       CIN      In      0.000     3.017       -         
+F.TBLOCK\.TK.un6_ctr_cry_7_0      CCU2D       COUT     Out     0.143     3.160       -         
+un6_ctr_cry_8                     Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_9_0      CCU2D       CIN      In      0.000     3.160       -         
+F.TBLOCK\.TK.un6_ctr_cry_9_0      CCU2D       COUT     Out     0.143     3.302       -         
+un6_ctr_cry_10                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_11_0     CCU2D       CIN      In      0.000     3.302       -         
+F.TBLOCK\.TK.un6_ctr_cry_11_0     CCU2D       COUT     Out     0.143     3.445       -         
+un6_ctr_cry_12                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_13_0     CCU2D       CIN      In      0.000     3.445       -         
+F.TBLOCK\.TK.un6_ctr_cry_13_0     CCU2D       COUT     Out     0.143     3.588       -         
+un6_ctr_cry_14                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_15_0     CCU2D       CIN      In      0.000     3.588       -         
+F.TBLOCK\.TK.un6_ctr_cry_15_0     CCU2D       COUT     Out     0.143     3.731       -         
+un6_ctr_cry_16                    Net         -        -       -         -           1         
+F.TBLOCK\.TK.un6_ctr_cry_17_0     CCU2D       CIN      In      0.000     3.731       -         
+F.TBLOCK\.TK.un6_ctr_cry_17_0     CCU2D       S1       Out     1.549     5.280       -         
+un6_ctr[18]                       Net         -        -       -         -           1         
+F.TBLOCK\.TK.Ctr[18]              FD1S3IX     D        In      0.000     5.280       -         
+===============================================================================================
 
 
 
@@ -292,46 +546,46 @@ comp_PIF_RTC.one_sec_cnt[23]                FD1S3DX      D        In      0.000 
 Constraints that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo2_7000hc-4
 
-Register bits: 60 of 6864 (1%)
+Register bits: 105 of 6864 (2%)
 PIC Latch:       0
 I/O cells:       6
 
 
 Details:
-CCU2D:          31
+CCU2D:          79
 FD1P3AX:        7
+FD1P3IX:        20
+FD1P3JX:        14
 FD1S3AX:        1
-FD1S3DX:        25
-FD1S3IX:        15
-FD1S3JX:        10
+FD1S3IX:        49
+FD1S3JX:        11
 GSR:            1
-IB:             1
-INV:            5
-OB:             5
+IB:             2
+INV:            6
+OB:             4
 OFS1P3DX:       2
-ORCALUT4:       22
+OFS1P3IX:       1
+ORCALUT4:       13
 OSCH:           1
 PUR:            1
 VHI:            4
 VLO:            4
+false:          2
+true:           2
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 52MB peak: 143MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 53MB peak: 145MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-<<<<<<< HEAD
-# Thu Jul 14 11:32:55 2016
-=======
-# Thu Jul 14 15:21:18 2016
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+# Wed Jul 20 17:43:30 2016
 
 ###########################################################]

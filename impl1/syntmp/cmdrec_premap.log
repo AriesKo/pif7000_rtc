@@ -1,25 +1,13 @@
-C:\lscc\diamond\3.7_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  E:\dev\RTC_Lattice\impl1   -part LCMXO2_7000HC  -package TG144C  -grade -4    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_premap.xml  -top_level_module  RTC  -oedif  E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.edi  -conchk_prepass  E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1_cck.rpt   -freq 1.000   E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_prem.srd  -devicelib  C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  E:\dev\RTC_Lattice\impl1\syntmp\RTC_Lattice_impl1.plg  -osyn  E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_prem.srd  -prjdir  E:\dev\RTC_Lattice\impl1\  -prjname  proj_1  -log  E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_premap.srr 
+C:\lscc\diamond\3.7_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\dev\pif7000_rtc\impl1   -part LCMXO2_7000HC  -package TG144C  -grade -4    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_premap.xml  -top_level_module  TOP_ADPLL  -oedif  D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.edi  -conchk_prepass  D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_cck.rpt   -freq 1.000   D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_prem.srd  -devicelib  C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  D:\dev\pif7000_rtc\impl1\syntmp\RTC_Lattice_impl1.plg  -osyn  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_prem.srd  -prjdir  D:\dev\pif7000_rtc\impl1\  -prjname  proj_1  -log  D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_premap.srr 
 rc:1 success:1 runtime:1
-<<<<<<< HEAD
-E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.edi|o|1468459649|89303
-E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1_cck.rpt|o|1468463574|2311
-E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_mult.srs|i|1468463573|3956
-E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_prem.srd|o|1468463573|9020
+D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.edi|o|1469004200|172966
+D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_cck.rpt|o|1469004208|2501
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_mult.srs|i|1469004207|6991
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_prem.srd|o|1469004208|53222
 C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\machxo2.v|i|1449679782|54295
 C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v|i|1449679782|40584
-E:\dev\RTC_Lattice\impl1\syntmp\RTC_Lattice_impl1.plg|o|1468463573|0
-E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_prem.srd|o|1468463573|9020
-E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_premap.srr|o|1468463574|3391
-=======
-D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.edi|o|1468458958|89303
-D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_cck.rpt|o|1468477277|2313
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_mult.srs|i|1468477276|3995
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_prem.srd|o|1468477276|9035
-C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\machxo2.v|i|1449679782|54295
-C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\pmi_def.v|i|1449679782|40584
-D:\dev\pif7000_rtc\impl1\syntmp\RTC_Lattice_impl1.plg|o|1468477276|0
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_prem.srd|o|1468477276|9035
-D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_premap.srr|o|1468477277|3390
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+D:\dev\pif7000_rtc\impl1\syntmp\RTC_Lattice_impl1.plg|o|1469004207|0
+D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_prem.srd|o|1469004208|53222
+D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_premap.srr|o|1469004208|30122
 C:\lscc\diamond\3.7_x64\synpbase\bin\m_gen_lattice.exe|i|1452269802|17846272
 C:\lscc\diamond\3.7_x64\synpbase\bin64\m_gen_lattice.exe|i|1452271178|21336576

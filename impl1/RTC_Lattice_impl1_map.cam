@@ -6,7 +6,7 @@ F/Tick_i F/Tick
 [ START CLIPPED ]
 F/GND
 F/TBLOCK.TK/GND
-comp_PIF_RTC/GND
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/GND
 GND
 VCC
 F/DeltaReg_cry_0_COUT[5]
@@ -22,30 +22,85 @@ F/TBLOCK.TK/un6_ctr_cry_17_0_COUT
 F/DeltaReg_cry_0_S0[0]
 F/N_1
 F/OSCInst0_SEDSTDBY
-comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1
-comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0
-comp_PIF_RTC/N_1
-comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1
-comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_43
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_COUT
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_44
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_COUT
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_cry_0_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_45
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_COUT
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_N_62
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_1_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_46
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_COUT
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_1_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_47
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_COUT
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_48
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S0
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_S1
+comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_COUT
 [ END CLIPPED ]
 [ START OSC ]
-R4_c 26.60
+F.xclk 26.60
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-<<<<<<< HEAD
-# map:  version Diamond (64-bit) 3.7.1.502 -- WARNING: Map write only section -- Thu Jul 14 11:32:56 2016
-=======
-# map:  version Diamond (64-bit) 3.7.1.502 -- WARNING: Map write only section -- Thu Jul 14 15:21:20 2016
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+# map:  version Diamond (64-bit) 3.7.1.502 -- WARNING: Map write only section -- Wed Jul 20 17:43:32 2016
 
 SYSCONFIG SDM_PORT=PROGRAMN SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=10.23 JTAG_PORT=DISABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF ;
 LOCATE COMP "LEDG" SITE "113" ;
 LOCATE COMP "GSRn" SITE "136" ;
-LOCATE COMP "R4" SITE "92" ;
 LOCATE COMP "GPIO27" SITE "20" ;
 LOCATE COMP "GPIO17" SITE "25" ;
+LOCATE COMP "XCLK" SITE "34" ;
 LOCATE COMP "LEDR" SITE "112" ;
-FREQUENCY NET "R4_c" 26.600000 MHz ;
+FREQUENCY NET "F.xclk" 26.600000 MHz ;
 SCHEMATIC END ;
 [ END DESIGN PREFS ]

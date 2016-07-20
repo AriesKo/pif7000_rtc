@@ -1,16 +1,12 @@
 # Synopsys Constraint Checker, version maplat, Build 1368R, built Jan  8 2016
 # Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-<<<<<<< HEAD
-# Written on Thu Jul 14 11:32:54 2016
-=======
-# Written on Thu Jul 14 15:21:17 2016
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+# Written on Wed Jul 20 17:43:28 2016
 
 
 ##### DESIGN INFO #######################################################
 
-Top View:                "RTC"
+Top View:                "TOP_ADPLL"
 Constraint File(s):      (none)
 
 
@@ -30,6 +26,7 @@ Clock Relationships
 
 Starting                            Ending                              |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOP_ADPLL|XCLK                      TOP_ADPLL|XCLK                      |     1000.000         |     No paths         |     No paths         |     No paths                         
 pif_flasher|xclk_inferred_clock     pif_flasher|xclk_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
 ===================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.

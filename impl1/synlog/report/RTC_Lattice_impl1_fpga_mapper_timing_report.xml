@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_fpga_mapper.srr</data>
+<data>D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,10 +15,16 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
+<data>TOP_ADPLL|XCLK</data>
+<data>1.0 MHz</data>
+<data>101.1 MHz</data>
+<data>990.114</data>
+</row>
+<row>
 <data>pif_flasher|xclk_inferred_clock</data>
 <data>2.1 MHz</data>
-<data>158.7 MHz</data>
-<data>474.469</data>
+<data>185.7 MHz</data>
+<data>475.384</data>
 </row>
 <row>
 <data>System</data>

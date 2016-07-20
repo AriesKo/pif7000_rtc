@@ -1,57 +1,102 @@
 ----------------------------------------------------------------------
-Report for cell RTC.rtl
+Report for cell TOP_ADPLL.rtl
 
-Register bits: 60 of 6864 (1%)
+Register bits: 105 of 6864 (2%)
 PIC Latch:       0
 I/O cells:       6
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       31       100.0
+                              CCU2D       79       100.0
                             FD1P3AX        7       100.0
+                            FD1P3IX       20       100.0
+                            FD1P3JX       14       100.0
                             FD1S3AX        1       100.0
-                            FD1S3DX       25       100.0
-                            FD1S3IX       15       100.0
-                            FD1S3JX       10       100.0
+                            FD1S3IX       49       100.0
+                            FD1S3JX       11       100.0
                                 GSR        1       100.0
-                                 IB        1       100.0
-                                INV        5       100.0
-                                 OB        5       100.0
+                                 IB        2       100.0
+                                INV        6       100.0
+                                 OB        4       100.0
                            OFS1P3DX        2       100.0
-                           ORCALUT4       22       100.0
+                           OFS1P3IX        1       100.0
+                           ORCALUT4       13       100.0
                                OSCH        1       100.0
                                 PUR        1       100.0
                                 VHI        4       100.0
                                 VLO        4       100.0
 SUB MODULES 
+                         ADPLL_CORE        1       100.0
+                     ADPLL_RTC_CORE        1       100.0
+                                DCO        1       100.0
                         DownCounter        1       100.0
-                            PIF_RTC        1       100.0
                         pif_flasher        1       100.0
                             
-                         TOTAL           138           
+                         TOTAL           225           
 ----------------------------------------------------------------------
-Report for cell PIF_RTC.netlist
-     Instance path:  comp_PIF_RTC
+Report for cell ADPLL_RTC_CORE.netlist
+     Instance path:  comp_ADPLL_RTC_CORE
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       13        41.9
-                            FD1S3DX       25       100.0
-                           ORCALUT4       19        86.4
+                              CCU2D       61        77.2
+                            FD1P3IX       20       100.0
+                            FD1P3JX       14       100.0
+                            FD1S3IX       34        69.4
+                            FD1S3JX        1         9.1
+                                INV        1        16.7
+                           ORCALUT4       10        76.9
+                                VHI        1        25.0
+                                VLO        1        25.0
+SUB MODULES 
+                         ADPLL_CORE        1       100.0
+                                DCO        1       100.0
+                            
+                         TOTAL           145           
+----------------------------------------------------------------------
+Report for cell ADPLL_CORE.netlist
+     Instance path:  comp_ADPLL_RTC_CORE.ADPLL_CORE_Label
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       61        77.2
+                            FD1P3IX       20       100.0
+                            FD1P3JX       14       100.0
+                            FD1S3IX       34        69.4
+                            FD1S3JX        1         9.1
+                                INV        1        16.7
+                           ORCALUT4       10        76.9
+                                VHI        1        25.0
+                                VLO        1        25.0
+SUB MODULES 
+                                DCO        1       100.0
+                            
+                         TOTAL           144           
+----------------------------------------------------------------------
+Report for cell DCO.netlist
+     Instance path:  comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       61        77.2
+                            FD1P3IX       20       100.0
+                            FD1P3JX       14       100.0
+                            FD1S3IX       34        69.4
+                            FD1S3JX        1         9.1
+                                INV        1        16.7
+                           ORCALUT4       10        76.9
                                 VHI        1        25.0
                                 VLO        1        25.0
                             
-                         TOTAL            59           
+                         TOTAL           143           
 ----------------------------------------------------------------------
 Report for cell pif_flasher.netlist
      Instance path:  F
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       18        58.1
+                              CCU2D       18        22.8
                             FD1P3AX        7       100.0
                             FD1S3AX        1       100.0
-                            FD1S3IX       15       100.0
-                            FD1S3JX       10       100.0
-                                INV        4        80.0
-                           ORCALUT4        3        13.6
+                            FD1S3IX       15        30.6
+                            FD1S3JX       10        90.9
+                                INV        4        66.7
+                           ORCALUT4        3        23.1
                                OSCH        1       100.0
                                 VHI        2        50.0
                                 VLO        2        50.0
@@ -64,10 +109,10 @@ Report for cell DownCounter.rtl
      Instance path:  F.TBLOCK.TK
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       10        32.3
-                            FD1S3IX        9        60.0
-                            FD1S3JX       10       100.0
-                                INV        3        60.0
+                              CCU2D       10        12.7
+                            FD1S3IX        9        18.4
+                            FD1S3JX       10        90.9
+                                INV        3        50.0
                                 VHI        1        25.0
                                 VLO        1        25.0
                             

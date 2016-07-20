@@ -121,8 +121,6 @@ begin
 IBgsr   : IB  port map ( I=>GSRn, O=>GSRnX );
 GSR_GSR : GSR port map ( GSR=>GSRnX );
 
-R4 <= osc;
-
 ----------------------------------------------------------------------------------------------------
 -- LED flasher
 ----------------------------------------------------------------------------------------------------
@@ -141,8 +139,8 @@ comp_ADPLL_RTC_CORE : ADPLL_RTC_CORE
 	port map
 	(
 	    -- General Signals
-	    RESET => GSRn,
-		PORn => GSRn,
+	    RESET => GSRnX,
+		PORn => GSRnX,
 	    CLK_20M_REF => XCLK,
 
 	    --PPS input signals

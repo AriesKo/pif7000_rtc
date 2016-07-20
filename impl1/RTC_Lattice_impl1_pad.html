@@ -14,23 +14,19 @@ Performance Grade:      4
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-<<<<<<< HEAD
-Thu Jul 14 11:32:59 2016
-=======
-Thu Jul 14 15:21:24 2016
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+Wed Jul 20 17:43:40 2016
 
 Pinout by Port Name:
-+-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
-| Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                         |
-+-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
-| GPIO17    | 25/3     | LVCMOS33_OUT | PL19A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| GPIO27    | 20/4     | LVCMOS33_OUT | PL12B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| GSRn      | 136/0    | LVCMOS33_IN  | PT14D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL  |
-| LEDG      | 113/0    | LVCMOS33_OUT | PT33B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| LEDR      | 112/0    | LVCMOS33_OUT | PT35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-| R4        | 92/1     | LVCMOS33_OUT | PR12A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW      |
-+-----------+----------+--------------+-------+-----------+-----------+------------------------------------+
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                           |
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| GPIO17    | 25/3     | LVCMOS33_OUT | PL19A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| GPIO27    | 20/4     | LVCMOS33_OUT | PL12B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| GSRn      | 136/0    | LVCMOS33_IN  | PT14D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL    |
+| LEDG      | 113/0    | LVCMOS33_OUT | PT33B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| LEDR      | 112/0    | LVCMOS33_OUT | PT35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| XCLK      | 34/3     | LVCMOS33_IN  | PL25A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
 +------+-------+
@@ -81,7 +77,7 @@ Vccio by Bank:
 | 31/3     |     unused, PULL:DOWN |            |               | PL23D |                |           |           |
 | 32/3     |     unused, PULL:DOWN |            |               | PL24A |                |           |           |
 | 33/3     |     unused, PULL:DOWN |            |               | PL24B |                |           |           |
-| 34/3     |     unused, PULL:DOWN |            |               | PL25A |                |           |           |
+| 34/3     | XCLK                  | LOCATED    | LVCMOS33_IN   | PL25A |                |           |           |
 | 35/3     |     unused, PULL:DOWN |            |               | PL25B |                |           |           |
 | 38/2     |     unused, PULL:DOWN |            |               | PB4A  |                |           |           |
 | 39/2     |     unused, PULL:DOWN |            |               | PB4B  |                |           |           |
@@ -127,7 +123,7 @@ Vccio by Bank:
 | 87/1     |     unused, PULL:DOWN |            |               | PR15B |                |           |           |
 | 89/1     |     unused, PULL:DOWN |            |               | PR15A |                |           |           |
 | 91/1     |     unused, PULL:DOWN |            |               | PR12B | PCLKC1_0/DQ0   |           |           |
-| 92/1     | R4                    | LOCATED    | LVCMOS33_OUT  | PR12A | PCLKT1_0/DQ0   |           |           |
+| 92/1     |     unused, PULL:DOWN |            |               | PR12A | PCLKT1_0/DQ0   |           |           |
 | 93/1     |     unused, PULL:DOWN |            |               | PR11B | DQS0N          |           |           |
 | 94/1     |     unused, PULL:DOWN |            |               | PR11A | DQS0           |           |           |
 | 95/1     |     unused, PULL:DOWN |            |               | PR9B  | DQ0            |           |           |
@@ -414,7 +410,7 @@ LOCATE  COMP  "GPIO27"  SITE  "20";
 LOCATE  COMP  "GSRn"  SITE  "136";
 LOCATE  COMP  "LEDG"  SITE  "113";
 LOCATE  COMP  "LEDR"  SITE  "112";
-LOCATE  COMP  "R4"  SITE  "92";
+LOCATE  COMP  "XCLK"  SITE  "34";
 
 
 
@@ -426,11 +422,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
-<<<<<<< HEAD
-Thu Jul 14 11:32:59 2016
-=======
-Thu Jul 14 15:21:24 2016
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+Wed Jul 20 17:43:40 2016
 
 
 

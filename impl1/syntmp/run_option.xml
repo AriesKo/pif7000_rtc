@@ -2,13 +2,13 @@
 <!-- 
   Synopsys, Inc.
   Version K-2015.09L-2
-  Project file E:\dev\RTC_Lattice\impl1\syntmp\run_option.xml
+  Project file D:\dev\pif7000_rtc\impl1\syntmp\run_option.xml
 
 --> 
 <project_attribute_list name="Project Settings"> 
      <option name="project_name" display_name="Project Name">proj_1</option>
      <option name="impl_name" display_name="Implementation Name">impl1</option>
-     <option name="top_module" display_name="Top Module">RTC</option>
+     <option name="top_module" display_name="Top Module">TOP_ADPLL</option>
      <option name="pipe" display_name="Pipelining">1</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">1</option>

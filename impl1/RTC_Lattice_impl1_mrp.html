@@ -7,7 +7,7 @@
 </STYLE>
 </HEAD>
 <PRE><A name="Mrp"></A>
-             Lattice Mapping Report File for Design Module 'RTC'
+          Lattice Mapping Report File for Design Module 'TOP_ADPLL'
 
 
 
@@ -16,32 +16,28 @@
 Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial
      RTC_Lattice_impl1.ngd -o RTC_Lattice_impl1_map.ncd -pr
      RTC_Lattice_impl1.prf -mp RTC_Lattice_impl1.mrp -lpf
-     E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1_synplify.lpf -lpf
-     E:/dev/RTC_Lattice/pif.lpf -c 0 -gui -msgset E:/dev/RTC_Lattice/promote.xml
+     D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1_synplify.lpf -lpf
+     D:/dev/pif7000_rtc/pif.lpf -c 0 -gui -msgset D:/dev/pif7000_rtc/promote.xml
      
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HCTQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
-<<<<<<< HEAD
-Mapped on:  07/14/16  11:32:56
-=======
-Mapped on:  07/14/16  15:21:20
->>>>>>> 3741b3d1378fa28c78d0f8eb1486f6ae80cd353c
+Mapped on:  07/20/16  17:43:32
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     60 out of  7209 (1%)
-      PFU registers:           58 out of  6864 (1%)
-      PIO registers:            2 out of   345 (1%)
-   Number of SLICEs:        44 out of  3432 (1%)
-      SLICEs as Logic/ROM:     44 out of  3432 (1%)
+   Number of registers:    105 out of  7209 (1%)
+      PFU registers:          102 out of  6864 (1%)
+      PIO registers:            3 out of   345 (1%)
+   Number of SLICEs:        88 out of  3432 (3%)
+      SLICEs as Logic/ROM:     88 out of  3432 (3%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         31 out of  3432 (1%)
-   Number of LUT4s:         86 out of  6864 (1%)
-      Number used as logic LUTs:         24
+      SLICEs as Carry:         79 out of  3432 (2%)
+   Number of LUT4s:        174 out of  6864 (3%)
+      Number used as logic LUTs:         16
       Number used as distributed RAM:     0
-      Number used as ripple logic:       62
+      Number used as ripple logic:      158
       Number used as shift registers:     0
    Number of PIO sites used: 6 + 1(JTAGENB) out of 115 (6%)
    Number of block RAMs:  0 out of 26 (0%)
@@ -68,26 +64,38 @@ Mapped on:  07/14/16  15:21:20
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-   Number of clocks:  1
-     Net R4_c: 38 loads, 38 rising, 0 falling (Driver: F/OSCInst0 )
-   Number of Clock Enables:  1
+   Number of clocks:  2
+     Net XCLK_c: 39 loads, 39 rising, 0 falling (Driver: PIO XCLK )
+     Net F.xclk: 21 loads, 21 rising, 0 falling (Driver: F/OSCInst0 )
 
+   Number of Clock Enables:  3
+     Net N_10: 1 loads, 0 LSLICEs
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_6: 18 loads, 18 LSLICEs
      Net F/Tick: 4 loads, 4 LSLICEs
-   Number of local set/reset loads for net GSRnX merged into GSR:  25
-   Number of LSRs:  1
+   Number of LSRs:  4
+     Net GSRnX: 2 loads, 1 LSLICEs
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_RNI72PT:
+     18 loads, 18 LSLICEs
+     Net
+     comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_RNI72PT_0: 19
+     loads, 19 LSLICEs
      Net F/Tick: 14 loads, 14 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
+     Net
+     comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_RNI72PT_0: 19
+     loads
      Net F/Tick: 19 loads
-     Net comp_PIF_RTC/un5_one_sec_cnt_16: 12 loads
-     Net comp_PIF_RTC/un5_one_sec_cnt_17: 12 loads
-     Net comp_PIF_RTC/un5_one_sec_cnt_21: 12 loads
-     Net comp_PIF_RTC/one_sec_cnt[0]: 3 loads
-     Net F/accum: 3 loads
-     Net F/DeltaReg[5]: 3 loads
-     Net F/DeltaReg[6]: 3 loads
-     Net GPIO27_c: 3 loads
-     Net comp_PIF_RTC/one_sec_cnt[1]: 2 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_6: 18 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_RNI72PT:
+     18 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_data_tmp[12]: 7
+     loads
+     Net GSRnX: 5 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO_i[0]: 4 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO_i[2]: 4 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO_i[3]: 4 loads
+     Net comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO_i[4]: 4 loads
 
 
 
@@ -119,32 +127,30 @@ WARNING - map: The JTAG port has been disabled in this project and JTAG pins
 +---------------------+-----------+-----------+------------+
 | GSRn                | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| R4                  | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
+
 | GPIO27              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| GPIO17              | OUTPUT    | LVCMOS33  |            |
+| GPIO17              | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| XCLK                | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | LEDR                | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
 
 
 
-
-
-
-
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
-Block GND_0 undriven or does not drive anything - clipped.
-Block VCC_0 undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block VCC undriven or does not drive anything - clipped.
 Block F/TBLOCK.TK/VCC_0 undriven or does not drive anything - clipped.
 Signal GSRnX_i was merged into signal GSRnX
 Signal F/Tick_i was merged into signal F/Tick
 Signal F/TBLOCK.TK/LoadN_i was merged into signal F/Tick_i
 Signal F/GND undriven or does not drive anything - clipped.
 Signal F/TBLOCK.TK/GND undriven or does not drive anything - clipped.
-Signal comp_PIF_RTC/GND undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/GND undriven or does not drive
+     anything - clipped.
 Signal GND undriven or does not drive anything - clipped.
 Signal VCC undriven or does not drive anything - clipped.
 Signal F/DeltaReg_cry_0_COUT[5] undriven or does not drive anything - clipped.
@@ -163,21 +169,143 @@ Signal F/TBLOCK.TK/un6_ctr_cry_17_0_COUT undriven or does not drive anything -
 Signal F/DeltaReg_cry_0_S0[0] undriven or does not drive anything - clipped.
 Signal F/N_1 undriven or does not drive anything - clipped.
 Signal F/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
-Signal comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S1 undriven or does not drive
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_cry_0_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_43 undriven or does not drive
      anything - clipped.
-Signal comp_PIF_RTC/un2_one_sec_cnt_1_cry_0_0_S0 undriven or does not drive
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_S1 undriven or
+     does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_COUT undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_44 undriven or does not drive
      anything - clipped.
-Signal comp_PIF_RTC/N_1 undriven or does not drive anything - clipped.
-Signal comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_S1 undriven or does not drive
+
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_COUT
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_cry_0_0_S0 undriven or
+     does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_45 undriven or does not drive
      anything - clipped.
-Signal comp_PIF_RTC/un2_one_sec_cnt_1_s_23_0_COUT undriven or does not drive
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_S1 undriven or
+     does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un1_CNT256_s_7_0_COUT undriven or
+     does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_N_62 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_1_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_46 undriven or does not drive
      anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_9_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_21_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_33_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_45_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_57_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_69_0_S0
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_S1
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un70_clk_ref_fe_0_I_75_0_COUT
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_1_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_47 undriven or does not drive
+     anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S1 undriven
+     or does not drive anything - clipped.
+
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_45_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_57_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_69_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_75_0_COUT
+     undriven or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_1_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_48 undriven or does not drive
+     anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_9_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_21_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_33_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_45_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S0 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_S1 undriven
+     or does not drive anything - clipped.
+Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_COUT
+     undriven or does not drive anything - clipped.
+
 Block IBgsr_RNINPSD was optimized away.
 Block F/TBLOCK.TK_zero_RNIV245 was optimized away.
 Block F/TBLOCK.TK/LoadN_RNIEHJB was optimized away.
-Block F/GND_0 was optimized away.
+Block F/GND was optimized away.
 Block F/TBLOCK.TK/GND_0 was optimized away.
-Block comp_PIF_RTC/GND_0 was optimized away.
+Block comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/GND was optimized away.
 
 
 
@@ -192,9 +320,8 @@ OSC Summary
 OSC 1:                                     Pin/Node Value
   OSC Instance Name:                                F/OSCInst0
   OSC Type:                                         OSCH
-
   STDBY Input:                                      NONE
-  OSC Output:                              PIN,NODE R4_c
+  OSC Output:                              NODE     F.xclk
   OSC Nominal Frequency (MHz):                      26.60
 
 
@@ -230,9 +357,81 @@ GSR Component:
      component.
 
      Type and number of components of the type: 
-   Register = 25 
+   Register = 95 
 
      Type and instance name of component: 
+   Register : comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio
+
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[24]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[33]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/TMP_CLK_DCO_128
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[0]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[1]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[2]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[3]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[4]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[5]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[6]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[7]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[8]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[9]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[10]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[11]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[12]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[13]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[14]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[15]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[16]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[17]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[18]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[19]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[20]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[21]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[22]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[23]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[25]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[26]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[27]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[28]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[29]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[30]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[31]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[32]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[0]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[1]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[2]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[3]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[4]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[5]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[6]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[7]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[8]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[9]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[10]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[11]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[12]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[13]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[14]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[15]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[16]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[17]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[18]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[19]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[20]
+
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[21]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[22]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[23]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[24]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[25]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[0]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[1]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[2]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[3]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[4]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[5]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[6]
+   Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT256[7]
    Register : F/Accum[5]
    Register : F/TBLOCK.TK/Ctr[17]
    Register : F/TBLOCK.TK/Ctr[0]
@@ -253,7 +452,6 @@ GSR Component:
    Register : F/TBLOCK.TK/Ctr[15]
    Register : F/TBLOCK.TK/Ctr[16]
    Register : F/TBLOCK.TK/Ctr[18]
-
    Register : F/Accum[0]
    Register : F/Accum[1]
    Register : F/Accum[2]
@@ -267,41 +465,8 @@ GSR Component:
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 58 MB
+   Peak Memory Usage: 59 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

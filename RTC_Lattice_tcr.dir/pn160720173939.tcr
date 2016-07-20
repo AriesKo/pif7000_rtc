@@ -1,0 +1,8 @@
+#Start recording tcl command: 7/20/2016 17:22:44
+#Project Location: D:/dev/pif7000_rtc; Project name: RTC_Lattice
+prj_project open "D:/dev/pif7000_rtc/RTC_Lattice.ldf"
+prj_src remove "D:/dev/pif7000_rtc/hdl/RTC.vhd"
+prj_src remove "D:/dev/pif7000_rtc/hdl/PIF_RTC.vhd"
+prj_src add "D:/dev/pif7000_rtc/hdl/ADPLL_CORE.vhd" "D:/dev/pif7000_rtc/hdl/ADPLL_RTC_CORE.vhd" "D:/dev/pif7000_rtc/hdl/AUTO_CONT.vhd" "D:/dev/pif7000_rtc/hdl/DCO.vhd" "D:/dev/pif7000_rtc/hdl/ED.vhd" "D:/dev/pif7000_rtc/hdl/LOCK.vhd" "D:/dev/pif7000_rtc/hdl/PFD.vhd" "D:/dev/pif7000_rtc/hdl/pifcfg.vhd" "D:/dev/pif7000_rtc/hdl/pifdefs.vhd" "D:/dev/pif7000_rtc/hdl/piffla.vhd" "D:/dev/pif7000_rtc/hdl/PPSD.vhd" "D:/dev/pif7000_rtc/hdl/TOP_ADPLL.vhd" "D:/dev/pif7000_rtc/hdl/UPDN_CNT.vhd"
+prj_run Export -impl impl1 -forceAll
+#Stop recording: 7/20/2016 17:39:39
