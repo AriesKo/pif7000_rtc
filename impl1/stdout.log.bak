@@ -5,8 +5,8 @@ sourcing C:\lscc\diamond\3.7_x64\synpbase\lib\message_override.tcl
 
 Starting:    C:\lscc\diamond\3.7_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.7_x64\synpbase
-Hostname:    DESKTOP-FFCRFT1
-Date:        Thu Jul 14 10:15:46 2016
+Hostname:    DESKTOP-NTMOV6E
+Date:        Thu Jul 14 10:27:26 2016
 Version:     K-2015.09L-2
 
 Arguments:   -product synplify_pro -batch RTC_Lattice_impl1_synplify.tcl
@@ -16,7 +16,7 @@ ProductType: synplify_pro
 
 
 
-log file: "D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srr"
+log file: "E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srr"
 
 Running: hdl_info_gen in foreground
 
@@ -29,9 +29,9 @@ hdl_info_gen Completed
 Return Code: 0
 Run Time:0h:00m:00s
 
-Copied D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srr to D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srf
+Copied E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srr to E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srf
 
-log file: "D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srr"
+log file: "E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srr"
 
 Running: impl1 in foreground
 
@@ -48,7 +48,7 @@ Running: compile_flow (Compile Process) on proj_1|impl1
 
 Running: compiler (Compile Input) on proj_1|impl1
 
-Copied D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs to D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srs
+Copied E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_comp.srs to E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srs
 
 
 compiler Completed
@@ -58,26 +58,26 @@ Run Time:0h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
 
-Copied D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs to D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_s.srs
+Copied E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_comp.srs to E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_s.srs
 
 
 multi_srs_gen Completed
 Return Code: 0
 Run Time:0h:00m:00s
 
-Copied D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srr to D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srf
+Copied E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srr to E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srf
 
 Complete: Compile Process on proj_1|impl1
 
 
 Running: premap (Pre-mapping) on proj_1|impl1
 
-Copied D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.fse to D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_s.fse
+Copied E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.fse to E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_s.fse
 
 
 premap Completed with warnings
 Return Code: 1
-Run Time:0h:00m:01s
+Run Time:0h:00m:00s
 
 Complete: Compile on proj_1|impl1
 
@@ -89,7 +89,7 @@ License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|impl1
 
-Copied D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_m.srm to D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srm
+Copied E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_m.srm to E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srm
 
 
 fpga_mapper Completed with warnings
@@ -98,7 +98,7 @@ Run Time:0h:00m:01s
 
 Complete: Map on proj_1|impl1
 
-Copied D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srr to D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.srf
+Copied E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srr to E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.srf
 
 Complete: Logic Synthesis on proj_1|impl1
 
@@ -109,7 +109,7 @@ exit status=0
 exit status=0
 
 Save changes for project:
-D:\dev\pif7000_rtc\impl1\proj_1.prj
+E:\dev\RTC_Lattice\impl1\proj_1.prj
 
 batch mode default:no
 

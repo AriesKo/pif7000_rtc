@@ -8,9 +8,9 @@ Lattice Diamond Version 3.7.1.502
 #Build: Synplify Pro K-2015.09L-2, Build 126R, Dec 14 2015
 #install: C:\lscc\diamond\3.7_x64\synpbase
 #OS: Windows 8 6.2
-#Hostname: DESKTOP-FFCRFT1
+#Hostname: DESKTOP-NTMOV6E
 
-# Thu Jul 14 10:15:55 2016
+# Thu Jul 14 11:32:52 2016
 
 #Implementation: impl1
 
@@ -23,22 +23,22 @@ Synopsys VHDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
 Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
 @N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"D:\dev\pif7000_rtc\hdl\RTC.vhd":32:7:32:9|Top entity is set to RTC.
+@N:"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Top entity is set to RTC.
 File C:\lscc\diamond\3.7_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
-File D:\dev\pif7000_rtc\hdl\RTC.vhd changed - recompiling
+File E:\dev\RTC_Lattice\hdl\RTC.vhd changed - recompiling
 VHDL syntax check successful!
 
 Compiler output is up to date.  No re-compile necessary
 
-@N: CD630 :"D:\dev\pif7000_rtc\hdl\RTC.vhd":32:7:32:9|Synthesizing work.rtc.rtl.
+@N: CD630 :"E:\dev\RTC_Lattice\hdl\RTC.vhd":32:7:32:9|Synthesizing work.rtc.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":1182:10:1182:11|Synthesizing work.ob.syn_black_box.
 Post processing for work.ob.syn_black_box
-@N: CD630 :"D:\dev\pif7000_rtc\hdl\PIF_RTC.vhd":32:7:32:13|Synthesizing work.pif_rtc.rtl.
+@N: CD630 :"E:\dev\RTC_Lattice\hdl\PIF_RTC.vhd":32:7:32:13|Synthesizing work.pif_rtc.rtl.
 Post processing for work.pif_rtc.rtl
-@N: CD630 :"D:\dev\pif7000_rtc\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
+@N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":51:7:51:17|Synthesizing work.pif_flasher.rtl.
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
-@N: CD630 :"D:\dev\pif7000_rtc\hdl\piffla.vhd":12:7:12:17|Synthesizing work.downcounter.rtl.
+@N: CD630 :"E:\dev\RTC_Lattice\hdl\piffla.vhd":12:7:12:17|Synthesizing work.downcounter.rtl.
 Post processing for work.downcounter.rtl
 Post processing for work.pif_flasher.rtl
 @N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":591:10:591:12|Synthesizing work.gsr.syn_black_box.
@@ -47,12 +47,12 @@ Post processing for work.gsr.syn_black_box
 Post processing for work.ib.syn_black_box
 Post processing for work.rtc.rtl
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 14 10:15:55 2016
+# Thu Jul 14 11:32:52 2016
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
@@ -63,7 +63,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 14 10:15:55 2016
+# Thu Jul 14 11:32:52 2016
 
 ###########################################################]
 @END
@@ -73,19 +73,19 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 14 10:15:55 2016
+# Thu Jul 14 11:32:52 2016
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
 @N|Running in 64-bit mode
-File D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs changed - recompiling
+File E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 14 10:15:56 2016
+# Thu Jul 14 11:32:53 2016
 
 ###########################################################]
 Pre-mapping Report
@@ -96,15 +96,15 @@ Product Version K-2015.09L-2
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-@L: D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_scck.rpt 
-Printing clock  summary report in "D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1_scck.rpt" file 
+@L: E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1_scck.rpt 
+Printing clock  summary report in "E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled 
 
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
@@ -131,7 +131,7 @@ Clock                               Frequency     Period        Type         Gro
 pif_flasher|xclk_inferred_clock     2.1 MHz       480.769       inferred     Inferred_clkgroup_0
 ================================================================================================
 
-@W: MT529 :"d:\dev\pif7000_rtc\hdl\piffla.vhd":31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\dev\rtc_lattice\hdl\piffla.vhd":31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 61 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
@@ -151,7 +151,7 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 140MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jul 14 10:15:57 2016
+# Thu Jul 14 11:32:54 2016
 
 ###########################################################]
 Map & Optimize Report
@@ -171,7 +171,7 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
@@ -184,12 +184,12 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: BN132 :"d:\dev\pif7000_rtc\hdl\pif_rtc.vhd":71:1:71:2|Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@A: BN291 :"d:\dev\pif7000_rtc\hdl\pif_rtc.vhd":71:1:71:2|Boundary register pps_r_sig (in view: work.PIF_RTC(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: BN132 :"e:\dev\rtc_lattice\hdl\pif_rtc.vhd":71:1:71:2|Removing sequential instance comp_PIF_RTC.pps_r_sig because it is equivalent to instance comp_PIF_RTC.pps_p_sig. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@A: BN291 :"e:\dev\rtc_lattice\hdl\pif_rtc.vhd":71:1:71:2|Boundary register pps_r_sig (in view: work.PIF_RTC(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
 
-@N:"d:\dev\pif7000_rtc\hdl\piffla.vhd":165:4:165:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
+@N:"e:\dev\rtc_lattice\hdl\piffla.vhd":165:4:165:5|Found counter in view:work.pif_flasher(rtl) inst DeltaReg[6:0]
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
 
@@ -250,25 +250,25 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 
 Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 140MB)
 
-Writing Analyst data base D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_m.srm
+Writing Analyst data base E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.edi
+@N: FX1056 |Writing EDF file: E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.edi
 K-2015.09L-2
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
 
 @W: MT420 |Found inferred clock pif_flasher|xclk_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:F.xclk"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Jul 14 10:15:58 2016
+# Timing Report written on Thu Jul 14 11:32:55 2016
 #
 
 
@@ -446,10 +446,10 @@ comp_PIF_RTC.one_sec_cnt[23]                FD1S3DX      D        In      0.000 
 Constraints that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -479,17 +479,17 @@ VHI:            4
 VLO:            4
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 52MB peak: 143MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 52MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Jul 14 10:15:58 2016
+# Thu Jul 14 11:32:55 2016
 
 ###########################################################]
 
 
 Synthesis exit by 0.
 
-edif2ngd  -l "MachXO2" -d LCMXO2-7000HC -path "D:/dev/pif7000_rtc/impl1" -path "D:/dev/pif7000_rtc"   "D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1.edi" "RTC_Lattice_impl1.ngo"   
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HC -path "E:/dev/RTC_Lattice/impl1" -path "E:/dev/RTC_Lattice"   "E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1.edi" "RTC_Lattice_impl1.ngo"   
 edif2ngd:  version Diamond (64-bit) 3.7.1.502
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
@@ -504,7 +504,7 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs  
 
 
-ngdbuild  -a "MachXO2" -d LCMXO2-7000HC  -p "C:/lscc/diamond/3.7_x64/ispfpga/xo2c00/data"  -p "D:/dev/pif7000_rtc/impl1" -p "D:/dev/pif7000_rtc"  "RTC_Lattice_impl1.ngo" "RTC_Lattice_impl1.ngd"  	
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HC  -p "C:/lscc/diamond/3.7_x64/ispfpga/xo2c00/data"  -p "E:/dev/RTC_Lattice/impl1" -p "E:/dev/RTC_Lattice"  "RTC_Lattice_impl1.ngo" "RTC_Lattice_impl1.ngd"  	
 ngdbuild:  version Diamond (64-bit) 3.7.1.502
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
@@ -546,7 +546,7 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs  
 
 
-map -a "MachXO2" -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial   "RTC_Lattice_impl1.ngd" -o "RTC_Lattice_impl1_map.ncd" -pr "RTC_Lattice_impl1.prf" -mp "RTC_Lattice_impl1.mrp" -lpf "D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1_synplify.lpf" -lpf "D:/dev/pif7000_rtc/pif.lpf" -c 0            
+map -a "MachXO2" -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial   "RTC_Lattice_impl1.ngd" -o "RTC_Lattice_impl1_map.ncd" -pr "RTC_Lattice_impl1.prf" -mp "RTC_Lattice_impl1.mrp" -lpf "E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1_synplify.lpf" -lpf "E:/dev/RTC_Lattice/pif.lpf" -c 0            
 map:  version Diamond (64-bit) 3.7.1.502
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
@@ -657,10 +657,10 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "RTC_Lattice_impl1_map.ncd"
-Thu Jul 14 10:16:01 2016
+Thu Jul 14 11:32:56 2016
 
 PAR: Place And Route Diamond (64-bit) 3.7.1.502.
-Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset D:/dev/pif7000_rtc/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF RTC_Lattice_impl1_map.ncd RTC_Lattice_impl1.dir/5_1.ncd RTC_Lattice_impl1.prf
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset E:/dev/RTC_Lattice/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF RTC_Lattice_impl1_map.ncd RTC_Lattice_impl1.dir/5_1.ncd RTC_Lattice_impl1.prf
 Preference file: RTC_Lattice_impl1.prf.
 Placement level-cost: 5-1.
 Routing Iterations: 6
@@ -714,12 +714,12 @@ Finished Placer Phase 0.  REAL time: 0 secs
 Starting Placer Phase 1.
 ...................
 Placer score = 7558.
-Finished Placer Phase 1.  REAL time: 4 secs 
+Finished Placer Phase 1.  REAL time: 3 secs 
 
 Starting Placer Phase 2.
 .
 Placer score =  7558
-Finished Placer Phase 2.  REAL time: 4 secs 
+Finished Placer Phase 2.  REAL time: 3 secs 
 
 
 ------------------ Clock Report ------------------
@@ -761,16 +761,16 @@ I/O Bank Usage Summary:
 | 5        | 0 / 10 (  0%) | -          | -         |
 +----------+---------------+------------+-----------+
 
-Total placer CPU time: 4 secs 
+Total placer CPU time: 2 secs 
 
 Dumping design to file RTC_Lattice_impl1.dir/5_1.ncd.
 
 0 connections routed; 295 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 6 secs 
+Completed router resource preassignment. Real time: 4 secs 
 
-Start NBR router at 10:16:07 07/14/16
+Start NBR router at 11:33:00 07/14/16
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -785,32 +785,32 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 10:16:07 07/14/16
+Start NBR special constraint process at 11:33:00 07/14/16
 
-Start NBR section for initial routing at 10:16:07 07/14/16
+Start NBR section for initial routing at 11:33:00 07/14/16
 Level 4, iteration 1
 5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 6 secs 
+Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 4 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 10:16:07 07/14/16
+Start NBR section for normal routing at 11:33:00 07/14/16
 Level 4, iteration 1
 2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 6 secs 
+Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 4 secs 
 Level 4, iteration 2
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 6 secs 
+Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 4 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 10:16:07 07/14/16
+Start NBR section for setup/hold timing optimization with effort level 3 at 11:33:00 07/14/16
 
-Start NBR section for re-routing at 10:16:07 07/14/16
+Start NBR section for re-routing at 11:33:01 07/14/16
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 6 secs 
+Estimated worst slack/total negative slack<setup>: 29.148ns/0.000ns; real time: 5 secs 
 
-Start NBR section for post-routing at 10:16:07 07/14/16
+Start NBR section for post-routing at 11:33:01 07/14/16
 
 End NBR router with 0 unrouted connection
 
@@ -825,8 +825,8 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 
 
 
-Total CPU time 6 secs 
-Total REAL time: 6 secs 
+Total CPU time 4 secs 
+Total REAL time: 5 secs 
 Completely routed.
 End of route.  295 routed (100.00%); 0 unrouted.
 Checking DRC ... 
@@ -847,8 +847,8 @@ PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 6 secs 
-Total REAL time to completion: 6 secs 
+Total CPU  time to completion: 4 secs 
+Total REAL time to completion: 5 secs 
 
 par done!
 

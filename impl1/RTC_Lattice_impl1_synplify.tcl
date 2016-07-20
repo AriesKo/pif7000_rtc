@@ -44,17 +44,17 @@ set_option -resolve_multiple_driver 0
 
 #-- add_file options
 add_file -vhdl {C:/lscc/diamond/3.7_x64/cae_library/synthesis/vhdl/machxo2.vhd}
-add_file -vhdl -lib "work" {D:/dev/pif7000_rtc/hdl/PIF_RTC.vhd}
-add_file -vhdl -lib "work" {D:/dev/pif7000_rtc/hdl/pifcfg.vhd}
-add_file -vhdl -lib "work" {D:/dev/pif7000_rtc/hdl/pifdefs.vhd}
-add_file -vhdl -lib "work" {D:/dev/pif7000_rtc/hdl/piffla.vhd}
-add_file -vhdl -lib "work" {D:/dev/pif7000_rtc/hdl/RTC.vhd}
+add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/PIF_RTC.vhd}
+add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/pifcfg.vhd}
+add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/pifdefs.vhd}
+add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/piffla.vhd}
+add_file -vhdl -lib "work" {E:/dev/RTC_Lattice/hdl/RTC.vhd}
 
 #-- top module name
 set_option -top_module RTC
 
 #-- set result format/file last
-project -result_file {D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1.edi}
+project -result_file {E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1.edi}
 
 #-- error message log file
 project -log_file {RTC_Lattice_impl1.srf}
