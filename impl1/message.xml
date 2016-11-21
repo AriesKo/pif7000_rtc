@@ -2,9 +2,29 @@
 <BaliMessageLog>
     <Task name="Map">
         <Message>
+            <ID>1100060</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf(15): Semantic error in &quot;BANK 6 VCCIO 3.3 V;&quot;: </Dynamic>
+            <Dynamic>6</Dynamic>
+            <Dynamic> 5 4 3 2 1 0</Dynamic>
+            <Navigation>E:/dev/RTC_Lattice/pif.lpf</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1104062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>1 semantic error</Dynamic>
+        </Message>
+        <Message>
             <ID>52101186</ID>
             <Severity>Warning</Severity>
             <Dynamic>MachXO2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001230</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>E:/dev/RTC_Lattice/pif.lpf</Dynamic>
         </Message>
     </Task>
     <Task name="Lattice_Synthesis">
@@ -180,20 +200,6 @@
         <Message>
             <ID>61061045</ID>
             <Severity>Warning</Severity>
-        </Message>
-        <Message>
-            <ID>61061008</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>XCLK_c</Dynamic>
-            <Dynamic>Primary</Dynamic>
-            <Dynamic>XCLK</Dynamic>
-            <Dynamic>34</Dynamic>
-            <Dynamic>Primary</Dynamic>
-        </Message>
-        <Message>
-            <ID>62061008</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>XCLK_c</Dynamic>
         </Message>
     </Task>
     <Task name="Translate">
@@ -687,9 +693,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD638 :&quot;D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd&quot;:103:7:103:13|Signal s_pps_p is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Dynamic>CD638 :&quot;E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd&quot;:103:7:103:13|Signal s_pps_p is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
             <Navigation>CD638</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd</Navigation>
             <Navigation>103</Navigation>
             <Navigation>7</Navigation>
             <Navigation>103</Navigation>
@@ -699,9 +705,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD638 :&quot;D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd&quot;:104:7:104:13|Signal s_pps_r is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Dynamic>CD638 :&quot;E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd&quot;:104:7:104:13|Signal s_pps_r is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
             <Navigation>CD638</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd</Navigation>
             <Navigation>104</Navigation>
             <Navigation>7</Navigation>
             <Navigation>104</Navigation>
@@ -711,9 +717,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD280 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:135:10:135:12|Unbound component RTC mapped to black box</Dynamic>
+            <Dynamic>CD280 :&quot;E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd&quot;:135:10:135:12|Unbound component RTC mapped to black box</Dynamic>
             <Navigation>CD280</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd</Navigation>
             <Navigation>135</Navigation>
             <Navigation>10</Navigation>
             <Navigation>135</Navigation>
@@ -723,9 +729,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:271:1:271:2|Pruning unused register S_PPS_CNT_4(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Dynamic>CL169 :&quot;E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd&quot;:271:1:271:2|Pruning unused register S_PPS_CNT_4(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
             <Navigation>CL169</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd</Navigation>
             <Navigation>271</Navigation>
             <Navigation>1</Navigation>
             <Navigation>271</Navigation>
@@ -735,9 +741,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:271:1:271:2|Pruning unused register S_TMP_PPS_DFF_2. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Dynamic>CL169 :&quot;E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd&quot;:271:1:271:2|Pruning unused register S_TMP_PPS_DFF_2. Make sure that there are no unused intermediate registers.</Dynamic>
             <Navigation>CL169</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd</Navigation>
             <Navigation>271</Navigation>
             <Navigation>1</Navigation>
             <Navigation>271</Navigation>
@@ -747,9 +753,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd&quot;:256:1:256:2|Pruning unused register S_TMP_PPS_4. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Dynamic>CL169 :&quot;E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd&quot;:256:1:256:2|Pruning unused register S_TMP_PPS_4. Make sure that there are no unused intermediate registers.</Dynamic>
             <Navigation>CL169</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd</Navigation>
             <Navigation>256</Navigation>
             <Navigation>1</Navigation>
             <Navigation>256</Navigation>
@@ -759,9 +765,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL247 :&quot;D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd&quot;:41:4:41:9|Input port bit 25 of cnt_tv(25 downto 0) is unused</Dynamic>
+            <Dynamic>CL247 :&quot;E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd&quot;:41:4:41:9|Input port bit 25 of cnt_tv(25 downto 0) is unused</Dynamic>
             <Navigation>CL247</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd</Navigation>
             <Navigation>41</Navigation>
             <Navigation>4</Navigation>
             <Navigation>41</Navigation>
@@ -771,9 +777,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL246 :&quot;D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd&quot;:41:4:41:9|Input port bits 13 to 0 of cnt_tv(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Dynamic>CL246 :&quot;E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd&quot;:41:4:41:9|Input port bits 13 to 0 of cnt_tv(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
             <Navigation>CL246</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd</Navigation>
             <Navigation>41</Navigation>
             <Navigation>4</Navigation>
             <Navigation>41</Navigation>
@@ -783,9 +789,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL177 :&quot;D:\dev\pif7000_rtc\hdl\LOCK.vhd&quot;:188:1:188:2|Sharing sequential element CLK_REF_FE_D1. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Dynamic>CL177 :&quot;E:\dev\RTC_Lattice\hdl\LOCK.vhd&quot;:188:1:188:2|Sharing sequential element CLK_REF_FE_D1. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
             <Navigation>CL177</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\LOCK.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\LOCK.vhd</Navigation>
             <Navigation>188</Navigation>
             <Navigation>1</Navigation>
             <Navigation>188</Navigation>
@@ -795,9 +801,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL260 :&quot;D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd&quot;:75:1:75:2|Pruning register bit 1 of CNT_LOCKED(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd&quot;:75:1:75:2|Pruning register bit 1 of CNT_LOCKED(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd</Navigation>
             <Navigation>75</Navigation>
             <Navigation>1</Navigation>
             <Navigation>75</Navigation>
@@ -807,9 +813,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL246 :&quot;D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd&quot;:43:2:43:8|Input port bits 1 to 0 of sub_out(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Dynamic>CL246 :&quot;E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd&quot;:43:2:43:8|Input port bits 1 to 0 of sub_out(25 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
             <Navigation>CL246</Navigation>
-            <Navigation>D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd</Navigation>
+            <Navigation>E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd</Navigation>
             <Navigation>43</Navigation>
             <Navigation>2</Navigation>
             <Navigation>43</Navigation>
@@ -826,9 +832,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\lock.vhd&quot;:188:1:188:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_D2 because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\lock.vhd&quot;:188:1:188:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_D2 because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u7.CLK_REF_FE_2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\lock.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\lock.vhd</Navigation>
             <Navigation>188</Navigation>
             <Navigation>1</Navigation>
             <Navigation>188</Navigation>
@@ -838,9 +844,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN114 :&quot;d:\dev\pif7000_rtc\hdl\adpll_rtc_core.vhd&quot;:325:0:325:6|Removing instance RTC_FUN (in view: work.ADPLL_RTC_CORE(behavioral)) of black box view:work.RTC(syn_black_box) because it does not drive other instances.</Dynamic>
+            <Dynamic>BN114 :&quot;e:\dev\rtc_lattice\hdl\adpll_rtc_core.vhd&quot;:325:0:325:6|Removing instance RTC_FUN (in view: work.ADPLL_RTC_CORE(behavioral)) of black box view:work.RTC(syn_black_box) because it does not drive other instances.</Dynamic>
             <Navigation>BN114</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\adpll_rtc_core.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\adpll_rtc_core.vhd</Navigation>
             <Navigation>325</Navigation>
             <Navigation>0</Navigation>
             <Navigation>325</Navigation>
@@ -850,21 +856,21 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;d:\dev\pif7000_rtc\hdl\pfd.vhd&quot;:83:2:83:3|Found inferred clock TOP_ADPLL|XCLK which controls 479 sequential elements including comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u1.UPDN_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;e:\dev\rtc_lattice\hdl\pfd.vhd&quot;:83:2:83:3|Found inferred clock TOP_ADPLL|RA5 which controls 479 sequential elements including comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u1.UPDN_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\pfd.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\pfd.vhd</Navigation>
             <Navigation>83</Navigation>
             <Navigation>2</Navigation>
             <Navigation>83</Navigation>
             <Navigation>3</Navigation>
-            <Navigation>Found inferred clock TOP_ADPLL|XCLK which controls 479 sequential elements including comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u1.UPDN_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Navigation>Found inferred clock TOP_ADPLL|RA5 which controls 479 sequential elements including comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u1.UPDN_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;d:\dev\pif7000_rtc\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;e:\dev\rtc_lattice\hdl\piffla.vhd&quot;:31:4:31:5|Found inferred clock pif_flasher|xclk_inferred_clock which controls 35 sequential elements including F.TBLOCK\.TK.Ctr[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\piffla.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\piffla.vhd</Navigation>
             <Navigation>31</Navigation>
             <Navigation>4</Navigation>
             <Navigation>31</Navigation>
@@ -874,9 +880,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -886,9 +892,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -898,9 +904,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[22] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -910,9 +916,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -922,9 +928,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[18] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -934,9 +940,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[17] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -946,9 +952,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:120:1:120:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[15] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>120</Navigation>
             <Navigation>1</Navigation>
             <Navigation>120</Navigation>
@@ -958,9 +964,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[19] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>220</Navigation>
             <Navigation>1</Navigation>
             <Navigation>220</Navigation>
@@ -970,9 +976,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[23] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>220</Navigation>
             <Navigation>1</Navigation>
             <Navigation>220</Navigation>
@@ -982,9 +988,9 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>BN132 :&quot;d:\dev\pif7000_rtc\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;e:\dev\rtc_lattice\hdl\dco.vhd&quot;:220:1:220:2|Removing instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[25] because it is equivalent to instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_D[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>d:\dev\pif7000_rtc\hdl\dco.vhd</Navigation>
+            <Navigation>e:\dev\rtc_lattice\hdl\dco.vhd</Navigation>
             <Navigation>220</Navigation>
             <Navigation>1</Navigation>
             <Navigation>220</Navigation>
@@ -994,9 +1000,9 @@
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT420 |Found inferred clock TOP_ADPLL|XCLK with period 1000.00ns. Please declare a user-defined clock on object &quot;p:XCLK&quot;</Dynamic>
+            <Dynamic>MT420 |Found inferred clock TOP_ADPLL|RA5 with period 1000.00ns. Please declare a user-defined clock on object &quot;p:RA5&quot;</Dynamic>
             <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock TOP_ADPLL|XCLK with period 1000.00ns. Please declare a user-defined clock on object &quot;p:XCLK&quot;</Navigation>
+            <Navigation>Found inferred clock TOP_ADPLL|RA5 with period 1000.00ns. Please declare a user-defined clock on object &quot;p:RA5&quot;</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>

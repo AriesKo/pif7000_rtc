@@ -5,38 +5,38 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1469004226"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1479717893"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1469004212">
-            <Task name="Map" build_result="2" update_result="0" update_time="1469004212"/>
+        <Milestone name="Map" build_result="2" build_time="1479717882">
+            <Task name="Map" build_result="2" update_result="0" update_time="1479717882"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1469004222">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1469004222"/>
+        <Milestone name="PAR" build_result="2" build_time="1479717890">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1479717890"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1469004211">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1469004211"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1479717881">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1479717881"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="0" update_result="2" update_time="1469003100"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1479717819"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1469004211">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1469004211"/>
+        <Milestone name="Translate" build_result="2" build_time="1479717882">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1479717882"/>
         </Milestone>
-        <Report name="RTC_Lattice_impl1.bgn" last_build_time="1469004226" last_build_size="4076"/>
-        <Report name="RTC_Lattice_impl1.edi" last_build_time="1469004209" last_build_size="172966"/>
-        <Report name="RTC_Lattice_impl1.jed" last_build_time="1469004226" last_build_size="1464768"/>
-        <Report name="RTC_Lattice_impl1.ncd" last_build_time="1469004222" last_build_size="166369"/>
-        <Report name="RTC_Lattice_impl1.ngd" last_build_time="1469004211" last_build_size="154716"/>
-        <Report name="RTC_Lattice_impl1_map.ncd" last_build_time="1469004212" last_build_size="126261"/>
+        <Report name="RTC_Lattice_impl1.bgn" last_build_time="1479717893" last_build_size="4076"/>
+        <Report name="RTC_Lattice_impl1.edi" last_build_time="1479717879" last_build_size="172948"/>
+        <Report name="RTC_Lattice_impl1.jed" last_build_time="1479717893" last_build_size="1464767"/>
+        <Report name="RTC_Lattice_impl1.ncd" last_build_time="1479717890" last_build_size="166264"/>
+        <Report name="RTC_Lattice_impl1.ngd" last_build_time="1479717882" last_build_size="154712"/>
+        <Report name="RTC_Lattice_impl1_map.ncd" last_build_time="1479717882" last_build_size="126256"/>
     </Strategy>
 </BuildStatus>

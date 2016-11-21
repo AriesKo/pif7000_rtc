@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2016 7 20 17 43 29)
+      (timeStamp 2016 11 21 17 44 39)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "K-2015.09L-2, mapper maplat, Build 1368R"))
      )
@@ -190,7 +190,7 @@
     (cell DCO (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port XCLK_c (direction INPUT))
+           (port RA5_c (direction INPUT))
            (port GSRnX_i (direction INPUT))
            (port GPIO27_c (direction OUTPUT))
            (port GSRnX (direction INPUT))
@@ -1141,8 +1141,8 @@
            (portRef Z (instanceRef PRO_CNT_TV_128_TMP_CLK_DCO_128_14))
            (portRef D (instanceRef TMP_CLK_DCO_128))
           ))
-          (net XCLK_c (joined
-           (portRef XCLK_c)
+          (net RA5_c (joined
+           (portRef RA5_c)
            (portRef CK (instanceRef CNT256_7))
            (portRef CK (instanceRef CNT256_6))
            (portRef CK (instanceRef CNT256_5))
@@ -2380,7 +2380,7 @@
     (cell ADPLL_CORE (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port XCLK_c (direction INPUT))
+           (port RA5_c (direction INPUT))
            (port GSRnX_i (direction INPUT))
            (port GPIO27_c (direction OUTPUT))
            (port GSRnX (direction INPUT))
@@ -2390,9 +2390,9 @@
          (contents
           (instance u4 (viewRef netlist (cellRef DCO))
           )
-          (net XCLK_c (joined
-           (portRef XCLK_c)
-           (portRef XCLK_c (instanceRef u4))
+          (net RA5_c (joined
+           (portRef RA5_c)
+           (portRef RA5_c (instanceRef u4))
           ))
           (net GSRnX_i (joined
            (portRef GSRnX_i)
@@ -2917,7 +2917,7 @@
     (cell ADPLL_RTC_CORE (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port XCLK_c (direction INPUT))
+           (port RA5_c (direction INPUT))
            (port GSRnX_i (direction INPUT))
            (port GPIO27_c (direction OUTPUT))
            (port GSRnX (direction INPUT))
@@ -2927,9 +2927,9 @@
          (contents
           (instance ADPLL_CORE_Label (viewRef netlist (cellRef ADPLL_CORE))
           )
-          (net XCLK_c (joined
-           (portRef XCLK_c)
-           (portRef XCLK_c (instanceRef ADPLL_CORE_Label))
+          (net RA5_c (joined
+           (portRef RA5_c)
+           (portRef RA5_c (instanceRef ADPLL_CORE_Label))
           ))
           (net GSRnX_i (joined
            (portRef GSRnX_i)
@@ -3361,7 +3361,7 @@
        (view rtl (viewType NETLIST)
          (interface
            (port GSRn (direction INPUT))
-           (port XCLK (direction INPUT))
+           (port RA5 (direction INPUT))
            (port LEDR (direction OUTPUT))
            (port LEDG (direction OUTPUT))
            (port GPIO17 (direction OUTPUT))
@@ -3382,7 +3382,7 @@
           )
           (instance GPIO27_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
           (instance GPIO17_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
-          (instance XCLK_pad (viewRef PRIM (cellRef IB (libraryRef LUCENT)))
+          (instance RA5_pad (viewRef PRIM (cellRef IB (libraryRef LUCENT)))
           )
           (instance IBgsr (viewRef PRIM (cellRef IB (libraryRef LUCENT)))
           )
@@ -3454,14 +3454,14 @@
            (portRef CD (instanceRef F_Gio))
            (portRef CD (instanceRef F_Rio))
           ))
-          (net XCLK_c (joined
-           (portRef O (instanceRef XCLK_pad))
-           (portRef XCLK_c (instanceRef comp_ADPLL_RTC_CORE))
+          (net RA5_c (joined
+           (portRef O (instanceRef RA5_pad))
+           (portRef RA5_c (instanceRef comp_ADPLL_RTC_CORE))
            (portRef SCLK (instanceRef comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio))
           ))
-          (net XCLK (joined
-           (portRef XCLK)
-           (portRef I (instanceRef XCLK_pad))
+          (net RA5 (joined
+           (portRef RA5)
+           (portRef I (instanceRef RA5_pad))
           ))
           (net GPIO17_c (joined
            (portRef Q (instanceRef comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio))

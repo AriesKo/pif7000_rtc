@@ -1,40 +1,40 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled 
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":119:1:119:2|Removing sequential instance DIF_M[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":137:1:137:2|Removing sequential instance OLD_M_1[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":119:1:119:2|Removing sequential instance OLD_M[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":516:1:516:2|Removing sequential instance M_2[2:0] (in view: work.DCO(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":516:1:516:2|Removing sequential instance M_1[2:0] (in view: work.DCO(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":125:2:125:3|Removing sequential instance POS_ERR_VAL[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":146:2:146:3|Removing sequential instance CNT_CLK[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":163:2:163:3|Removing sequential instance CNT_LOCKED[1:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance SUB_OUT[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":146:2:146:3|Removing sequential instance POS_ERR (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
-@N: BN115 :"d:\dev\pif7000_rtc\hdl\adpll_core.vhd":325:0:325:3|Removing instance u6_2 (in view: work.ADPLL_CORE(behavioral)) of type view:work.PPSD(behavioral) because it does not drive other instances.
-@N: BN115 :"d:\dev\pif7000_rtc\hdl\adpll_core.vhd":318:0:318:3|Removing instance u6_1 (in view: work.ADPLL_CORE(behavioral)) of type view:work.PPSD(behavioral) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":88:2:88:3|Removing sequential instance u2_2.CLK_REF_FILT_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":73:2:73:3|Removing sequential instance u2_2.CLK_REF_FILT (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":99:2:99:3|Removing sequential instance u2_2.CLK_REF_FE (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_2.CLK_REF_D2 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_2.CLK_REF_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":88:2:88:3|Removing sequential instance u2_1.CLK_REF_FILT_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":73:2:73:3|Removing sequential instance u2_1.CLK_REF_FILT (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":99:2:99:3|Removing sequential instance u2_1.CLK_REF_FE (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_1.CLK_REF_D2 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_1.CLK_REF_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\pfd.vhd":104:1:104:2|Removing sequential instance u1.CLK_DCO_1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.seqshift(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\pfd.vhd":83:2:83:3|Removing sequential instance u1.UPDN_i (in view: work.ADPLL_CORE(behavioral)) because it does not drive other instances.
-@N: MF179 :"d:\dev\pif7000_rtc\hdl\dco.vhd":224:8:224:25|Found 26 bit by 26 bit '==' comparator, 'PULS_GEN\.un42_cnt_dco'
-@N: MF179 :"d:\dev\pif7000_rtc\hdl\dco.vhd":239:7:239:24|Found 26 bit by 26 bit '==' comparator, 'PULS_GEN\.un46_cnt_dco'
-@N: MF179 :"d:\dev\pif7000_rtc\hdl\dco.vhd":417:10:417:43|Found 26 bit by 26 bit '==' comparator, 'PRO_CNT_TV_128\.un70_clk_ref_fe'
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV[12] (in view: work.DCO(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing sequential instance CNT_TV_D[8] (in view: work.DCO(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":220:1:220:2|Removing sequential instance CNT_TV_D[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV_2[11] (in view: work.DCO(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV_2[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[1] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[0] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":119:1:119:2|Removing sequential instance DIF_M[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":137:1:137:2|Removing sequential instance OLD_M_1[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":119:1:119:2|Removing sequential instance OLD_M[2:0] (in view: work.UPDN_CNT(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":516:1:516:2|Removing sequential instance M_2[2:0] (in view: work.DCO(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":516:1:516:2|Removing sequential instance M_1[2:0] (in view: work.DCO(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":125:2:125:3|Removing sequential instance POS_ERR_VAL[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":146:2:146:3|Removing sequential instance CNT_CLK[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":163:2:163:3|Removing sequential instance CNT_LOCKED[1:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance SUB_OUT[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":146:2:146:3|Removing sequential instance POS_ERR (in view: work.LOCK(behavioral)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN115 :"e:\dev\rtc_lattice\hdl\adpll_core.vhd":325:0:325:3|Removing instance u6_2 (in view: work.ADPLL_CORE(behavioral)) of type view:work.PPSD(behavioral) because it does not drive other instances.
+@N: BN115 :"e:\dev\rtc_lattice\hdl\adpll_core.vhd":318:0:318:3|Removing instance u6_1 (in view: work.ADPLL_CORE(behavioral)) of type view:work.PPSD(behavioral) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":88:2:88:3|Removing sequential instance u2_2.CLK_REF_FILT_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":73:2:73:3|Removing sequential instance u2_2.CLK_REF_FILT (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":99:2:99:3|Removing sequential instance u2_2.CLK_REF_FE (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_2.CLK_REF_D2 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_2.CLK_REF_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":88:2:88:3|Removing sequential instance u2_1.CLK_REF_FILT_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":73:2:73:3|Removing sequential instance u2_1.CLK_REF_FILT (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":99:2:99:3|Removing sequential instance u2_1.CLK_REF_FE (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_1.CLK_REF_D2 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\ed.vhd":60:2:60:3|Removing sequential instance u2_1.CLK_REF_D1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\pfd.vhd":104:1:104:2|Removing sequential instance u1.CLK_DCO_1 (in view: work.ADPLL_CORE(behavioral)) of type view:PrimLib.seqshift(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\pfd.vhd":83:2:83:3|Removing sequential instance u1.UPDN_i (in view: work.ADPLL_CORE(behavioral)) because it does not drive other instances.
+@N: MF179 :"e:\dev\rtc_lattice\hdl\dco.vhd":224:8:224:25|Found 26 bit by 26 bit '==' comparator, 'PULS_GEN\.un42_cnt_dco'
+@N: MF179 :"e:\dev\rtc_lattice\hdl\dco.vhd":239:7:239:24|Found 26 bit by 26 bit '==' comparator, 'PULS_GEN\.un46_cnt_dco'
+@N: MF179 :"e:\dev\rtc_lattice\hdl\dco.vhd":417:10:417:43|Found 26 bit by 26 bit '==' comparator, 'PRO_CNT_TV_128\.un70_clk_ref_fe'
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV[12] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":220:1:220:2|Removing sequential instance CNT_TV_D[8] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":220:1:220:2|Removing sequential instance CNT_TV_D[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV_2[11] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\dco.vhd":120:1:120:2|Removing sequential instance CNT_TV_2[0] (in view: work.DCO(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[1] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[0] (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_18 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_16 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_14 (in view: work.LOCK(behavioral)) because it does not drive other instances.
@@ -61,30 +61,30 @@
 @N: BN362 :|Removing sequential instance G_54 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_52 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_50 (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[25] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[24] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[23] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[22] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[21] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[20] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[19] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[18] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[17] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[16] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[15] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[14] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[13] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[12] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[11] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[10] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[9] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[8] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[7] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[6] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[5] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[4] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[3] (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[2] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[25] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[24] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[23] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[22] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[21] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[20] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[19] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[18] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[17] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[16] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[15] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[14] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[13] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[12] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[11] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[10] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[9] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[8] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[7] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[6] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[5] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[4] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[3] (in view: work.LOCK(behavioral)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":91:2:91:3|Removing sequential instance CONST_SUB_OUT[2] (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_1 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_2 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_3 (in view: work.LOCK(behavioral)) because it does not drive other instances.
@@ -93,46 +93,46 @@
 @N: BN362 :|Removing sequential instance G_6 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_7 (in view: work.LOCK(behavioral)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_8 (in view: work.LOCK(behavioral)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\lock.vhd":188:1:188:2|Removing sequential instance CNT_DCO_D4_CR25[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\adpll_rtc_core.vhd":199:1:199:2|Removing sequential instance comp_ADPLL_RTC_CORE.S_EN_AUTO (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":167:1:167:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE_1 (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE_2 (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.TMP_CLK_DCO (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.LOCKED (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":131:1:131:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.TMP_SUB_OUT[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[2] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[1] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CNT_LOCKED[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[25] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[24] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[23] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[22] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[21] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[20] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[19] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[18] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[17] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[16] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[15] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[14] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[13] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[12] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[11] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[10] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[9] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[8] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[7] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[6] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[5] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[4] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[3] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[2] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[1] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
-@N: BN362 :"d:\dev\pif7000_rtc\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\lock.vhd":188:1:188:2|Removing sequential instance CNT_DCO_D4_CR25[25:0] (in view: work.LOCK(behavioral)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\adpll_rtc_core.vhd":199:1:199:2|Removing sequential instance comp_ADPLL_RTC_CORE.S_EN_AUTO (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":167:1:167:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE_1 (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CLK_DCO_RE_2 (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":152:1:152:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.TMP_CLK_DCO (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.LOCKED (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":131:1:131:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.TMP_SUB_OUT[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[2] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[1] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.M[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\auto_cont.vhd":75:1:75:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u8.CNT_LOCKED[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[25] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[24] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[23] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[22] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[21] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[20] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[19] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[18] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[17] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[16] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[15] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[14] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[13] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[12] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[11] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[10] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[9] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[8] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[7] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[6] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[5] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[4] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[3] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[2] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[1] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
+@N: BN362 :"e:\dev\rtc_lattice\hdl\updn_cnt.vhd":71:1:71:2|Removing sequential instance comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u3.N[0] (in view: work.TOP_ADPLL(rtl)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-@N: FX1056 |Writing EDF file: D:\dev\pif7000_rtc\impl1\RTC_Lattice_impl1.edi
+@N: FX1056 |Writing EDF file: E:\dev\RTC_Lattice\impl1\RTC_Lattice_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 @N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

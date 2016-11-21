@@ -1,7 +1,7 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jul 20 17:43:30 2016
+# Timing Report written on Mon Nov 21 17:44:40 2016
 #
 
 
@@ -25,7 +25,7 @@ Worst slack in design: 0.320
                                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group              
 ----------------------------------------------------------------------------------------------------------------------------------------
-TOP_ADPLL|XCLK                      1.0 MHz       101.1 MHz     1000.000      9.886         990.114     inferred     Inferred_clkgroup_0
+TOP_ADPLL|RA5                       1.0 MHz       101.1 MHz     1000.000      9.886         990.114     inferred     Inferred_clkgroup_0
 pif_flasher|xclk_inferred_clock     2.1 MHz       185.7 MHz     480.769       5.385         475.384     inferred     Inferred_clkgroup_1
 System                              1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
 ========================================================================================================================================
@@ -40,7 +40,7 @@ Clocks                                                            |    rise  to 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                         Ending                           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-TOP_ADPLL|XCLK                   TOP_ADPLL|XCLK                   |  0.000       1.127  |  No paths    -      |  No paths    -      |  No paths    -    
+TOP_ADPLL|RA5                    TOP_ADPLL|RA5                    |  0.000       1.127  |  No paths    -      |  No paths    -      |  No paths    -    
 pif_flasher|xclk_inferred_clock  pif_flasher|xclk_inferred_clock  |  0.000       0.320  |  No paths    -      |  No paths    -      |  No paths    -    
 ========================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -56,7 +56,7 @@ No IO constraint found
 
 
 ====================================
-Detailed Report for Clock: TOP_ADPLL|XCLK
+Detailed Report for Clock: TOP_ADPLL|RA5
 ====================================
 
 
@@ -64,41 +64,41 @@ Detailed Report for Clock: TOP_ADPLL|XCLK
 Starting Points with Worst Slack
 ********************************
 
-                                                            Starting                                                 Arrival          
-Instance                                                    Reference          Type        Pin     Net               Time        Slack
-                                                            Clock                                                                     
---------------------------------------------------------------------------------------------------------------------------------------
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0]          TOP_ADPLL|XCLK     FD1S3IX     Q       CNT_DCO_i[0]      0.803       1.127
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[0]       TOP_ADPLL|XCLK     FD1S3JX     Q       CNT_TV_128[0]     0.731       1.225
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128     TOP_ADPLL|XCLK     FD1P3IX     Q       GPIO27_c          0.731       1.225
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[1]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[1]     0.680       1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[2]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[2]     0.680       1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[3]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[3]     0.680       1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[4]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[4]     0.680       1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[5]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[5]     0.680       1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[6]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[6]     0.680       1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[7]       TOP_ADPLL|XCLK     FD1P3JX     Q       CNT_TV_128[7]     0.680       1.453
-======================================================================================================================================
+                                                            Starting                                                Arrival          
+Instance                                                    Reference         Type        Pin     Net               Time        Slack
+                                                            Clock                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0]          TOP_ADPLL|RA5     FD1S3IX     Q       CNT_DCO_i[0]      0.803       1.127
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[0]       TOP_ADPLL|RA5     FD1S3JX     Q       CNT_TV_128[0]     0.731       1.225
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128     TOP_ADPLL|RA5     FD1P3IX     Q       GPIO27_c          0.731       1.225
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[1]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[1]     0.680       1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[2]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[2]     0.680       1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[3]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[3]     0.680       1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[4]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[4]     0.680       1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[5]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[5]     0.680       1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[6]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[6]     0.680       1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[7]       TOP_ADPLL|RA5     FD1P3JX     Q       CNT_TV_128[7]     0.680       1.453
+=====================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                            Starting                                                      Required          
-Instance                                                    Reference          Type        Pin     Net                    Time         Slack
-                                                            Clock                                                                           
---------------------------------------------------------------------------------------------------------------------------------------------
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0]          TOP_ADPLL|XCLK     FD1S3IX     D       CNT_DCO_i_i[0]         0.074        1.127
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[0]       TOP_ADPLL|XCLK     FD1S3JX     D       fb                     -0.062       1.225
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128     TOP_ADPLL|XCLK     FD1P3IX     D       TMP_CLK_DCO_128_14     -0.062       1.225
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[1]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[1]     0.074        1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[2]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[2]     0.074        1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[3]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[3]     0.074        1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[4]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[4]     0.074        1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[5]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[5]     0.074        1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[6]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[6]     0.074        1.453
-comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[7]       TOP_ADPLL|XCLK     FD1P3JX     D       un10_cnt_tv_128[7]     0.074        1.453
-============================================================================================================================================
+                                                            Starting                                                     Required          
+Instance                                                    Reference         Type        Pin     Net                    Time         Slack
+                                                            Clock                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0]          TOP_ADPLL|RA5     FD1S3IX     D       CNT_DCO_i_i[0]         0.074        1.127
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[0]       TOP_ADPLL|RA5     FD1S3JX     D       fb                     -0.062       1.225
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.TMP_CLK_DCO_128     TOP_ADPLL|RA5     FD1P3IX     D       TMP_CLK_DCO_128_14     -0.062       1.225
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[1]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[1]     0.074        1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[2]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[2]     0.074        1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[3]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[3]     0.074        1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[4]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[4]     0.074        1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[5]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[5]     0.074        1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[6]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[6]     0.074        1.453
+comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_TV_128[7]       TOP_ADPLL|RA5     FD1P3JX     D       un10_cnt_tv_128[7]     0.074        1.453
+===========================================================================================================================================
 
 
 
@@ -117,8 +117,8 @@ Path information for path number 1:
     Number of logic level(s):                1
     Starting point:                          comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0] / Q
     Ending point:                            comp_ADPLL_RTC_CORE.ADPLL_CORE_Label.u4.CNT_DCO[0] / D
-    The start point is clocked by            TOP_ADPLL|XCLK [rising] on pin CK
-    The end   point is clocked by            TOP_ADPLL|XCLK [rising] on pin CK
+    The start point is clocked by            TOP_ADPLL|RA5 [rising] on pin CK
+    The end   point is clocked by            TOP_ADPLL|RA5 [rising] on pin CK
 
 Instance / Net                                                         Pin      Pin               Arrival     No. of    
 Name                                                       Type        Name     Dir     Delay     Time        Fan Out(s)

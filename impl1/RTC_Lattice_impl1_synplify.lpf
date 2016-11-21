@@ -4,7 +4,7 @@
 
 # Period Constraints 
 #FREQUENCY NET "F/xclk" 2.1 MHz;
-#FREQUENCY PORT "XCLK" 1.0 MHz;
+#FREQUENCY PORT "RA5" 1.0 MHz;
 
 
 # Output Constraints 
@@ -16,8 +16,8 @@
 
 
 # Block Path Constraints 
-#BLOCK PATH FROM CLKNET "F/xclk" TO CLKNET "XCLK_c";
-#BLOCK PATH FROM CLKNET "XCLK_c" TO CLKNET "F/xclk";
+#BLOCK PATH FROM CLKNET "F/xclk" TO CLKNET "RA5_c";
+#BLOCK PATH FROM CLKNET "RA5_c" TO CLKNET "F/xclk";
 
 BLOCK ASYNCPATHS;
 

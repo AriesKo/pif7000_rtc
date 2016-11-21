@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|D:\\dev\\pif7000_rtc\\impl1\\synwork\\RTC_Lattice_impl1_comp.srs|-top|TOP_ADPLL|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\dev\\RTC_Lattice\\impl1\\synwork\\RTC_Lattice_impl1_comp.srs|-top|TOP_ADPLL|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\bin64\\c_vhdl.exe":1449684046
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\location.map":1449864194
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std.vhd":1449683646
@@ -10,34 +10,34 @@
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1449683646
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1449683646
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1376964008
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\pifcfg.vhd":1465968229
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\AUTO_CONT.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\DCO.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\ED.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\LOCK.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\PFD.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\PPSD.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\UPDN_CNT.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\pifdefs.vhd":1465968229
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\piffla.vhd":1465968229
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\pifcfg.vhd":1468459612
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\AUTO_CONT.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\DCO.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\ED.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\LOCK.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\PFD.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\PPSD.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\UPDN_CNT.vhd":1463467407
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\pifdefs.vhd":1468459612
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\piffla.vhd":1468459612
 #CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1449679782
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\ADPLL_CORE.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\ADPLL_RTC_CORE.vhd":1469002882
-#CUR:"D:\\dev\\pif7000_rtc\\hdl\\TOP_ADPLL.vhd":1469004187
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\ADPLL_CORE.vhd":1463467406
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\ADPLL_RTC_CORE.vhd":1479717786
+#CUR:"E:\\dev\\RTC_Lattice\\hdl\\TOP_ADPLL.vhd":1479717818
 0			"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
-1			"D:\dev\pif7000_rtc\hdl\pifcfg.vhd" vhdl
-2			"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd" vhdl
-3			"D:\dev\pif7000_rtc\hdl\DCO.vhd" vhdl
-4			"D:\dev\pif7000_rtc\hdl\ED.vhd" vhdl
-5			"D:\dev\pif7000_rtc\hdl\LOCK.vhd" vhdl
-6			"D:\dev\pif7000_rtc\hdl\PFD.vhd" vhdl
-7			"D:\dev\pif7000_rtc\hdl\PPSD.vhd" vhdl
-8			"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd" vhdl
-9			"D:\dev\pif7000_rtc\hdl\pifdefs.vhd" vhdl
-10			"D:\dev\pif7000_rtc\hdl\piffla.vhd" vhdl
-11			"D:\dev\pif7000_rtc\hdl\ADPLL_CORE.vhd" vhdl
-12			"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd" vhdl
-13			"D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd" vhdl
+1			"E:\dev\RTC_Lattice\hdl\pifcfg.vhd" vhdl
+2			"E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd" vhdl
+3			"E:\dev\RTC_Lattice\hdl\DCO.vhd" vhdl
+4			"E:\dev\RTC_Lattice\hdl\ED.vhd" vhdl
+5			"E:\dev\RTC_Lattice\hdl\LOCK.vhd" vhdl
+6			"E:\dev\RTC_Lattice\hdl\PFD.vhd" vhdl
+7			"E:\dev\RTC_Lattice\hdl\PPSD.vhd" vhdl
+8			"E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd" vhdl
+9			"E:\dev\RTC_Lattice\hdl\pifdefs.vhd" vhdl
+10			"E:\dev\RTC_Lattice\hdl\piffla.vhd" vhdl
+11			"E:\dev\RTC_Lattice\hdl\ADPLL_CORE.vhd" vhdl
+12			"E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd" vhdl
+13			"E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1

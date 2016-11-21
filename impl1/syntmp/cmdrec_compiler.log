@@ -1,20 +1,20 @@
-C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs  -top  TOP_ADPLL  -hdllog  D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_compiler.srr  -encrypt  -mp  4  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\dev\pif7000_rtc\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\dev\pif7000_rtc\hdl\pifcfg.vhd -lib work D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd -lib work D:\dev\pif7000_rtc\hdl\DCO.vhd -lib work D:\dev\pif7000_rtc\hdl\ED.vhd -lib work D:\dev\pif7000_rtc\hdl\LOCK.vhd -lib work D:\dev\pif7000_rtc\hdl\PFD.vhd -lib work D:\dev\pif7000_rtc\hdl\PPSD.vhd -lib work D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd -lib work D:\dev\pif7000_rtc\hdl\pifdefs.vhd -lib work D:\dev\pif7000_rtc\hdl\piffla.vhd -lib work D:\dev\pif7000_rtc\hdl\ADPLL_CORE.vhd -lib work D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd -lib work D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd 
+C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe  -osyn  E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_comp.srs  -top  TOP_ADPLL  -hdllog  E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_compiler.srr  -encrypt  -mp  4  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  E:\dev\RTC_Lattice\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work E:\dev\RTC_Lattice\hdl\pifcfg.vhd -lib work E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd -lib work E:\dev\RTC_Lattice\hdl\DCO.vhd -lib work E:\dev\RTC_Lattice\hdl\ED.vhd -lib work E:\dev\RTC_Lattice\hdl\LOCK.vhd -lib work E:\dev\RTC_Lattice\hdl\PFD.vhd -lib work E:\dev\RTC_Lattice\hdl\PPSD.vhd -lib work E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd -lib work E:\dev\RTC_Lattice\hdl\pifdefs.vhd -lib work E:\dev\RTC_Lattice\hdl\piffla.vhd -lib work E:\dev\RTC_Lattice\hdl\ADPLL_CORE.vhd -lib work E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd -lib work E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd 
 rc:0 success:1 runtime:2
-D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs|o|1469004206|40286
-D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_compiler.srr|o|1469004206|11234
+E:\dev\RTC_Lattice\impl1\synwork\RTC_Lattice_impl1_comp.srs|o|1479717876|40274
+E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_compiler.srr|o|1479717876|10950
 C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1376964008|73964
-D:\dev\pif7000_rtc\hdl\pifcfg.vhd|i|1465968229|768
-D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd|i|1469002882|5303
-D:\dev\pif7000_rtc\hdl\DCO.vhd|i|1469002882|23897
-D:\dev\pif7000_rtc\hdl\ED.vhd|i|1469002882|3210
-D:\dev\pif7000_rtc\hdl\LOCK.vhd|i|1469002882|8830
-D:\dev\pif7000_rtc\hdl\PFD.vhd|i|1469002882|3757
-D:\dev\pif7000_rtc\hdl\PPSD.vhd|i|1469002882|3830
-D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd|i|1469002882|5030
-D:\dev\pif7000_rtc\hdl\pifdefs.vhd|i|1465968229|6537
-D:\dev\pif7000_rtc\hdl\piffla.vhd|i|1465968229|6208
-D:\dev\pif7000_rtc\hdl\ADPLL_CORE.vhd|i|1469002882|11915
-D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd|i|1469002882|12166
-D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd|i|1469004187|6359
+E:\dev\RTC_Lattice\hdl\pifcfg.vhd|i|1468459612|768
+E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd|i|1463467407|5303
+E:\dev\RTC_Lattice\hdl\DCO.vhd|i|1463467407|23897
+E:\dev\RTC_Lattice\hdl\ED.vhd|i|1463467407|3102
+E:\dev\RTC_Lattice\hdl\LOCK.vhd|i|1463467407|8675
+E:\dev\RTC_Lattice\hdl\PFD.vhd|i|1463467407|3647
+E:\dev\RTC_Lattice\hdl\PPSD.vhd|i|1463467407|3750
+E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd|i|1463467407|5030
+E:\dev\RTC_Lattice\hdl\pifdefs.vhd|i|1468459612|6537
+E:\dev\RTC_Lattice\hdl\piffla.vhd|i|1468459612|6208
+E:\dev\RTC_Lattice\hdl\ADPLL_CORE.vhd|i|1463467406|11583
+E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd|i|1479717786|12152
+E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd|i|1479717818|6357
 C:\lscc\diamond\3.7_x64\synpbase\bin\c_hdl.exe|i|1449683780|1311232
 C:\lscc\diamond\3.7_x64\synpbase\bin64\c_hdl.exe|i|1449683982|1936896

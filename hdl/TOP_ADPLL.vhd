@@ -33,7 +33,7 @@ entity TOP_ADPLL is
 	port 
 	(	
 		GSRn				: in std_logic;
-		XCLK 				: in std_logic;
+		RA5 				: in std_logic;
 		LEDR				: out std_logic;
 		LEDG				: out std_logic;
 		GPIO17				: out std_logic;
@@ -141,7 +141,7 @@ comp_ADPLL_RTC_CORE : ADPLL_RTC_CORE
 	    -- General Signals
 	    RESET => GSRnX,
 		PORn => GSRnX,
-	    CLK_20M_REF => XCLK,
+	    CLK_20M_REF => RA5,
 
 	    --PPS input signals
 	    PPSIN1 => '0',

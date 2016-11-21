@@ -320,7 +320,7 @@ Port map(
     PPSIN_VALID       => OPEN,--PPSIN_VALID,
     PPS_UNLOCK        => OPEN,--PPS_UNLOCK,
     PPS_LOCK          => OPEN--PPS_LOCK
-        );
+);
 
 RTC_FUN : RTC
         PORT MAP(
@@ -332,12 +332,12 @@ RTC_FUN : RTC
                 ADPLL_128HZ         => S_CLK_OUT_128,
 				ADPLL_1MZ			=> S_CLK_DCO_1M,
                 RTC_SET_CMD         => RTC_SET_CMD,
-		RTC_SECOND_CNT	    => S_RTC_SECOND_CNT_REG,	--added by dhkim
+				RTC_SECOND_CNT	    => S_RTC_SECOND_CNT_REG,	--added by dhkim
 
                 --SEC_IN_DATA         => MEM_DATA,	--removed by dhkim
                 SEC_OUT_DATA        => SEC_OUT_DATA,
                 SUB_SEC_OUT_DATA    => SUB_SEC_OUT_DATA,
 				USEC_OUT_DATA		=> USEC_OUT_DATA
-        );
+);
 
 end Behavioral;

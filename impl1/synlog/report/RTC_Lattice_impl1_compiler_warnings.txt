@@ -1,12 +1,12 @@
-@W: CD638 :"D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd":103:7:103:13|Signal s_pps_p is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd":104:7:104:13|Signal s_pps_r is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD280 :"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd":135:10:135:12|Unbound component RTC mapped to black box
-@W: CL169 :"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd":271:1:271:2|Pruning unused register S_PPS_CNT_4(7 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd":271:1:271:2|Pruning unused register S_TMP_PPS_DFF_2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"D:\dev\pif7000_rtc\hdl\ADPLL_RTC_CORE.vhd":256:1:256:2|Pruning unused register S_TMP_PPS_4. Make sure that there are no unused intermediate registers.
-@W: CL247 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":41:4:41:9|Input port bit 25 of cnt_tv(25 downto 0) is unused 
-@W: CL246 :"D:\dev\pif7000_rtc\hdl\UPDN_CNT.vhd":41:4:41:9|Input port bits 13 to 0 of cnt_tv(25 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL177 :"D:\dev\pif7000_rtc\hdl\LOCK.vhd":188:1:188:2|Sharing sequential element CLK_REF_FE_D1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL260 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":75:1:75:2|Pruning register bit 1 of CNT_LOCKED(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL246 :"D:\dev\pif7000_rtc\hdl\AUTO_CONT.vhd":43:2:43:8|Input port bits 1 to 0 of sub_out(25 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CD638 :"E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd":103:7:103:13|Signal s_pps_p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd":104:7:104:13|Signal s_pps_r is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD280 :"E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd":135:10:135:12|Unbound component RTC mapped to black box
+@W: CL169 :"E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd":271:1:271:2|Pruning unused register S_PPS_CNT_4(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd":271:1:271:2|Pruning unused register S_TMP_PPS_DFF_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\dev\RTC_Lattice\hdl\ADPLL_RTC_CORE.vhd":256:1:256:2|Pruning unused register S_TMP_PPS_4. Make sure that there are no unused intermediate registers.
+@W: CL247 :"E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd":41:4:41:9|Input port bit 25 of cnt_tv(25 downto 0) is unused 
+@W: CL246 :"E:\dev\RTC_Lattice\hdl\UPDN_CNT.vhd":41:4:41:9|Input port bits 13 to 0 of cnt_tv(25 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL177 :"E:\dev\RTC_Lattice\hdl\LOCK.vhd":188:1:188:2|Sharing sequential element CLK_REF_FE_D1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL260 :"E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd":75:1:75:2|Pruning register bit 1 of CNT_LOCKED(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"E:\dev\RTC_Lattice\hdl\AUTO_CONT.vhd":43:2:43:8|Input port bits 1 to 0 of sub_out(25 downto 0) are unused. Assign logic for all port bits or change the input port size.
 

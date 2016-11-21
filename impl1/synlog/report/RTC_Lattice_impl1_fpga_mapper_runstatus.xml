@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>D:\dev\pif7000_rtc\impl1\synlog\RTC_Lattice_impl1_fpga_mapper.srr</data>
+<data>E:\dev\RTC_Lattice\impl1\synlog\RTC_Lattice_impl1_fpga_mapper.srr</data>
 <title>Synopsys Lattice Technology Mapper</title>
 </report_link>
 <job_status>
@@ -15,19 +15,19 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>142</data>
 <report_link name="more">
-<data>D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_fpga_mapper_notes.txt</data>
+<data>E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>13</data>
 <report_link name="more">
-<data>D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_fpga_mapper_warnings.txt</data>
+<data>E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>D:\dev\pif7000_rtc\impl1\synlog\report\RTC_Lattice_impl1_fpga_mapper_errors.txt</data>
+<data>E:\dev\RTC_Lattice\impl1\synlog\report\RTC_Lattice_impl1_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>145MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1469004210</data>
+<data type="timestamp">1479717880</data>
 </info>
 </job_info>
 </job_run_status>

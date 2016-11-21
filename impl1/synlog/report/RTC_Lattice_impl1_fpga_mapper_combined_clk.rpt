@@ -12,7 +12,7 @@
 ============================================== Non-Gated/Non-Generated Clocks ===============================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                      
 -----------------------------------------------------------------------------------------------------------------------------
-@K:CKID0002       XCLK                port                   70         comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio
+@K:CKID0002       RA5                 port                   70         comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio
 =============================================================================================================================
 ================================================================================================= Gated/Generated Clocks =================================================================================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   

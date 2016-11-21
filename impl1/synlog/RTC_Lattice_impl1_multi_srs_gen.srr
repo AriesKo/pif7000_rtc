@@ -2,11 +2,11 @@ Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
 @N|Running in 64-bit mode
 File D:\dev\pif7000_rtc\impl1\synwork\RTC_Lattice_impl1_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 20 17:43:27 2016
+# Mon Nov 21 17:44:37 2016
 
 ###########################################################]

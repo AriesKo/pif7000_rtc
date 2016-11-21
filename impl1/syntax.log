@@ -3,13 +3,13 @@ Synopsys VHDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
 Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
 @N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"D:\dev\pif7000_rtc\hdl\TOP_ADPLL.vhd":32:7:32:15|Top entity is set to TOP_ADPLL.
+@N:"E:\dev\RTC_Lattice\hdl\TOP_ADPLL.vhd":32:7:32:15|Top entity is set to TOP_ADPLL.
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 20 17:43:25 2016
+# Mon Nov 21 17:44:34 2016
 
 ###########################################################]

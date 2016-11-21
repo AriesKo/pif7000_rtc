@@ -4,11 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Jul 20 17:43:32 2016
+Mon Nov 21 17:44:42 2016
 
 C:/lscc/diamond/3.7_x64/ispfpga\bin\nt64\par -f RTC_Lattice_impl1.p2t
 RTC_Lattice_impl1_map.ncd RTC_Lattice_impl1.dir RTC_Lattice_impl1.prf -gui
--msgset D:/dev/pif7000_rtc/promote.xml
+-msgset E:/dev/RTC_Lattice/promote.xml
 
 
 Preference file: RTC_Lattice_impl1.prf.
@@ -16,11 +16,11 @@ Preference file: RTC_Lattice_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            31.559       0            0.377        0            10           Complete
+5_1   *      0            31.559       0            0.377        0            08           Complete
 
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 10 secs 
+Total (real) run time for 1-seed: 8 secs 
 
 par done!

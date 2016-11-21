@@ -16,14 +16,14 @@
 Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Commercial
      RTC_Lattice_impl1.ngd -o RTC_Lattice_impl1_map.ncd -pr
      RTC_Lattice_impl1.prf -mp RTC_Lattice_impl1.mrp -lpf
-     D:/dev/pif7000_rtc/impl1/RTC_Lattice_impl1_synplify.lpf -lpf
-     D:/dev/pif7000_rtc/pif.lpf -c 0 -gui -msgset D:/dev/pif7000_rtc/promote.xml
+     E:/dev/RTC_Lattice/impl1/RTC_Lattice_impl1_synplify.lpf -lpf
+     E:/dev/RTC_Lattice/pif.lpf -c 0 -gui -msgset E:/dev/RTC_Lattice/promote.xml
      
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HCTQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.7.1.502
-Mapped on:  07/20/16  17:43:32
+Mapped on:  11/21/16  17:44:42
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
@@ -65,7 +65,7 @@ Mapped on:  07/20/16  17:43:32
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  2
-     Net XCLK_c: 39 loads, 39 rising, 0 falling (Driver: PIO XCLK )
+     Net RA5_c: 39 loads, 39 rising, 0 falling (Driver: PIO RA5 )
      Net F.xclk: 21 loads, 21 rising, 0 falling (Driver: F/OSCInst0 )
 
    Number of Clock Enables:  3
@@ -100,7 +100,7 @@ Mapped on:  07/20/16  17:43:32
 
 
 
-   Number of warnings:  1
+   Number of warnings:  4
    Number of errors:    0
      
 
@@ -109,11 +109,17 @@ Mapped on:  07/20/16  17:43:32
 
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
+WARNING - map: E:/dev/RTC_Lattice/pif.lpf(15): Semantic error in "BANK 6 VCCIO
+     3.3 V;": Invalid BANK number "6", valid BANK numbers are:  5 4 3 2 1 0.
+     This preference has been disabled.
+WARNING - map: Preference parsing results:  1 semantic error detected.
 WARNING - map: The JTAG port has been disabled in this project and JTAG pins
      will be configured as General Purpose IO.  You have to use JTAGENB pin in
      hardware to change the personality of the port from JTAG pins to general
      purpose IO.  Reference MachXO2 Handbook for details on dual function JTAG
      port.
+WARNING - map: There are semantic errors in the preference file
+     E:/dev/RTC_Lattice/pif.lpf.
 
 
 
@@ -121,18 +127,18 @@ WARNING - map: The JTAG port has been disabled in this project and JTAG pins
 
 +---------------------+-----------+-----------+------------+
 | IO Name             | Direction | Levelmode | IO         |
+
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
 | LEDG                | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
 | GSRn                | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-
 | GPIO27              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | GPIO17              | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
-| XCLK                | INPUT     | LVCMOS33  |            |
+| RA5                 | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | LEDR                | OUTPUT    | LVCMOS33  | OUT        |
 +---------------------+-----------+-----------+------------+
@@ -179,13 +185,13 @@ Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_S1 undriven or
      does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un2_cnt_dco_s_25_0_COUT undriven
      or does not drive anything - clipped.
+
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S1
      undriven or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_cry_0_0_S0
      undriven or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_44 undriven or does not drive
      anything - clipped.
-
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_S1
      undriven or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un10_cnt_tv_128_s_33_0_COUT
@@ -236,13 +242,13 @@ Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_1_0_S0 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/N_47 undriven or does not drive
      anything - clipped.
+
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S1 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_9_0_S0 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S1 undriven
      or does not drive anything - clipped.
-
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_21_0_S0 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un46_cnt_dco_0_I_33_0_S1 undriven
@@ -293,13 +299,13 @@ Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_57_0_S0 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S1 undriven
      or does not drive anything - clipped.
+
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_69_0_S0 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_S1 undriven
      or does not drive anything - clipped.
 Signal comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/un42_cnt_dco_0_I_75_0_COUT
      undriven or does not drive anything - clipped.
-
 Block IBgsr_RNINPSD was optimized away.
 Block F/TBLOCK.TK_zero_RNIV245 was optimized away.
 Block F/TBLOCK.TK/LoadN_RNIEHJB was optimized away.
@@ -356,12 +362,12 @@ GSR Component:
      and to the unrelated asynchronous reset signal 'GSRnX' via the GSR
      component.
 
+
      Type and number of components of the type: 
    Register = 95 
 
      Type and instance name of component: 
    Register : comp_ADPLL_RTC_CORE_ADPLL_CORE_Label_u4_TMP_CLK_DCOio
-
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[24]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_TV_128[33]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/TMP_CLK_DCO_128
@@ -412,13 +418,13 @@ GSR Component:
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[12]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[13]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[14]
+
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[15]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[16]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[17]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[18]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[19]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[20]
-
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[21]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[22]
    Register : comp_ADPLL_RTC_CORE/ADPLL_CORE_Label/u4/CNT_DCO[23]
@@ -465,14 +471,8 @@ GSR Component:
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 59 MB
+   Peak Memory Usage: 60 MB
         
-
-
-
-
-
-
 
 
 

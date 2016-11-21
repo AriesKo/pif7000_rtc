@@ -1,9 +1,9 @@
 @P:  Worst Slack : 475.384
-@P:  TOP_ADPLL|XCLK - Estimated Frequency : 101.1 MHz
-@P:  TOP_ADPLL|XCLK - Requested Frequency : 1.0 MHz
-@P:  TOP_ADPLL|XCLK - Estimated Period : 9.886
-@P:  TOP_ADPLL|XCLK - Requested Period : 1000.000
-@P:  TOP_ADPLL|XCLK - Slack : 990.114
+@P:  TOP_ADPLL|RA5 - Estimated Frequency : 101.1 MHz
+@P:  TOP_ADPLL|RA5 - Requested Frequency : 1.0 MHz
+@P:  TOP_ADPLL|RA5 - Estimated Period : 9.886
+@P:  TOP_ADPLL|RA5 - Requested Period : 1000.000
+@P:  TOP_ADPLL|RA5 - Slack : 990.114
 @P:  pif_flasher|xclk_inferred_clock - Estimated Frequency : 185.7 MHz
 @P:  pif_flasher|xclk_inferred_clock - Requested Frequency : 2.1 MHz
 @P:  pif_flasher|xclk_inferred_clock - Estimated Period : 5.385
@@ -15,11 +15,11 @@
 @P:  System - Requested Period : 1000.000
 @P:  System - Slack : NA
 @P:  Worst Slack(min analysis) : 0.320
-@P:  TOP_ADPLL|XCLK - Estimated Frequency(min analysis) : 101.1 MHz
-@P:  TOP_ADPLL|XCLK - Requested Frequency(min analysis) : 1.0 MHz
-@P:  TOP_ADPLL|XCLK - Estimated Period(min analysis) : 9.886
-@P:  TOP_ADPLL|XCLK - Requested Period(min analysis) : 1000.000
-@P:  TOP_ADPLL|XCLK - Slack(min analysis) : 990.114
+@P:  TOP_ADPLL|RA5 - Estimated Frequency(min analysis) : 101.1 MHz
+@P:  TOP_ADPLL|RA5 - Requested Frequency(min analysis) : 1.0 MHz
+@P:  TOP_ADPLL|RA5 - Estimated Period(min analysis) : 9.886
+@P:  TOP_ADPLL|RA5 - Requested Period(min analysis) : 1000.000
+@P:  TOP_ADPLL|RA5 - Slack(min analysis) : 990.114
 @P:  pif_flasher|xclk_inferred_clock - Estimated Frequency(min analysis) : 185.7 MHz
 @P:  pif_flasher|xclk_inferred_clock - Requested Frequency(min analysis) : 2.1 MHz
 @P:  pif_flasher|xclk_inferred_clock - Estimated Period(min analysis) : 5.385
